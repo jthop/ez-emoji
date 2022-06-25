@@ -2,7 +2,7 @@
 [![works badge](https://cdn.jsdelivr.net/gh/nikku/works-on-my-machine@v0.2.0/badge.svg)](https://github.com/nikku/works-on-my-machine)
 
 
-# ez-emoji  	:raising_hand_man:
+# ez-emoji  	:wave:
 
 any deploy/build task you ask of it, the response is always: ican
 
