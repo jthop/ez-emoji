@@ -13,9 +13,10 @@
 name: download fresh emojis
 
 on:
-  schedule:
-    # Runs "at minute 55 past every hour" (see https://crontab.guru)
-    - cron: '00 23 * * 6'
+  workflow_dispatch:
+  # schedule:
+  #   # Runs "at minute 55 past every hour" (see https://crontab.guru)
+  #   - cron: '00 23 * * 6'
 
 permissions:
   contents: write
