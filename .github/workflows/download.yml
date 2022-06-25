@@ -1,0 +1,55 @@
+#
+#        _ _   _           _                  _   _                 
+#       (_) | | |         | |                | | (_)                
+#   __ _ _| |_| |__  _   _| |__     __ _  ___| |_ _  ___  _ __  ___ 
+#  / _` | | __| '_ \| | | | '_ \   / _` |/ __| __| |/ _ \| '_ \/ __|
+# | (_| | | |_| | | | |_| | |_) | | (_| | (__| |_| | (_) | | | \__ \
+#  \__, |_|\__|_| |_|\__,_|_.__/   \__,_|\___|\__|_|\___/|_| |_|___/
+#   __/ |                                                           
+#  |___/                        - http://www.network-science.de/ascii/                                                       
+#
+
+                                     
+name: build, publish, and release
+
+on:
+  schedule:
+    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+    - cron: '00 23 * * 6'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+    - name: Run Download
+      run: |
+        python ez_emoji/download.py
+    - name: Commit files
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -m "Add changes" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
+
+        2892650+jthop@users.noreply.github.com
+    - name: update file and push to remote
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        git add -A
+        git commit -m "automated emoji download"
+        git push
