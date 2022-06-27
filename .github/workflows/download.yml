@@ -30,7 +30,7 @@ jobs:
     - name: setup py
       uses: actions/setup-python@v2
     - name: run my python
-      run: python ez_emoji/download.py
+      run: python ez_emoji/downloader.py ../data
     - name: run py code
       uses: jannekem/run-python-script-action@v1
       with:
