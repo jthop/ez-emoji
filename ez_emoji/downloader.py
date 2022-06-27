@@ -164,6 +164,7 @@ class EmojiDownloader(object):
         s = s.strip('\n') \
         .strip() \
         .replace(' & ', '_') \
+        .replace('-', '_') \
         .replace(' ', '_') \
         .lower()
         return s
@@ -203,8 +204,11 @@ class EmojiDownloader(object):
         }
 
         with self.txt_file.open('w', encoding='utf-8') as f:
+            # First line as a comment to briefly describe the format
+            f.write("# EMOJI = NAME:GROUP:SUBGROUP\n")
+
             for k,v in self.emojis.items():
-                f.write(f"{k} = {v['short_name']}:{v['codept_chr_list']}:{v['group']}:{v['subgroup']}\n")
+                f.write(f"{k} = {v['short_name']}:{v['group']}:{v['subgroup']}\n")
 
         with self.json_file.open('w', encoding='utf-8') as f:
             json.dump(data, f)
@@ -230,13 +234,21 @@ class EmojiDownloader(object):
 
         return sentiment
 
-    def verify_integrity(self, emoji, codept_chr_list):
+    def verify_integrity(self, emoji, codept_chr_list, codept_str):
         """Very basic sanity check
         """
-        # Error check
+        # Basic length of emoji vs calculated chr list
         if len(emoji) != len(codept_chr_list):
             print(f'{emoji} bad length')
             return False
+
+        # Break the emoji into parts, get the ints, rejoin, 
+        # then compare that with the original string from unicode
+        v = ' '.join([f'{ord(c):04X}' for c in emoji])
+        if v != codept_str:
+            print(f'{v} != {codept_str}')
+            return False
+
         return True
 
     def process_unicode(self):
@@ -284,7 +296,8 @@ class EmojiDownloader(object):
                     short_name = c['short_name']
                     annotations = c['annotations']
 
-                error_free = self.verify_integrity(emoji, codept_chr_list)
+                error_free = self.verify_integrity(
+                    emoji, codept_chr_list, codept_str)
                 self.emojis[emoji] = {
                     'short_name': short_name, 
                     'annotations': annotations,
