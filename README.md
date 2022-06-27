@@ -1,39 +1,50 @@
 [![Whos your daddy](https://img.shields.io/badge/whos%20your%20daddy-2.0.7rc3-brightgreen.svg)](https://14.do/)
 [![works badge](https://cdn.jsdelivr.net/gh/nikku/works-on-my-machine@v0.2.0/badge.svg)](https://github.com/nikku/works-on-my-machine)
 
+# ez-emoji  :wave:
 
-# ez-emoji  	:wave:
+We have some emoji data for you.  You can grab standard unicode emojis, in txt or json format above.  Also we maintain the a current set of the github markdown emojis.
 
-any deploy/build task you ask of it, the response is always: ican
+## Fresh data  :tada:
 
+Fresh emoji data is always availabe here in the repository's root directory.  
+
+| File | Description |
+-------| ----------
+[UNICODE_EMOJI_DATA.txt](https://github.com/jthop/ez-emoji/blob/master/emojis.txt) | A simple txt file definition of each emoji.  This could easily be adapted to any language.
+[UNICODE_EMOJI_DATA.json](https://github.com/jthop/ez-emoji/blob/master/emojis.txt) | This is a more detailed format using json with the structure illustrated below.
+[GITHUB_EMOJI_DATA.txt](https://github.com/jthop/ez-emoji/blob/master/emojis.txt)  |  This is list of all the github markdown emojis, updated via Github's API.
+-----------------
+
+```json
+{
+    "generated": 1656354239,
+    "generator_version": "0.1.3+build.83",
+    "unicode_version": "14.0",
+    "groups": ["smileys_emotion", "people_body", "component", "animals_nature"],
+    "subgroups": {"smileys_emotion": ["face-smiling", "face-affection", "face-tongue", "face-hand"]},
+    "emojis": {
+      "\ud83d\ude00": {
+        "short_name": "grinning face", 
+        "annotations": ["face", "grin", "grinning face"],
+        "codept_str": "1F600",
+        "codept_chr_list": ["\ud83d\ude00"],
+        "subgroup": "face-smiling", 
+        "group": "smileys_emotion", 
+    }
+}
 ```
-can you bump my version to the next prerelease?
-dev@macbook:~/proj$ ican 
 
-can you use that version as a git tag and push a commit to the tag?
-dev@macbook:~/proj$ ican 
+## Install your own copy  :floppy_disk:
 
-can you deploy my new version by building a docker container and starting it?
-dev@macbook:~/proj$ ican 
-```
+Github Actions is generating our data here via cron once a week, on Saturday night.  However, if you prefer, go ahead and use [downloader.py](https://github.com/jthop/ez-emoji/blob/master/ez_emoji/downloader.py) to download your own emoji data whenever you desire.
 
-## Install  :floppy_disk:
-
-Install the ican package via pypi
 
 ```shell
-pip install ez-emoji
+python downloader.py [optional_destination_directory]
 ```
+_Unicode seems to release major version updates about once per year.  They also do some minor updates in between._
 
 ## Use  :muscle:
 
-Download the latest emoji data with the emoji_download command
-
-```shell
-emoji_download
-2 Files created.
-```
-
-The command will create the files emoji_data_YYYY_MM_DD.py and emoji_data_YYYY_MM_DD.json.  Use the one that best suits your development environment.
-
-
+Download and use our data, or download the entire package.  We have a few utilities as well which are a work in progress.  One is a python Log Formatter which uses emojis.  That utility also utilizes another which simply picks random emojis based on the sentiment desired.
