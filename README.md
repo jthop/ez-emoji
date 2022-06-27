@@ -13,7 +13,7 @@ Fresh emoji data is always availabe here in the repository's root directory.
 -------| ----------
 [UNICODE_EMOJI_DATA.txt](https://github.com/jthop/ez-emoji/blob/master/UNICODE_EMOJI_DATA.txt) | A simple txt file definition of each emoji.  This could easily be adapted to any language.
 [UNICODE_EMOJI_DATA.json](https://github.com/jthop/ez-emoji/blob/master/UNICODE_EMOJI_DATA.json) | This is a more detailed format using json with the structure illustrated below.
-[GITHUB_EMOJI_DATA.txt](https://github.com/jthop/ez-emoji/blob/master/GITHUB_EMOJI_DATA.txt)  |  This is list of all the github markdown emojis, updated via Github's API.
+[GITHUB_EMOJI_DATA.md](https://github.com/jthop/ez-emoji/blob/master/GITHUB_EMOJI_DATA.md)  |  This is list of all the github markdown emojis, updated via Github's API.
 -----------------
 
 ```json
