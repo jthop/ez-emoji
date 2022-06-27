@@ -14,9 +14,9 @@ name: download fresh emojis
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   # Runs "at minute 55 past every hour" (see https://crontab.guru)
-  #   - cron: '00 23 * * 6'
+  schedule:
+    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+    - cron: '00 23 * * 6'
 
 permissions:
   contents: write
@@ -31,23 +31,13 @@ jobs:
       uses: actions/setup-python@v2
     - name: run my python
       run: python ez_emoji/downloader.py
-    - name: run py code
-      uses: jannekem/run-python-script-action@v1
-      with:
-        script: |
-          import os
-          print("Directory contents:")
-          for f in os.listdir():
-              print(f)
     - name: Print errors
-      #if: steps.script.outputs.error == 'true'
       run: |
         printenv "SCRIPT_STDOUT"
         printenv "SCRIPT_STDERR"
       env:
         SCRIPT_STDOUT: ${{ steps.script.outputs.stdout }}
         SCRIPT_STDERR: ${{ steps.script.outputs.stderr }} 
-
     - name: Add, Commit, Push
       run: |
         git config --global user.name "github-actions[bot]"
