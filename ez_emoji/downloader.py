@@ -53,9 +53,9 @@ class EmojiDownloader(object):
     CLDR_EN_ANNOTATIONS = 'https://raw.githubusercontent.com/unicode-org/cldr-json/main/' \
 'cldr-json/cldr-annotations-full/annotations/en/annotations.json'
     GIT_EMOJI_URL = 'https://api.github.com/emojis'
-    TXT_FILE = 'emojis.txt'
-    JSON_FILE = 'emojis.json'
-    GIT_FILE = 'github_emojis.md'
+    TXT_FILE = 'UNICODE_EMOJI_DATA.txt'
+    JSON_FILE = 'UNICODE_EMOJI_DATA.json'
+    GIT_FILE = 'GITHUB_EMOJI_DATA.md'
 
     NEGATIVE_SUBS = ['face-unwell', 'face-concerned', 'face-negative']
     POSITIVE_SUBS = ['face-smiling', 'face-affection', 'face-tongue']
