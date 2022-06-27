@@ -29,10 +29,8 @@ jobs:
       uses: actions/checkout@v2
     - name: setup py
       uses: actions/setup-python@v2
-      with:
     - name: run my python
       run: python ez_emoji/download.py
-
     - name: run py code
       uses: jannekem/run-python-script-action@v1
       with:
