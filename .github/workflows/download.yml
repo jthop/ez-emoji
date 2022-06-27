@@ -28,11 +28,30 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: setup py
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v2
       with:
-        python-version: '3.9'
-        cache: 'pipenv'
-    - run: python ez_emoji/download.py
+    - name: run my python
+      run: python ez_emoji/download.py
+
+#    - uses: actions/checkout@v2
+#    - uses: actions/setup-python@v2
+    - uses: jannekem/run-python-script-action@v1
+      with:
+        script: |
+          import os
+          print("Directory contents:")
+          for f in os.listdir():
+              print(f)
+    - name: Print errors
+      if: steps.script.outputs.error == 'true'
+      run: |
+        printenv "SCRIPT_STDOUT"
+        printenv "SCRIPT_STDERR"
+      env:
+        SCRIPT_STDOUT: ${{ steps.script.outputs.stdout }}
+        SCRIPT_STDERR: ${{ steps.script.outputs.stderr }} 
+
+
     - name: Add, Commit, Push
       run: |
         git config --global user.name "github-actions[bot]"

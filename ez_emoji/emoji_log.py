@@ -3,9 +3,7 @@ from .utils import rnd_good_emoji
 from .utils import rnd_bad_emoji
 
 
-
-class CustomFormatter(logging.Formatter):
-    
+class EmojiLogFormatter(logging.Formatter):
     BLACK = '\u001b[30;1m'
     RED = '\u001b[31;1m'
     GREEN = '\u001b[32;1m'
@@ -32,9 +30,17 @@ class CustomFormatter(logging.Formatter):
                 self.fmt + self.RESET
         }
         if emoji:
+            debug = self.FORMATS[logging.DEBUG]
+            self.FORMATS[logging.DEBUG] = rnd_good_emoji(1) +\
+                "  " + debug + "  " + rnd_good_emoji(1)
+
+            info = self.FORMATS[logging.INFO]
+            self.FORMATS[logging.INFO] = rnd_good_emoji(2) +\
+                "  " + info + "  " + rnd_good_emoji(2)
+
             warning = self.FORMATS[logging.WARNING]
-            self.FORMATS[logging.WARNING] = rnd_good_emoji(2) +\
-                "  " + warning + "  " + rnd_good_emoji(2)
+            self.FORMATS[logging.WARNING] = rnd_bad_emoji(1) +\
+                "  " + warning + "  " + rnd_bad_emoji(1)
 
             error = self.FORMATS[logging.ERROR]
             self.FORMATS[logging.ERROR] = rnd_bad_emoji(2) +\
@@ -54,5 +60,5 @@ class CustomFormatter(logging.Formatter):
 logger = logging.getLogger('emoji')
 console = logging.StreamHandler()
 format_str = '%(message)s'
-console.setFormatter(CustomFormatter(format_str))
+console.setFormatter(EmojiLogFormatter(format_str))
 logger.addHandler(console)

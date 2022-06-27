@@ -1,5 +1,7 @@
 import random
-
+import json
+from pathlib import Path
+import copy
 
 GOOD_EMOJIS = [
     'thumbs_up',
@@ -60,35 +62,52 @@ COLLECTIONS = {
 }
 
 
+p = Path('emoji_data.json')
+with p.open('r') as f:
+	data = json.load(f)
+emoji_data = data['emojis']
+group_data = data['groups']
+
 #################
 
 
 def load_emoji(short_name):
-	code = EMOJIS.get(short_name)
+	"""load emoji based on key
+	"""
+	code = emoji_data.get(short_name)
 	if code:
 		return code
 
-def print_samples():
-	for k,v in EMOJIS.items():
-		print(f'{k} - {v}')
+
+def print_all():
+	"""print all emojis in batches of 5
+	"""
+	l = [f"{k[:10]} = {v['emoji']}" for k,v in emoji_data.items()]
+	result = tuple(l[x:x + 5] for x in range(0, len(l), 5))
+	for group in result:
+		print(group)
+
 
 def rnd_good_emoji(qty=1):
-	"""
+	"""random good emoji - good is defined in constants
 	"""
 	results = []
 	for n in range(qty):
 		r = random.randint(1,len(GOOD_EMOJIS))
 		key = GOOD_EMOJIS[r-1]
-		results.append(EMOJIS[key])
+		results.append(emoji_data[key])
 	return ''.join([x for x in results])
 
+
 def rnd_bad_emoji(qty=1):
-	"""
+	"""random bad emoji - bad is defined in constants
 	"""
 	results = []
 	for n in range(qty):
 		r = random.randint(1,len(BAD_EMOJIS))
 		key = BAD_EMOJIS[r-1]
-		results.append(EMOJIS[key])
+		results.append(emoji_data[key])
 
 	return ''.join([x for x in results])
+
+print_all()
