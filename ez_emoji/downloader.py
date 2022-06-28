@@ -4,6 +4,7 @@
 
 from datetime import datetime
 from pathlib import Path
+from types import SimpleNamespace
 import json
 import re
 import sys
@@ -128,14 +129,15 @@ class EmojiDownloader(object):
 
     def lookup_cldr(self, emoji):
         """ """
-        a = self.cldr.get(emoji)
-        if a is None:
-            return None
-        r = {
-            'annotations': a.get('default'),
-            'short_name': a.get('tts')[0]
-        }
-        return r
+        a = self.cldr.get(emoji, {})
+        annotations = a.get('default', [])
+        short_name = a.get('tts', [None])
+
+        c = SimpleNamespace(
+            annotations = annotations,
+            short_name = short_name[0]
+        )
+        return c
 
     def codept_str_to_chr(self, codept_str):
         """ codepoint string to chr
@@ -205,10 +207,10 @@ class EmojiDownloader(object):
 
         with self.txt_file.open('w', encoding='utf-8') as f:
             # First line as a comment to briefly describe the format
-            f.write("# EMOJI = NAME:GROUP:SUBGROUP\n")
+            f.write("# NAME = EMOJI:GROUP:SUBGROUP\n")
 
             for k,v in self.emojis.items():
-                f.write(f"{k} = {v['short_name']}:{v['group']}:{v['subgroup']}\n")
+                f.write(f"{k} = {v['emoji']}:{v['group']}:{v['subgroup']}\n")
 
         with self.json_file.open('w', encoding='utf-8') as f:
             json.dump(data, f)
@@ -234,20 +236,21 @@ class EmojiDownloader(object):
 
         return sentiment
 
-    def verify_integrity(self, emoji, codept_chr_list, codept_str):
+    def verify_integrity(self, e):
         """Very basic sanity check
         """
         # Basic length of emoji vs calculated chr list
-        if len(emoji) != len(codept_chr_list):
-            print(f'{emoji} bad length')
-            return False
+        if len(e['emoji']) != len(e['codept_chr_list']):
+            e['errors'].append(f"{e['emoji']} bad length")
 
         # Break the emoji into parts, get the ints, rejoin, 
         # then compare that with the original string from unicode
-        v = ' '.join([f'{ord(c):04X}' for c in emoji])
-        if v != codept_str:
-            print(f'{v} != {codept_str}')
-            return False
+        v = ' '.join([f'{ord(c):04X}' for c in e['emoji']])
+        if v != e['codept_str']:
+            e['errors'].append(f"{v} != {e['codept_str']}")
+
+        if len(e['annotations']) == 0:
+            e['errors'].append('CLDR-FAILED')
 
         return True
 
@@ -272,42 +275,32 @@ class EmojiDownloader(object):
                 continue
 
             elif match:
-                # We skip a few 
                 name = self.normalize_name(match.group('name'))
                 if self.skip(name):
                     continue
 
-                # Parse the emoji - easy
                 emoji = match.group('emoji').strip()
-
-                # Parse the code points
                 codept_str = match.group('code').strip()
                 codept_chr_list = self.codept_str_to_chr(codept_str)
-
-                # Parse Qualification
                 q = match.group('qualification').strip()
-                
-                # Short name
                 c = self.lookup_cldr(emoji)
-                if c is None:
-                    short_name = name
-                    annotations = []
-                else:
-                    short_name = c['short_name']
-                    annotations = c['annotations']
+                annotations = c.annotations
+                short_name = c.short_name or name
 
-                error_free = self.verify_integrity(
-                    emoji, codept_chr_list, codept_str)
-                self.emojis[emoji] = {
-                    'short_name': short_name, 
+                self.emojis[short_name] = {
+                    'emoji': emoji,
+                    'name': name, 
                     'annotations': annotations,
                     'codept_str': codept_str,
                     'codept_chr_list': codept_chr_list,
                     'subgroup': self.subgroup, 
                     'group': self.group, 
                     'status': q,
-                    'sentiment': self.calc_sentiment(emoji)
+                    'sentiment': self.calc_sentiment(emoji),
+                    'errors': []
                 }
+
+                self.verify_integrity(self.emojis[short_name])
 
         self.finalize()
         return

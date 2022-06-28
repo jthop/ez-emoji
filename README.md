@@ -24,13 +24,17 @@ Fresh emoji data is always availabe here in the repository's root directory.
     "groups": ["smileys_emotion", "people_body", "component", "animals_nature"],
     "subgroups": {"smileys_emotion": ["face-smiling", "face-affection", "face-tongue", "face-hand"]},
     "emojis": {
-      "\ud83d\ude00": {
-        "short_name": "grinning face", 
+      "grinning face": {
+        "emoji": "\ud83d\ude00",
+        "name": "grinning face", 
         "annotations": ["face", "grin", "grinning face"],
         "codept_str": "1F600",
         "codept_chr_list": ["\ud83d\ude00"],
         "subgroup": "face-smiling", 
         "group": "smileys_emotion", 
+        "qualification": "fully qualified",
+        "sentiment": "+"
+        "errors": []
     }
 }
 ```
