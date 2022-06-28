@@ -307,9 +307,9 @@ class EmojiDownloader(object):
 
     def process_git(self):
         with self.git_file.open('w') as f:
-            f.write('# Github MD emojis available :wave:\n\n')
-            f.write('The following emojis are available in github markdown files.')
-            f.write('Simply add a ":" before and after the tag name which')
+            f.write('# Markdown emojis at Github :wave:\n\n')
+            f.write('The following emojis are available in github markdown files. \n\n')
+            f.write('Simply add a ":" before and after the tag name which ')
             f.write('represents the emoji you desire.\n\n')
             f.write('| Markdown | Emoji |\n')
             f.write('| ------------- | ------------- |\n')
