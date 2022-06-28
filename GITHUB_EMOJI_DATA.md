@@ -1,6 +1,8 @@
-# Github MD emojis available :wave:
+# Markdown emojis at Github :wave:
 
-The following emojis are available in github markdown files.Simply add a ":" before and after the tag name whichrepresents the emoji you desire.
+The following emojis are available in github markdown files. 
+
+Simply add a ":" before and after the tag name which represents the emoji you desire.
 
 | Markdown | Emoji |
 | ------------- | ------------- |
