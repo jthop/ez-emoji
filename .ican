@@ -1,0 +1,19 @@
+[version]
+current = 0.1.3+build.74
+
+[options]
+auto-tag = True
+auto-commit = True
+auto-push = True
+signature = True
+
+[file1]
+file = ./ez_emoji/downloader.py
+regex = __version__\s*=\s*(?P<quote>[\'\"])(?P<version>.+)(?P=quote)
+style = semantic
+
+[file2]
+file = ./ez_emoji/__init__.py
+regex = __version__\s*=\s*(?P<quote>[\'\"])(?P<version>.+)(?P=quote)
+style = semantic
+

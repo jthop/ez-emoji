@@ -10,12 +10,108 @@ import re
 import sys
 import urllib.request
 
-__version__ = '0.1.3+build.73'
+__version__ = '0.1.3+build.74'
 
 
 #http://kt.ijs.si/data/Emoji_sentiment_ranking/
 
-####################
+########################
+#
+#   Emoji class
+#
+########################
+
+
+class Emoji(object):
+
+    NEGATIVE_SUBS = ['face-unwell', 'face-concerned', 'face-negative']
+    POSITIVE_SUBS = ['face-smiling', 'face-affection', 'face-tongue']
+    NEUTRAL_SUBS = ['face-neutral-skeptic']
+    NEGATIVE = []
+    POSITIVE = []
+    NEUTRAL = []
+
+    def __init__(self):
+        self.short_name = None
+        self.name = None
+        self.emoji = None
+        self.code_point_str = None
+        self.status = None
+        self.version = None
+        self.annotations = []
+        self.group = None
+        self.subgroup = None
+        self.sentiment = None
+        self.errors = []
+
+    @property
+    def emoji_chr_list(self):
+        """ codepoint string to chr
+        """
+        str_codes = self.code_point_str.split(' ')
+        chr_list = [ chr(int(x, 16)) for x in str_codes ]
+
+        return chr_list
+
+    def save(self):
+        """
+        """
+        #self._calc_sentiment()
+        self._verify_integrity()
+
+    def to_dict(self):
+        j = dict(
+            short_name = self.short_name,
+            name = self.name,
+            emoji = self.emoji,
+            status = self.status,
+            version = self.version,
+            code_point_str = self.code_point_str,
+            annotations = self.annotations,
+            group = self.group,
+            subgroup = self.subgroup,
+            sentiment = self.sentiment,
+            errors = self.errors
+        )
+
+    def _calc_sentiment(self):
+        """
+        For now primarily a placeholder until we can utilize some
+        real emoji sentiment data.
+        """
+
+        if emoji in EmojiDownloader.NEGATIVE or \
+            self.subgroup in EmojiDownloader.NEGATIVE_SUBS:
+            self.sentiment = '-'
+        elif emoji in EmojiDownloader.POSITIVE or \
+            self.subgroup in EmojiDownloader.POSITIVE_SUBS:
+            self.sentiment = '+'
+        elif emoji in EmojiDownloader.NEUTRAL or \
+            self.subgroup in EmojiDownloader.NEUTRAL_SUBS:
+            self.sentiment = '='
+        return
+
+    def _verify_integrity(self):
+        # Basic length of emoji vs calculated chr list
+        if len(self.emoji) != len(self.emoji_chr_list):
+            self.errors.append('BAD-EMOJI-LENGTH')
+
+        # Break the emoji into parts, get the ints, rejoin,
+        # then compare that with the original string from unicode
+        v = ' '.join([f'{ord(c):04X}' for c in self.emoji])
+        if v != self.code_point_str:
+            self.errors.append('CODEPOINT-REPRODUCTION-ERROR')
+
+        if len(self.annotations) == 0:
+            self.errors.append('CLDR-FAILED')
+        return
+
+
+########################
+#
+#   Emoji Downloader
+#
+########################
 
 
 class EmojiDownloader(object):
@@ -58,12 +154,6 @@ class EmojiDownloader(object):
     JSON_FILE = 'EZEMOJI_UNICODE.json'
     GIT_FILE = 'EZEMOJI_GITHUB.md'
 
-    NEGATIVE_SUBS = ['face-unwell', 'face-concerned', 'face-negative']
-    POSITIVE_SUBS = ['face-smiling', 'face-affection', 'face-tongue']
-    NEUTRAL_SUBS = ['face-neutral-skeptic']
-    NEGATIVE = []
-    POSITIVE = []
-    NEUTRAL = []
 
     def __init__(self, args):
         """ """
@@ -74,7 +164,7 @@ class EmojiDownloader(object):
         self.group = ''
         self.subgroup = ''
         self.subgroups = {}
-        self.emojis = {}
+        self.emojis = []
         self.cldr = {}
         self.dir = './'
 
@@ -86,7 +176,7 @@ class EmojiDownloader(object):
         self.git_file = Path(self.dir, EmojiDownloader.GIT_FILE)
         
         # compile regex
-        emoji_line = r'(?P<code>.*);\s+(?P<qualification>.*)\s+#(?P<emoji>.*)\s+E\d+.\d+\s+(?P<name>.*)'
+        emoji_line = r'(?P<code>.*);\s+(?P<qualification>.*)\s+#(?P<emoji>.*)\s+(?P<ver>E\d+.\d+)\s+(?P<name>.*)'
         self.compiled = re.compile(emoji_line)
 
         # fetch cldr json data
@@ -139,13 +229,6 @@ class EmojiDownloader(object):
         )
         return c
 
-    def codept_str_to_chr(self, codept_str):
-        """ codepoint string to chr
-        """
-        codes = codept_str.split(' ')
-        l = [ chr(int(x, 16)) for x in codes ]
-        return l
-
     def normalize_name(self, s):
         """ Not necessary since we have CLDR, but
         it needs to happy for a number of reasons.
@@ -160,7 +243,7 @@ class EmojiDownloader(object):
         return s
 
     def normalize_group(self, s):
-        """ Same as above, although Smileys & Emotion 
+        """ Same as above, although Smileys & Emotion
         was really starting to bug me
         """
         s = s.strip('\n') \
@@ -171,28 +254,6 @@ class EmojiDownloader(object):
         .lower()
         return s
 
-    def _skip_name(self, name):
-        """Shall we skip the current line of data
-        due to the data's short_name
-        """
-        if ('skin tone' in name) or \
-        ('keycap_' in name):
-            return True
-        return False
-
-    def _skip_subgroup(self):
-        """Shall we skip the current line of data
-        due to the data's subgroup
-        """
-        if self.subgroup == 'country-flag':
-            return True
-        return False
-
-    def skip(self, name):
-        """Should we skip the current line of data?
-        """
-        return self._skip_name(name) or self._skip_subgroup()
-
     def finalize(self):
         """Finish it up.  Format the dict, write to disk, goodbye.
         """
@@ -202,57 +263,21 @@ class EmojiDownloader(object):
             'unicode_version': self.unicode_version,
             'groups': [x for x in self.subgroups.keys()],
             'subgroups': self.subgroups,
-            'emojis': self.emojis
+            'emojis': {emoji.short_name: emoji.to_dict() for emoji in self.emojis}
         }
 
         with self.txt_file.open('w', encoding='utf-8') as f:
             # First line as a comment to briefly describe the format
-            f.write("# NAME = EMOJI:GROUP:SUBGROUP\n")
+            f.write("# EMOJI = GROUP:SUBGROUP:NAME\n")
 
-            for k,v in self.emojis.items():
-                f.write(f"{k} = {v['emoji']}:{v['group']}:{v['subgroup']}\n")
+            for emoji in self.emojis:
+                f.write(f"{emoji.emoji} = {emoji.group}:{emoji.subgroup}:{emoji.short_name}\n")
 
         with self.json_file.open('w', encoding='utf-8') as f:
             json.dump(data, f)
 
         print(f'Found {len(self.emojis)} emojis.  Unicode Version: {self.unicode_version}.')
         return
-
-    def calc_sentiment(self, emoji):
-        """For now primarily a placeholder until we can utilize some
-        real emoji sentiment data.
-        """
-        # Figure out sentiment
-        sentiment = '?'
-        if emoji in EmojiDownloader.NEGATIVE or \
-            self.subgroup in EmojiDownloader.NEGATIVE_SUBS:
-            sentiment = '-'
-        elif emoji in EmojiDownloader.POSITIVE or \
-            self.subgroup in EmojiDownloader.POSITIVE_SUBS:
-            sentiment = '+'
-        elif emoji in EmojiDownloader.NEUTRAL or \
-            self.subgroup in EmojiDownloader.NEUTRAL_SUBS:
-            sentiment = '='
-
-        return sentiment
-
-    def verify_integrity(self, e):
-        """Very basic sanity check
-        """
-        # Basic length of emoji vs calculated chr list
-        if len(e['emoji']) != len(e['codept_chr_list']):
-            e['errors'].append(f"{e['emoji']} bad length")
-
-        # Break the emoji into parts, get the ints, rejoin, 
-        # then compare that with the original string from unicode
-        v = ' '.join([f'{ord(c):04X}' for c in e['emoji']])
-        if v != e['codept_str']:
-            e['errors'].append(f"{v} != {e['codept_str']}")
-
-        if len(e['annotations']) == 0:
-            e['errors'].append('CLDR-FAILED')
-
-        return True
 
     def process_unicode(self):
         """Main loop
@@ -275,32 +300,24 @@ class EmojiDownloader(object):
                 continue
 
             elif match:
-                name = self.normalize_name(match.group('name'))
-                if self.skip(name):
+                if 'skin tone' in match.group('name'):
                     continue
 
-                emoji = match.group('emoji').strip()
-                codept_str = match.group('code').strip()
-                codept_chr_list = self.codept_str_to_chr(codept_str)
-                q = match.group('qualification').strip()
-                c = self.lookup_cldr(emoji)
-                annotations = c.annotations
-                short_name = c.short_name or name
+                e = Emoji()
+                e.name = self.normalize_name(match.group('name'))
+                e.emoji = match.group('emoji').strip()
+                e.code_point_str = match.group('code').strip()
+                e.status = match.group('qualification').strip()
+                e.version = match.group('ver').strip()
 
-                self.emojis[short_name] = {
-                    'emoji': emoji,
-                    'name': name, 
-                    'annotations': annotations,
-                    'codept_str': codept_str,
-                    'codept_chr_list': codept_chr_list,
-                    'subgroup': self.subgroup, 
-                    'group': self.group, 
-                    'status': q,
-                    'sentiment': self.calc_sentiment(emoji),
-                    'errors': []
-                }
+                _cldr = self.lookup_cldr(e.emoji)
+                e.annotations = _cldr.annotations
+                e.short_name = _cldr.short_name or e.name
+                e.group = self.group
+                e.subgroup = self.subgroup
 
-                self.verify_integrity(self.emojis[short_name])
+                e.save()
+                self.emojis.append(e)
 
         self.finalize()
         return
