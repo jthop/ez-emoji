@@ -33,8 +33,8 @@ Fresh emoji data is always availabe here in the repository's root directory.
         "subgroup": "face-smiling", 
         "group": "smileys_emotion", 
         "qualification": "fully qualified",
-        "sentiment": "+"
-        "errors": []
+        "sentiment": "+",
+        "errors": [],
     }
 }
 ```
