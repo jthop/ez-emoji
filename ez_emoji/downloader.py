@@ -10,7 +10,7 @@ import re
 import sys
 import urllib.request
 
-__version__ = '0.1.3+build.74'
+__version__ = '0.1.4+build.75'
 
 
 #http://kt.ijs.si/data/Emoji_sentiment_ranking/
@@ -53,14 +53,9 @@ class Emoji(object):
 
         return chr_list
 
-    def save(self):
-        """
-        """
-        #self._calc_sentiment()
-        self._verify_integrity()
-
-    def to_dict(self):
-        j = dict(
+    @property
+    def as_dict(self):
+        d = dict(
             short_name = self.short_name,
             name = self.name,
             emoji = self.emoji,
@@ -73,6 +68,13 @@ class Emoji(object):
             sentiment = self.sentiment,
             errors = self.errors
         )
+        return d
+
+    def save(self):
+        """
+        """
+        #self._calc_sentiment()
+        self._verify_integrity()
 
     def _calc_sentiment(self):
         """
@@ -263,7 +265,7 @@ class EmojiDownloader(object):
             'unicode_version': self.unicode_version,
             'groups': [x for x in self.subgroups.keys()],
             'subgroups': self.subgroups,
-            'emojis': {emoji.short_name: emoji.to_dict() for emoji in self.emojis}
+            'emojis': {emoji.short_name: emoji.as_dict for emoji in self.emojis}
         }
 
         with self.txt_file.open('w', encoding='utf-8') as f:
