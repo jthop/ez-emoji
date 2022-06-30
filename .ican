@@ -1,5 +1,5 @@
 [version]
-current = 0.1.6+build.77
+current = 0.1.7+build.78
 
 [options]
 auto-tag = True
@@ -15,5 +15,5 @@ style = semantic
 [file2]
 file = ./ez_emoji/__init__.py
 regex = __public_version__\s*=\s*(?P<quote>[\'\"])(?P<version>.+)(?P=quote)
-style = semantic
+style = public
 
