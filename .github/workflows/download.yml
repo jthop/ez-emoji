@@ -43,5 +43,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git diff --quiet || git add -A && git commit -m "automated emoji download"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "automated emoji download ${timestamp}" || exit 0
         git push
