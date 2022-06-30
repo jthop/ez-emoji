@@ -10,7 +10,7 @@ import re
 import sys
 import urllib.request
 
-__version__ = '0.1.5+build.76'
+__version__ = '0.1.6+build.77'
 
 
 #http://kt.ijs.si/data/Emoji_sentiment_ranking/
