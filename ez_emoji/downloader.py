@@ -17,7 +17,7 @@ import sys
 import urllib.request
 import sentiment
 
-__version__ = '0.1.11+build.84'
+__version__ = '0.1.12+build.85'
 
 
 #http://kt.ijs.si/data/Emoji_sentiment_ranking/
@@ -285,7 +285,7 @@ class EmojiDownloader(object):
                 f.write(f"{emoji.emoji} = {emoji.group}:{emoji.subgroup}:{emoji.short_name}\n")
 
         with self.json_file.open('w', encoding='utf-8') as f:
-            json.dump(data, f)
+            json.dump(data, f, indent=4)
 
         print(f'Found {len(self.emojis)} emojis.  Unicode Version: {self.unicode_version}.')
         return
