@@ -1,0 +1,5 @@
+Kralj Novak, Petra; Smailović, Jasmina; Sluban, Borut and Mozetič, Igor, 2015,
+  Emoji Sentiment Ranking 1.0, Slovenian language resource repository CLARIN.SI, ISSN 2820-4042,
+  http://hdl.handle.net/11356/1048.
+
+  http://kt.ijs.si/data/Emoji_sentiment_ranking/about.html

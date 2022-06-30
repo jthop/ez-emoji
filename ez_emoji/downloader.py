@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 """
+Google source: https://github.com/googlefonts/noto-emoji/tree/main/png/
+
+SVG!
+Twitter source: https://github.com/twitter/twemoji/tree/master/assets/svg
+format codepoint.lower().svg or codepoint.lower()[0]-codepoint.lower()[1].svg
+
 """
 
 from datetime import datetime
@@ -9,8 +15,9 @@ import json
 import re
 import sys
 import urllib.request
+import sentiment
 
-__version__ = '0.1.10+build.83'
+__version__ = '0.1.11+build.84'
 
 
 #http://kt.ijs.si/data/Emoji_sentiment_ranking/
@@ -24,24 +31,20 @@ __version__ = '0.1.10+build.83'
 
 class Emoji(object):
 
-    NEGATIVE_SUBS = ['face-unwell', 'face-concerned', 'face-negative']
-    POSITIVE_SUBS = ['face-smiling', 'face-affection', 'face-tongue']
-    NEUTRAL_SUBS = ['face-neutral-skeptic']
-    NEGATIVE = []
-    POSITIVE = []
-    NEUTRAL = []
 
     def __init__(self):
         self.short_name = None
+        self.short_names = []
         self.name = None
         self.emoji = None
         self.code_point_str = None
         self.status = None
-        self.version = None
+        self.emoji_version = None
         self.annotations = []
         self.group = None
         self.subgroup = None
         self.sentiment = None
+        self.sentiment_score = None
         self.errors = []
 
     @property
@@ -57,15 +60,17 @@ class Emoji(object):
     def as_dict(self):
         d = dict(
             short_name = self.short_name,
+            short_names = self.short_names,
             name = self.name,
             emoji = self.emoji,
             status = self.status,
-            version = self.version,
+            emoji_version = self.emoji_version,
             code_point_str = self.code_point_str,
             annotations = self.annotations,
             group = self.group,
             subgroup = self.subgroup,
             sentiment = self.sentiment,
+            sentiment_score = self.sentiment_score,
         )
         if self.errors:
             d['errors'] = self.errors
@@ -74,7 +79,9 @@ class Emoji(object):
     def save(self):
         """
         """
-        #self._calc_sentiment()
+        self.short_name = self.short_names[0] or self.name
+
+        self._calc_sentiment()
         self._verify_integrity()
 
     def _calc_sentiment(self):
@@ -83,16 +90,15 @@ class Emoji(object):
         real emoji sentiment data.
         """
 
-        if emoji in EmojiDownloader.NEGATIVE or \
-            self.subgroup in EmojiDownloader.NEGATIVE_SUBS:
-            self.sentiment = '-'
-        elif emoji in EmojiDownloader.POSITIVE or \
-            self.subgroup in EmojiDownloader.POSITIVE_SUBS:
-            self.sentiment = '+'
-        elif emoji in EmojiDownloader.NEUTRAL or \
-            self.subgroup in EmojiDownloader.NEUTRAL_SUBS:
-            self.sentiment = '='
-        return
+        s = sentiment.data.get(self.code_point_str)
+        if s:
+            basic = s.get('sentiment')
+            if basic:
+                self.sentiment = basic
+            score = s.get('score')
+            if score:
+                self.sentiment_score = score
+            return
 
     def _verify_integrity(self):
         # Basic length of emoji vs calculated chr list
@@ -153,6 +159,7 @@ class EmojiDownloader(object):
     CLDR_EN_ANNOTATIONS = 'https://raw.githubusercontent.com/unicode-org/cldr-json/main/' \
 'cldr-json/cldr-annotations-full/annotations/en/annotations.json'
     GIT_EMOJI_URL = 'https://api.github.com/emojis'
+    SENTIMENT_FILE = 'EMOJI_SENTIMENT.json'
     TXT_FILE = 'EZEMOJI_UNICODE.txt'
     JSON_FILE = 'EZEMOJI_UNICODE.json'
     GIT_FILE = 'EZEMOJI_GITHUB.md'
@@ -224,11 +231,11 @@ class EmojiDownloader(object):
         """ """
         a = self.cldr.get(emoji, {})
         annotations = a.get('default', [])
-        short_name = a.get('tts', [None])
+        short_names = a.get('tts', [None])
 
         c = SimpleNamespace(
             annotations = annotations,
-            short_name = short_name[0]
+            short_names = short_names,
         )
         return c
 
@@ -260,6 +267,7 @@ class EmojiDownloader(object):
     def finalize(self):
         """Finish it up.  Format the dict, write to disk, goodbye.
         """
+
         data = {
             'generated': datetime.today().strftime("%m-%d-%Y"),
             'generator_version': __version__,
@@ -315,7 +323,7 @@ class EmojiDownloader(object):
 
                 _cldr = self.lookup_cldr(e.emoji)
                 e.annotations = _cldr.annotations
-                e.short_name = _cldr.short_name or e.name
+                e.short_names = _cldr.short_names
                 e.group = self.group
                 e.subgroup = self.subgroup
 
