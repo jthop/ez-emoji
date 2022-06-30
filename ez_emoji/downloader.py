@@ -10,7 +10,7 @@ import re
 import sys
 import urllib.request
 
-__version__ = '0.1.4+build.75'
+__version__ = '0.1.9+build.82'
 
 
 #http://kt.ijs.si/data/Emoji_sentiment_ranking/
@@ -66,8 +66,9 @@ class Emoji(object):
             group = self.group,
             subgroup = self.subgroup,
             sentiment = self.sentiment,
-            errors = self.errors
         )
+        if self.errors:
+            d['errors'] = self.errors
         return d
 
     def save(self):

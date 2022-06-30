@@ -2,8 +2,8 @@
 """
 """
 
-__version__ = '0.1.4+build.75'
-__public_version__ = '0.1.1'
+__version__ = '0.1.9'
+__public_version__ = '0.1.9'
 __author__ = '@jthop'
 __copyright__ = f'Copyright 2022 {__author__}'
 
