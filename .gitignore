@@ -15,4 +15,6 @@ __pycache__/
 make.sh
 notes.txt
 .backup
-EZEMOJI_*
+/EZEMOJI_UNICODE.json
+/EZEMOJI_UNICODE.txt
+/EZEMOJI_GITHUB.md
