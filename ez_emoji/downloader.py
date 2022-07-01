@@ -15,12 +15,30 @@ import json
 import re
 import sys
 import urllib.request
-import sentiment
+from curation import POSITIVE
+from curation import NEGATIVE
 
-__version__ = '0.1.12+build.85'
+__version__ = '0.1.13+build.86'
 
 
 #http://kt.ijs.si/data/Emoji_sentiment_ranking/
+
+
+########################
+#
+#   Exceptions
+#
+########################
+
+
+class EZEmojiException(Exception):
+    def __init__(self):
+        pass
+
+class FullyQualifiedVariant(EZEmojiException):
+    msg = "Variant using the FEOF modifier"
+    code = "10"
+
 
 ########################
 #
@@ -31,10 +49,28 @@ __version__ = '0.1.12+build.85'
 
 class Emoji(object):
 
+    NEGATIVE_WORDS = ['confused', 'disappointed',
+        'unsure', 'skeptical', 'worried', 'evil',
+        'frowning', 'angry'
+    ]
+
+    POSITIVE_WORDS = ['juggling', 'tuxedo',
+        'smile', 'prayer', 'handshake', 'hang loose',
+        'rock-on', 'ILY'
+    ]
+
+    """
+    variation = [FE00, FE01, FE02, FE03, FE04, FE05, FE06,
+        FE07, FE08, FE09, FE0A, FE0B, FE0C, FE0D, FE0E, FE0F]
+    and
+    U+E0100 to U+E01EF
+
+    str = str.replaceAll("[\\p{C}\\p{So}\uFE00-\uFE0F\\x{E0100}-\\x{E01EF}]+", "")
+         .replaceAll(" {2,}", " ")
+    """
 
     def __init__(self):
         self.short_name = None
-        self.short_names = []
         self.name = None
         self.emoji = None
         self.code_point_str = None
@@ -43,8 +79,8 @@ class Emoji(object):
         self.annotations = []
         self.group = None
         self.subgroup = None
+        self.github = None
         self.sentiment = None
-        self.sentiment_score = None
         self.errors = []
 
     @property
@@ -60,7 +96,6 @@ class Emoji(object):
     def as_dict(self):
         d = dict(
             short_name = self.short_name,
-            short_names = self.short_names,
             name = self.name,
             emoji = self.emoji,
             status = self.status,
@@ -69,20 +104,60 @@ class Emoji(object):
             annotations = self.annotations,
             group = self.group,
             subgroup = self.subgroup,
+            github = self.github,
             sentiment = self.sentiment,
-            sentiment_score = self.sentiment_score,
         )
         if self.errors:
             d['errors'] = self.errors
         return d
 
+    @property
+    def positive(self):
+        if self.sentiment is not None:
+            if self.sentiment == '+':
+                return True
+        return False
+
+    @property
+    def negative(self):
+        if self.sentiment is not None:
+            if self.sentiment == '-':
+                return True
+        return False
+
+    @property
+    def neutral(self):
+        if self.sentiment is not None:
+            if self.sentiment == '=':
+                return True
+        return False
+
+    @property
+    def clean_name(self):
+        name = self.name
+        if name is None:
+            name = self.name
+        name = name.replace(' ', '_').lower()
+        return name
+
     def save(self):
         """
         """
-        self.short_name = self.short_names[0] or self.name
+        if self.short_name is None:
+            self.short_name = self.name
+            self.errors.append('NO-CLDR')
+
+        """ We need to skip these fully-qualified versions
+        with the FE0F modifier or even FE0E.  If not there
+        will be 2 emojis with the same name.  Which one we
+        should keep I am not 100% on.
+        """
+        if 'FE0F' in self.code_point_str:
+            raise FullyQualifiedVariant()
 
         self._calc_sentiment()
         self._verify_integrity()
+        return True
 
     def _calc_sentiment(self):
         """
@@ -90,15 +165,11 @@ class Emoji(object):
         real emoji sentiment data.
         """
 
-        s = sentiment.data.get(self.code_point_str)
-        if s:
-            basic = s.get('sentiment')
-            if basic:
-                self.sentiment = basic
-            score = s.get('score')
-            if score:
-                self.sentiment_score = score
-            return
+        if self.short_name in POSITIVE:
+            self.sentiment = '+'
+        elif self.short_name in NEGATIVE:
+            self.sentiment = '-'
+        return
 
     def _verify_integrity(self):
         # Basic length of emoji vs calculated chr list
@@ -111,8 +182,9 @@ class Emoji(object):
         if v != self.code_point_str:
             self.errors.append('CODEPOINT-REPRODUCTION-ERROR')
 
-        if len(self.annotations) == 0:
-            self.errors.append('CLDR-FAILED')
+        if self.name != self.short_name:
+            self.errors.append('NAME-SHORT_NAME-MISMATCH')
+
         return
 
 
@@ -176,6 +248,7 @@ class EmojiDownloader(object):
         self.subgroups = {}
         self.emojis = []
         self.cldr = {}
+        self.git = {}
         self.dir = './'
 
         # args via cli
@@ -196,12 +269,11 @@ class EmojiDownloader(object):
         # fetch unicode org. txt file
         self.test_data = self.fetch_url(EmojiDownloader.UNICODE_DATA, lines=True)
 
-        # fetch git emoji json
-        self.git = self.fetch_json(EmojiDownloader.GIT_EMOJI_URL)
-
+        # Run git first so we can attempt to reference git keys
+        self.process_git()
         # run main loop
         self.process_unicode()
-        self.process_git()
+
         return
 
     def fetch_url(self, url, lines=False):
@@ -231,11 +303,11 @@ class EmojiDownloader(object):
         """ """
         a = self.cldr.get(emoji, {})
         annotations = a.get('default', [])
-        short_names = a.get('tts', [None])
+        short_name = a.get('tts', [None])
 
         c = SimpleNamespace(
             annotations = annotations,
-            short_names = short_names,
+            short_name = short_name[0],
         )
         return c
 
@@ -243,8 +315,8 @@ class EmojiDownloader(object):
         """ Not necessary since we have CLDR, but
         it needs to happy for a number of reasons.
         """
+
         s = s.replace('flag: ', '') \
-               .replace(':', '') \
                .replace(',', '') \
                .replace(u'\u201c', '') \
                .replace(u'\u201d', '') \
@@ -256,43 +328,65 @@ class EmojiDownloader(object):
         """ Same as above, although Smileys & Emotion
         was really starting to bug me
         """
+
         s = s.strip('\n') \
-        .strip() \
-        .replace(' & ', '_') \
-        .replace('-', '_') \
-        .replace(' ', '_') \
-        .lower()
+            .strip() \
+            .replace('&', 'and') \
+            .lower()
         return s
 
     def finalize(self):
         """Finish it up.  Format the dict, write to disk, goodbye.
         """
 
-        data = {
-            'generated': datetime.today().strftime("%m-%d-%Y"),
-            'generator_version': __version__,
-            'unicode_version': self.unicode_version,
-            'groups': [x for x in self.subgroups.keys()],
-            'subgroups': self.subgroups,
-            'emojis': {emoji.short_name: emoji.as_dict for emoji in self.emojis}
-        }
+        # Make a list of postive and negative emojis
+        positives = []
+        negatives = []
+        for emoji in self.emojis:
+            if emoji.positive:
+                positives.append(emoji.emoji)
+            elif emoji.negative:
+                negatives.append(emoji.emoji)
+        positives_str = ', '.join([f"'{e}'" for e in positives])
+        negatives_str = ', '.join([f"'{e}'" for e in negatives])
 
+        # Generate metadata for the json file
+        data = dict(
+            generated = datetime.today().strftime("%m-%d-%Y"),
+            __version__ = __version__,
+            unicode_version = self.unicode_version,
+            emoji_quantity = len(self.emojis),
+            groups = [x for x in self.subgroups.keys()],
+            subgroups = self.subgroups,
+            positives = positives_str,
+            negatives = negatives_str,
+            emojis = {emoji.short_name: emoji.as_dict for emoji in self.emojis}
+        )
+
+        # Write the text file
         with self.txt_file.open('w', encoding='utf-8') as f:
             # First line as a comment to briefly describe the format
             f.write("# EMOJI = GROUP:SUBGROUP:NAME\n")
-
             for emoji in self.emojis:
                 f.write(f"{emoji.emoji} = {emoji.group}:{emoji.subgroup}:{emoji.short_name}\n")
 
+            f.write('\n\n')
+            f.write(f'POSITIVES = [{positives_str}]\n\n')
+            f.write(f'NEGATIVES = [{negatives_str}]\n')
+
+        # Write the json file
         with self.json_file.open('w', encoding='utf-8') as f:
             json.dump(data, f, indent=4)
 
+        # That's all, write a little message to the user
         print(f'Found {len(self.emojis)} emojis.  Unicode Version: {self.unicode_version}.')
         return
 
     def process_unicode(self):
         """Main loop
         """
+        git_lookup = {v: k for k,v in self.git.items()}
+
         for line in self.test_data:
             match = self.compiled.search(line)
 
@@ -319,32 +413,55 @@ class EmojiDownloader(object):
                 e.emoji = match.group('emoji').strip()
                 e.code_point_str = match.group('code').strip()
                 e.status = match.group('qualification').strip()
-                e.version = match.group('ver').strip()
+                e.emoji_version = match.group('ver').strip()
 
                 _cldr = self.lookup_cldr(e.emoji)
                 e.annotations = _cldr.annotations
-                e.short_names = _cldr.short_names
+                e.short_name = _cldr.short_name
                 e.group = self.group
                 e.subgroup = self.subgroup
+                if git_lookup.get(e.code_point_str):
+                    e.github = git_lookup.get(e.code_point_str)
 
-                e.save()
-                self.emojis.append(e)
+                try:
+                    e.save()
+                    self.emojis.append(e)
+                except FullyQualifiedVariant:
+                    pass
 
         self.finalize()
         return
 
     def process_git(self):
+        # Git regex
+        re_str = r'githubassets.com/images/icons/emoji/(?P<genuine>unicode/)?(?P<cp>.*).png'
+        compiled = re.compile(re_str)
+
+        # fetch git emoji json
+        git = self.fetch_json(EmojiDownloader.GIT_EMOJI_URL)
+
+        for k,v in git.items():
+            match = compiled.search(v)
+            if match:
+                if not match.group('genuine'):
+                    self.git[k] = 'MISSING'
+                else:
+                    cp = match.group('cp').strip()
+                    cp = cp.upper().replace('-', ' ')
+                    self.git[k] = cp
+            else:
+                self.git[k] = v
+
         with self.git_file.open('w') as f:
             f.write('# Markdown emojis at Github :wave:\n\n')
             f.write('The following emojis are available in github markdown files. \n\n')
             f.write('Simply add a ":" before and after the tag name which ')
             f.write('represents the emoji you desire.\n\n')
-            f.write('| Markdown | Emoji |\n')
-            f.write('| ------------- | ------------- |\n')
+            f.write('| Markdown | Emoji | Codepoint | \n')
+            f.write('| --------- | --------- | --------- |\n')
 
             for k,v in self.git.items():
-                f.write(f'| `:{k}:` | :{k}: |\n')
-                image = v
+                f.write(f'| `:{k}:` | :{k}: | {v} | \n')
 
 
 if __name__ == "__main__":
