@@ -21,9 +21,6 @@ from curation import NEGATIVE
 __version__ = '0.1.13+build.86'
 
 
-#http://kt.ijs.si/data/Emoji_sentiment_ranking/
-
-
 ########################
 #
 #   Exceptions
