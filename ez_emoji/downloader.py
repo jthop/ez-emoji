@@ -18,7 +18,7 @@ import urllib.request
 from curation import POSITIVE
 from curation import NEGATIVE
 
-__version__ = '0.1.13+build.86'
+__version__ = '0.1.13+build.87'
 
 
 ########################
