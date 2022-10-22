@@ -1,5 +1,5 @@
 {
-    "generated": "10-15-2022",
+    "generated": "10-22-2022",
     "__version__": "0.1.13+build.87",
     "unicode_version": "14.0",
     "emoji_quantity": 1849,
@@ -10474,7 +10474,6 @@
             "emoji_version": "E11.0",
             "code_point_str": "1F998",
             "annotations": [
-                "Australia",
                 "joey",
                 "jump",
                 "kangaroo",
@@ -11491,10 +11490,8 @@
                 "Buddhism",
                 "flower",
                 "Hinduism",
-                "India",
                 "lotus",
-                "purity",
-                "Vietnam"
+                "purity"
             ],
             "group": "animals and nature",
             "subgroup": "plant-flower",
@@ -22873,7 +22870,6 @@
             "emoji_version": "E13.0",
             "code_point_str": "1FA83",
             "annotations": [
-                "australia",
                 "boomerang",
                 "rebound",
                 "repercussion"
@@ -25475,7 +25471,6 @@
             "annotations": [
                 "arrow",
                 "button",
-                "red",
                 "upwards button"
             ],
             "group": "symbols",
@@ -25511,8 +25506,7 @@
                 "arrow",
                 "button",
                 "down",
-                "downwards button",
-                "red"
+                "downwards button"
             ],
             "group": "symbols",
             "subgroup": "av-symbol",
