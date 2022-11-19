@@ -48,6 +48,7 @@
 😬 = smileys and emotion:face-neutral-skeptical:grimacing face
 😮‍💨 = smileys and emotion:face-neutral-skeptical:face exhaling
 🤥 = smileys and emotion:face-neutral-skeptical:lying face
+🫨 = smileys and emotion:face-neutral-skeptical:shaking face
 😌 = smileys and emotion:face-sleepy:relieved face
 😔 = smileys and emotion:face-sleepy:pensive face
 😪 = smileys and emotion:face-sleepy:sleepy face
@@ -125,29 +126,32 @@
 🙈 = smileys and emotion:monkey-face:see-no-evil monkey
 🙉 = smileys and emotion:monkey-face:hear-no-evil monkey
 🙊 = smileys and emotion:monkey-face:speak-no-evil monkey
+💌 = smileys and emotion:heart:love letter
+💘 = smileys and emotion:heart:heart with arrow
+💝 = smileys and emotion:heart:heart with ribbon
+💖 = smileys and emotion:heart:sparkling heart
+💗 = smileys and emotion:heart:growing heart
+💓 = smileys and emotion:heart:beating heart
+💞 = smileys and emotion:heart:revolving hearts
+💕 = smileys and emotion:heart:two hearts
+💟 = smileys and emotion:heart:heart decoration
+❣ = smileys and emotion:heart:heart exclamation
+💔 = smileys and emotion:heart:broken heart
+❤‍🔥 = smileys and emotion:heart:heart on fire
+❤‍🩹 = smileys and emotion:heart:mending heart
+❤ = smileys and emotion:heart:red heart
+🩷 = smileys and emotion:heart:pink heart
+🧡 = smileys and emotion:heart:orange heart
+💛 = smileys and emotion:heart:yellow heart
+💚 = smileys and emotion:heart:green heart
+💙 = smileys and emotion:heart:blue heart
+🩵 = smileys and emotion:heart:light blue heart
+💜 = smileys and emotion:heart:purple heart
+🤎 = smileys and emotion:heart:brown heart
+🖤 = smileys and emotion:heart:black heart
+🩶 = smileys and emotion:heart:grey heart
+🤍 = smileys and emotion:heart:white heart
 💋 = smileys and emotion:emotion:kiss mark
-💌 = smileys and emotion:emotion:love letter
-💘 = smileys and emotion:emotion:heart with arrow
-💝 = smileys and emotion:emotion:heart with ribbon
-💖 = smileys and emotion:emotion:sparkling heart
-💗 = smileys and emotion:emotion:growing heart
-💓 = smileys and emotion:emotion:beating heart
-💞 = smileys and emotion:emotion:revolving hearts
-💕 = smileys and emotion:emotion:two hearts
-💟 = smileys and emotion:emotion:heart decoration
-❣ = smileys and emotion:emotion:heart exclamation
-💔 = smileys and emotion:emotion:broken heart
-❤‍🔥 = smileys and emotion:emotion:heart on fire
-❤‍🩹 = smileys and emotion:emotion:mending heart
-❤ = smileys and emotion:emotion:red heart
-🧡 = smileys and emotion:emotion:orange heart
-💛 = smileys and emotion:emotion:yellow heart
-💚 = smileys and emotion:emotion:green heart
-💙 = smileys and emotion:emotion:blue heart
-💜 = smileys and emotion:emotion:purple heart
-🤎 = smileys and emotion:emotion:brown heart
-🖤 = smileys and emotion:emotion:black heart
-🤍 = smileys and emotion:emotion:white heart
 💯 = smileys and emotion:emotion:hundred points
 💢 = smileys and emotion:emotion:anger symbol
 💥 = smileys and emotion:emotion:collision
@@ -155,7 +159,6 @@
 💦 = smileys and emotion:emotion:sweat droplets
 💨 = smileys and emotion:emotion:dashing away
 🕳 = smileys and emotion:emotion:hole
-💣 = smileys and emotion:emotion:bomb
 💬 = smileys and emotion:emotion:speech balloon
 👁‍🗨 = smileys and emotion:emotion:eye in speech bubble
 🗨 = smileys and emotion:emotion:left speech bubble
@@ -171,6 +174,8 @@
 🫲 = people and body:hand-fingers-open:leftwards hand
 🫳 = people and body:hand-fingers-open:palm down hand
 🫴 = people and body:hand-fingers-open:palm up hand
+🫷 = people and body:hand-fingers-open:leftwards pushing hand
+🫸 = people and body:hand-fingers-open:rightwards pushing hand
 👌 = people and body:hand-fingers-partial:OK hand
 🤌 = people and body:hand-fingers-partial:pinched fingers
 🤏 = people and body:hand-fingers-partial:pinching hand
@@ -543,6 +548,8 @@
 🐅 = animals and nature:animal-mammal:tiger
 🐆 = animals and nature:animal-mammal:leopard
 🐴 = animals and nature:animal-mammal:horse face
+🫎 = animals and nature:animal-mammal:moose
+🫏 = animals and nature:animal-mammal:donkey
 🐎 = animals and nature:animal-mammal:horse
 🦄 = animals and nature:animal-mammal:unicorn
 🦓 = animals and nature:animal-mammal:zebra
@@ -605,6 +612,9 @@
 🦩 = animals and nature:animal-bird:flamingo
 🦚 = animals and nature:animal-bird:peacock
 🦜 = animals and nature:animal-bird:parrot
+🪽 = animals and nature:animal-bird:wing
+🐦‍⬛ = animals and nature:animal-bird:black bird
+🪿 = animals and nature:animal-bird:goose
 🐸 = animals and nature:animal-amphibian:frog
 🐊 = animals and nature:animal-reptile:crocodile
 🐢 = animals and nature:animal-reptile:turtle
@@ -625,6 +635,7 @@
 🐙 = animals and nature:animal-marine:octopus
 🐚 = animals and nature:animal-marine:spiral shell
 🪸 = animals and nature:animal-marine:coral
+🪼 = animals and nature:animal-marine:jellyfish
 🐌 = animals and nature:animal-bug:snail
 🦋 = animals and nature:animal-bug:butterfly
 🐛 = animals and nature:animal-bug:bug
@@ -652,6 +663,7 @@
 🌻 = animals and nature:plant-flower:sunflower
 🌼 = animals and nature:plant-flower:blossom
 🌷 = animals and nature:plant-flower:tulip
+🪻 = animals and nature:plant-flower:hyacinth
 🌱 = animals and nature:plant-other:seedling
 🪴 = animals and nature:plant-other:potted plant
 🌲 = animals and nature:plant-other:evergreen tree
@@ -667,6 +679,7 @@
 🍃 = animals and nature:plant-other:leaf fluttering in wind
 🪹 = animals and nature:plant-other:empty nest
 🪺 = animals and nature:plant-other:nest with eggs
+🍄 = animals and nature:plant-other:mushroom
 🍇 = food and drink:food-fruit:grapes
 🍈 = food and drink:food-fruit:melon
 🍉 = food and drink:food-fruit:watermelon
@@ -698,10 +711,11 @@
 🥦 = food and drink:food-vegetable:broccoli
 🧄 = food and drink:food-vegetable:garlic
 🧅 = food and drink:food-vegetable:onion
-🍄 = food and drink:food-vegetable:mushroom
 🥜 = food and drink:food-vegetable:peanuts
 🫘 = food and drink:food-vegetable:beans
 🌰 = food and drink:food-vegetable:chestnut
+🫚 = food and drink:food-vegetable:ginger root
+🫛 = food and drink:food-vegetable:pea pod
 🍞 = food and drink:food-prepared:bread
 🥐 = food and drink:food-prepared:croissant
 🥖 = food and drink:food-prepared:baguette bread
@@ -1074,11 +1088,10 @@
 🎯 = activities:game:bullseye
 🪀 = activities:game:yo-yo
 🪁 = activities:game:kite
+🔫 = activities:game:water pistol
 🎱 = activities:game:pool 8 ball
 🔮 = activities:game:crystal ball
 🪄 = activities:game:magic wand
-🧿 = activities:game:nazar amulet
-🪬 = activities:game:hamsa
 🎮 = activities:game:video game
 🕹 = activities:game:joystick
 🎰 = activities:game:slot machine
@@ -1123,6 +1136,7 @@
 🩳 = objects:clothing:shorts
 👙 = objects:clothing:bikini
 👚 = objects:clothing:woman’s clothes
+🪭 = objects:clothing:folding hand fan
 👛 = objects:clothing:purse
 👜 = objects:clothing:handbag
 👝 = objects:clothing:clutch bag
@@ -1137,6 +1151,7 @@
 👡 = objects:clothing:woman’s sandal
 🩰 = objects:clothing:ballet shoes
 👢 = objects:clothing:woman’s boot
+🪮 = objects:clothing:hair pick
 👑 = objects:clothing:crown
 👒 = objects:clothing:woman’s hat
 🎩 = objects:clothing:top hat
@@ -1175,6 +1190,8 @@
 🪕 = objects:musical-instrument:banjo
 🥁 = objects:musical-instrument:drum
 🪘 = objects:musical-instrument:long drum
+🪇 = objects:musical-instrument:maracas
+🪈 = objects:musical-instrument:flute
 📱 = objects:phone:mobile phone
 📲 = objects:phone:mobile phone with arrow
 ☎ = objects:phone:telephone
@@ -1294,7 +1311,7 @@
 🛠 = objects:tool:hammer and wrench
 🗡 = objects:tool:dagger
 ⚔ = objects:tool:crossed swords
-🔫 = objects:tool:water pistol
+💣 = objects:tool:bomb
 🪃 = objects:tool:boomerang
 🏹 = objects:tool:bow and arrow
 🛡 = objects:tool:shield
@@ -1355,6 +1372,8 @@
 ⚰ = objects:other-object:coffin
 🪦 = objects:other-object:headstone
 ⚱ = objects:other-object:funeral urn
+🧿 = objects:other-object:nazar amulet
+🪬 = objects:other-object:hamsa
 🗿 = objects:other-object:moai
 🪧 = objects:other-object:placard
 🪪 = objects:other-object:identification card
@@ -1417,6 +1436,7 @@
 ☮ = symbols:religion:peace symbol
 🕎 = symbols:religion:menorah
 🔯 = symbols:religion:dotted six-pointed star
+🪯 = symbols:religion:khanda
 ♈ = symbols:zodiac:Aries
 ♉ = symbols:zodiac:Taurus
 ♊ = symbols:zodiac:Gemini
@@ -1452,6 +1472,7 @@
 🔅 = symbols:av-symbol:dim button
 🔆 = symbols:av-symbol:bright button
 📶 = symbols:av-symbol:antenna bars
+🛜 = symbols:av-symbol:wireless
 📳 = symbols:av-symbol:vibration mode
 📴 = symbols:av-symbol:mobile phone off
 ♀ = symbols:gender:female sign
@@ -1850,6 +1871,6 @@
 🏴󠁧󠁢󠁷󠁬󠁳󠁿 = flags:subdivision-flag:Wales
 
 
-POSITIVES = ['😀', '😃', '😄', '😁', '😆', '😅', '🤣', '😂', '🙂', '😊', '😇', '🥰', '😍', '🤩', '😘', '😗', '☺', '😚', '😙', '🥲', '😋', '😛', '😜', '🤪', '😝', '🤑', '🤗', '🫡', '🤠', '🥳', '😎', '🤓', '🧐', '😈', '🤡', '👽', '🤖', '😺', '😸', '😹', '😻', '😽', '💋', '💌', '💖', '💯', '💦', '💣', '👋', '✋', '🖖', '👌', '✌', '🤞', '🤟', '🤘', '🤙', '👍', '👊', '👏', '🙌', '🫶', '🤝', '💅', '💪', '🧠', '👁', '👅', '👄', '🙆', '🥷', '🫅', '🤵‍♂', '👰‍♀', '🤰', '🎅', '🦸', '💏', '🐕', '🐳', '🐋', '🐬', '🍷', '🍸', '🍹', '🍺', '🍻', '🥂', '🏦', '🚀', '⭐', '🌟', '🌠', '⚡', '🔥', '🎄', '🎆', '🎇', '🧨', '✨', '🎈', '🎉', '🎊', '🎀', '🎁', '🎖', '🏆', '🏅', '🥇', '🥈', '🥉', '🏈', '🪄', '🕹', '🎰', '🕶', '👙', '👠', '🎩', '💄', '💰', '💵', '🚬', '🏧']
+POSITIVES = ['😀', '😃', '😄', '😁', '😆', '😅', '🤣', '😂', '🙂', '😊', '😇', '🥰', '😍', '🤩', '😘', '😗', '☺', '😚', '😙', '🥲', '😋', '😛', '😜', '🤪', '😝', '🤑', '🤗', '🫡', '🤠', '🥳', '😎', '🤓', '🧐', '😈', '🤡', '👽', '🤖', '😺', '😸', '😹', '😻', '😽', '💌', '💖', '💋', '💯', '💦', '👋', '✋', '🖖', '👌', '✌', '🤞', '🤟', '🤘', '🤙', '👍', '👊', '👏', '🙌', '🫶', '🤝', '💅', '💪', '🧠', '👁', '👅', '👄', '🙆', '🥷', '🫅', '🤵‍♂', '👰‍♀', '🤰', '🎅', '🦸', '💏', '🐕', '🐳', '🐋', '🐬', '🍷', '🍸', '🍹', '🍺', '🍻', '🥂', '🏦', '🚀', '⭐', '🌟', '🌠', '⚡', '🔥', '🎄', '🎆', '🎇', '🧨', '✨', '🎈', '🎉', '🎊', '🎀', '🎁', '🎖', '🏆', '🏅', '🥇', '🥈', '🥉', '🏈', '🪄', '🕹', '🎰', '🕶', '👙', '👠', '🎩', '💄', '💰', '💵', '💣', '🚬', '🏧']
 
 NEGATIVES = ['🙃', '🤫', '🤐', '🤨', '😑', '😶', '🫥', '😶‍🌫', '😏', '😒', '🙄', '😬', '😮‍💨', '🤥', '😌', '😔', '😪', '🤤', '😴', '😷', '🤒', '🤕', '🤢', '🤮', '🥵', '🥶', '🥴', '😵', '😵‍💫', '🤯', '🥸', '😕', '🫤', '😟', '🙁', '☹', '😯', '😲', '😳', '🥺', '🥹', '😦', '😧', '😨', '😰', '😥', '😢', '😭', '😱', '😞', '😓', '😩', '😫', '😤', '😡', '😠', '🤬', '👿', '💀', '☠', '💩', '💔', '💢', '💥', '🖕', '👎', '🙎', '🤦', '🤷', '🦹', '🧛', '🧟', '🐊', '🦎', '🐍', '🐲', '🕷', '🌕', '⛈', '🌪', '🧯', '⚰', '🪦', '⚱', '⚠', '⛔', '🚫', '❌', '🆘']

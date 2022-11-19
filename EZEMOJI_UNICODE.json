@@ -1,8 +1,8 @@
 {
-    "generated": "11-12-2022",
+    "generated": "11-19-2022",
     "__version__": "0.1.13+build.87",
-    "unicode_version": "14.0",
-    "emoji_quantity": 1849,
+    "unicode_version": "15.0",
+    "emoji_quantity": 1870,
     "groups": [
         "smileys and emotion",
         "people and body",
@@ -31,6 +31,7 @@
             "face-costume",
             "cat-face",
             "monkey-face",
+            "heart",
             "emotion"
         ],
         "people and body": [
@@ -137,7 +138,7 @@
             "subdivision-flag"
         ]
     },
-    "positives": "'\ud83d\ude00', '\ud83d\ude03', '\ud83d\ude04', '\ud83d\ude01', '\ud83d\ude06', '\ud83d\ude05', '\ud83e\udd23', '\ud83d\ude02', '\ud83d\ude42', '\ud83d\ude0a', '\ud83d\ude07', '\ud83e\udd70', '\ud83d\ude0d', '\ud83e\udd29', '\ud83d\ude18', '\ud83d\ude17', '\u263a', '\ud83d\ude1a', '\ud83d\ude19', '\ud83e\udd72', '\ud83d\ude0b', '\ud83d\ude1b', '\ud83d\ude1c', '\ud83e\udd2a', '\ud83d\ude1d', '\ud83e\udd11', '\ud83e\udd17', '\ud83e\udee1', '\ud83e\udd20', '\ud83e\udd73', '\ud83d\ude0e', '\ud83e\udd13', '\ud83e\uddd0', '\ud83d\ude08', '\ud83e\udd21', '\ud83d\udc7d', '\ud83e\udd16', '\ud83d\ude3a', '\ud83d\ude38', '\ud83d\ude39', '\ud83d\ude3b', '\ud83d\ude3d', '\ud83d\udc8b', '\ud83d\udc8c', '\ud83d\udc96', '\ud83d\udcaf', '\ud83d\udca6', '\ud83d\udca3', '\ud83d\udc4b', '\u270b', '\ud83d\udd96', '\ud83d\udc4c', '\u270c', '\ud83e\udd1e', '\ud83e\udd1f', '\ud83e\udd18', '\ud83e\udd19', '\ud83d\udc4d', '\ud83d\udc4a', '\ud83d\udc4f', '\ud83d\ude4c', '\ud83e\udef6', '\ud83e\udd1d', '\ud83d\udc85', '\ud83d\udcaa', '\ud83e\udde0', '\ud83d\udc41', '\ud83d\udc45', '\ud83d\udc44', '\ud83d\ude46', '\ud83e\udd77', '\ud83e\udec5', '\ud83e\udd35\u200d\u2642', '\ud83d\udc70\u200d\u2640', '\ud83e\udd30', '\ud83c\udf85', '\ud83e\uddb8', '\ud83d\udc8f', '\ud83d\udc15', '\ud83d\udc33', '\ud83d\udc0b', '\ud83d\udc2c', '\ud83c\udf77', '\ud83c\udf78', '\ud83c\udf79', '\ud83c\udf7a', '\ud83c\udf7b', '\ud83e\udd42', '\ud83c\udfe6', '\ud83d\ude80', '\u2b50', '\ud83c\udf1f', '\ud83c\udf20', '\u26a1', '\ud83d\udd25', '\ud83c\udf84', '\ud83c\udf86', '\ud83c\udf87', '\ud83e\udde8', '\u2728', '\ud83c\udf88', '\ud83c\udf89', '\ud83c\udf8a', '\ud83c\udf80', '\ud83c\udf81', '\ud83c\udf96', '\ud83c\udfc6', '\ud83c\udfc5', '\ud83e\udd47', '\ud83e\udd48', '\ud83e\udd49', '\ud83c\udfc8', '\ud83e\ude84', '\ud83d\udd79', '\ud83c\udfb0', '\ud83d\udd76', '\ud83d\udc59', '\ud83d\udc60', '\ud83c\udfa9', '\ud83d\udc84', '\ud83d\udcb0', '\ud83d\udcb5', '\ud83d\udeac', '\ud83c\udfe7'",
+    "positives": "'\ud83d\ude00', '\ud83d\ude03', '\ud83d\ude04', '\ud83d\ude01', '\ud83d\ude06', '\ud83d\ude05', '\ud83e\udd23', '\ud83d\ude02', '\ud83d\ude42', '\ud83d\ude0a', '\ud83d\ude07', '\ud83e\udd70', '\ud83d\ude0d', '\ud83e\udd29', '\ud83d\ude18', '\ud83d\ude17', '\u263a', '\ud83d\ude1a', '\ud83d\ude19', '\ud83e\udd72', '\ud83d\ude0b', '\ud83d\ude1b', '\ud83d\ude1c', '\ud83e\udd2a', '\ud83d\ude1d', '\ud83e\udd11', '\ud83e\udd17', '\ud83e\udee1', '\ud83e\udd20', '\ud83e\udd73', '\ud83d\ude0e', '\ud83e\udd13', '\ud83e\uddd0', '\ud83d\ude08', '\ud83e\udd21', '\ud83d\udc7d', '\ud83e\udd16', '\ud83d\ude3a', '\ud83d\ude38', '\ud83d\ude39', '\ud83d\ude3b', '\ud83d\ude3d', '\ud83d\udc8c', '\ud83d\udc96', '\ud83d\udc8b', '\ud83d\udcaf', '\ud83d\udca6', '\ud83d\udc4b', '\u270b', '\ud83d\udd96', '\ud83d\udc4c', '\u270c', '\ud83e\udd1e', '\ud83e\udd1f', '\ud83e\udd18', '\ud83e\udd19', '\ud83d\udc4d', '\ud83d\udc4a', '\ud83d\udc4f', '\ud83d\ude4c', '\ud83e\udef6', '\ud83e\udd1d', '\ud83d\udc85', '\ud83d\udcaa', '\ud83e\udde0', '\ud83d\udc41', '\ud83d\udc45', '\ud83d\udc44', '\ud83d\ude46', '\ud83e\udd77', '\ud83e\udec5', '\ud83e\udd35\u200d\u2642', '\ud83d\udc70\u200d\u2640', '\ud83e\udd30', '\ud83c\udf85', '\ud83e\uddb8', '\ud83d\udc8f', '\ud83d\udc15', '\ud83d\udc33', '\ud83d\udc0b', '\ud83d\udc2c', '\ud83c\udf77', '\ud83c\udf78', '\ud83c\udf79', '\ud83c\udf7a', '\ud83c\udf7b', '\ud83e\udd42', '\ud83c\udfe6', '\ud83d\ude80', '\u2b50', '\ud83c\udf1f', '\ud83c\udf20', '\u26a1', '\ud83d\udd25', '\ud83c\udf84', '\ud83c\udf86', '\ud83c\udf87', '\ud83e\udde8', '\u2728', '\ud83c\udf88', '\ud83c\udf89', '\ud83c\udf8a', '\ud83c\udf80', '\ud83c\udf81', '\ud83c\udf96', '\ud83c\udfc6', '\ud83c\udfc5', '\ud83e\udd47', '\ud83e\udd48', '\ud83e\udd49', '\ud83c\udfc8', '\ud83e\ude84', '\ud83d\udd79', '\ud83c\udfb0', '\ud83d\udd76', '\ud83d\udc59', '\ud83d\udc60', '\ud83c\udfa9', '\ud83d\udc84', '\ud83d\udcb0', '\ud83d\udcb5', '\ud83d\udca3', '\ud83d\udeac', '\ud83c\udfe7'",
     "negatives": "'\ud83d\ude43', '\ud83e\udd2b', '\ud83e\udd10', '\ud83e\udd28', '\ud83d\ude11', '\ud83d\ude36', '\ud83e\udee5', '\ud83d\ude36\u200d\ud83c\udf2b', '\ud83d\ude0f', '\ud83d\ude12', '\ud83d\ude44', '\ud83d\ude2c', '\ud83d\ude2e\u200d\ud83d\udca8', '\ud83e\udd25', '\ud83d\ude0c', '\ud83d\ude14', '\ud83d\ude2a', '\ud83e\udd24', '\ud83d\ude34', '\ud83d\ude37', '\ud83e\udd12', '\ud83e\udd15', '\ud83e\udd22', '\ud83e\udd2e', '\ud83e\udd75', '\ud83e\udd76', '\ud83e\udd74', '\ud83d\ude35', '\ud83d\ude35\u200d\ud83d\udcab', '\ud83e\udd2f', '\ud83e\udd78', '\ud83d\ude15', '\ud83e\udee4', '\ud83d\ude1f', '\ud83d\ude41', '\u2639', '\ud83d\ude2f', '\ud83d\ude32', '\ud83d\ude33', '\ud83e\udd7a', '\ud83e\udd79', '\ud83d\ude26', '\ud83d\ude27', '\ud83d\ude28', '\ud83d\ude30', '\ud83d\ude25', '\ud83d\ude22', '\ud83d\ude2d', '\ud83d\ude31', '\ud83d\ude1e', '\ud83d\ude13', '\ud83d\ude29', '\ud83d\ude2b', '\ud83d\ude24', '\ud83d\ude21', '\ud83d\ude20', '\ud83e\udd2c', '\ud83d\udc7f', '\ud83d\udc80', '\u2620', '\ud83d\udca9', '\ud83d\udc94', '\ud83d\udca2', '\ud83d\udca5', '\ud83d\udd95', '\ud83d\udc4e', '\ud83d\ude4e', '\ud83e\udd26', '\ud83e\udd37', '\ud83e\uddb9', '\ud83e\udddb', '\ud83e\udddf', '\ud83d\udc0a', '\ud83e\udd8e', '\ud83d\udc0d', '\ud83d\udc32', '\ud83d\udd77', '\ud83c\udf15', '\u26c8', '\ud83c\udf2a', '\ud83e\uddef', '\u26b0', '\ud83e\udea6', '\u26b1', '\u26a0', '\u26d4', '\ud83d\udeab', '\u274c', '\ud83c\udd98'",
     "emojis": {
         "grinning face": {
@@ -1052,6 +1053,25 @@
             "github": "lying_face",
             "sentiment": "-"
         },
+        "shaking face": {
+            "short_name": "shaking face",
+            "name": "shaking face",
+            "emoji": "\ud83e\udee8",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FAE8",
+            "annotations": [
+                "earthquake",
+                "face",
+                "shaking",
+                "shock",
+                "vibrate"
+            ],
+            "group": "smileys and emotion",
+            "subgroup": "face-neutral-skeptical",
+            "github": null,
+            "sentiment": null
+        },
         "relieved face": {
             "short_name": "relieved face",
             "name": "relieved face",
@@ -1962,7 +1982,7 @@
         },
         "enraged face": {
             "short_name": "enraged face",
-            "name": "pouting face",
+            "name": "enraged face",
             "emoji": "\ud83d\ude21",
             "status": "fully-qualified",
             "emoji_version": "E0.6",
@@ -1979,10 +1999,7 @@
             "group": "smileys and emotion",
             "subgroup": "face-negative",
             "github": "rage",
-            "sentiment": "-",
-            "errors": [
-                "NAME-SHORT_NAME-MISMATCH"
-            ]
+            "sentiment": "-"
         },
         "angry face": {
             "short_name": "angry face",
@@ -2485,23 +2502,6 @@
             "github": "speak_no_evil",
             "sentiment": null
         },
-        "kiss mark": {
-            "short_name": "kiss mark",
-            "name": "kiss mark",
-            "emoji": "\ud83d\udc8b",
-            "status": "fully-qualified",
-            "emoji_version": "E0.6",
-            "code_point_str": "1F48B",
-            "annotations": [
-                "kiss",
-                "kiss mark",
-                "lips"
-            ],
-            "group": "smileys and emotion",
-            "subgroup": "emotion",
-            "github": "kiss",
-            "sentiment": "+"
-        },
         "love letter": {
             "short_name": "love letter",
             "name": "love letter",
@@ -2516,7 +2516,7 @@
                 "mail"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "love_letter",
             "sentiment": "+"
         },
@@ -2533,7 +2533,7 @@
                 "heart with arrow"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "cupid",
             "sentiment": null
         },
@@ -2550,7 +2550,7 @@
                 "valentine"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "gift_heart",
             "sentiment": null
         },
@@ -2567,7 +2567,7 @@
                 "sparkling heart"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "sparkling_heart",
             "sentiment": "+"
         },
@@ -2586,7 +2586,7 @@
                 "pulse"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "heartpulse",
             "sentiment": null
         },
@@ -2604,7 +2604,7 @@
                 "pulsating"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "heartbeat",
             "sentiment": null
         },
@@ -2620,7 +2620,7 @@
                 "revolving hearts"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "revolving_hearts",
             "sentiment": null
         },
@@ -2636,7 +2636,7 @@
                 "two hearts"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "two_hearts",
             "sentiment": null
         },
@@ -2652,7 +2652,7 @@
                 "heart decoration"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "heart_decoration",
             "sentiment": null
         },
@@ -2670,7 +2670,7 @@
                 "punctuation"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "heavy_heart_exclamation",
             "sentiment": null
         },
@@ -2687,7 +2687,7 @@
                 "broken heart"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "broken_heart",
             "sentiment": "-"
         },
@@ -2707,7 +2707,7 @@
                 "sacred heart"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": null,
             "sentiment": null
         },
@@ -2728,7 +2728,7 @@
                 "well"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": null,
             "sentiment": null
         },
@@ -2744,8 +2744,27 @@
                 "red heart"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "heart",
+            "sentiment": null
+        },
+        "pink heart": {
+            "short_name": "pink heart",
+            "name": "pink heart",
+            "emoji": "\ud83e\ude77",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FA77",
+            "annotations": [
+                "cute",
+                "heart",
+                "like",
+                "love",
+                "pink"
+            ],
+            "group": "smileys and emotion",
+            "subgroup": "heart",
+            "github": null,
             "sentiment": null
         },
         "orange heart": {
@@ -2760,7 +2779,7 @@
                 "orange heart"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "orange_heart",
             "sentiment": null
         },
@@ -2776,7 +2795,7 @@
                 "yellow heart"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "yellow_heart",
             "sentiment": null
         },
@@ -2792,7 +2811,7 @@
                 "green heart"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "green_heart",
             "sentiment": null
         },
@@ -2808,8 +2827,27 @@
                 "blue heart"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "blue_heart",
+            "sentiment": null
+        },
+        "light blue heart": {
+            "short_name": "light blue heart",
+            "name": "light blue heart",
+            "emoji": "\ud83e\ude75",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FA75",
+            "annotations": [
+                "cyan",
+                "heart",
+                "light blue",
+                "light blue heart",
+                "teal"
+            ],
+            "group": "smileys and emotion",
+            "subgroup": "heart",
+            "github": null,
             "sentiment": null
         },
         "purple heart": {
@@ -2824,7 +2862,7 @@
                 "purple heart"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "purple_heart",
             "sentiment": null
         },
@@ -2840,7 +2878,7 @@
                 "heart"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "brown_heart",
             "sentiment": null
         },
@@ -2858,8 +2896,27 @@
                 "wicked"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "black_heart",
+            "sentiment": null
+        },
+        "grey heart": {
+            "short_name": "grey heart",
+            "name": "grey heart",
+            "emoji": "\ud83e\ude76",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FA76",
+            "annotations": [
+                "gray",
+                "grey heart",
+                "heart",
+                "silver",
+                "slate"
+            ],
+            "group": "smileys and emotion",
+            "subgroup": "heart",
+            "github": null,
             "sentiment": null
         },
         "white heart": {
@@ -2874,9 +2931,26 @@
                 "white"
             ],
             "group": "smileys and emotion",
-            "subgroup": "emotion",
+            "subgroup": "heart",
             "github": "white_heart",
             "sentiment": null
+        },
+        "kiss mark": {
+            "short_name": "kiss mark",
+            "name": "kiss mark",
+            "emoji": "\ud83d\udc8b",
+            "status": "fully-qualified",
+            "emoji_version": "E0.6",
+            "code_point_str": "1F48B",
+            "annotations": [
+                "kiss",
+                "kiss mark",
+                "lips"
+            ],
+            "group": "smileys and emotion",
+            "subgroup": "emotion",
+            "github": "kiss",
+            "sentiment": "+"
         },
         "hundred points": {
             "short_name": "hundred points",
@@ -3000,22 +3074,6 @@
             "github": "hole",
             "sentiment": null
         },
-        "bomb": {
-            "short_name": "bomb",
-            "name": "bomb",
-            "emoji": "\ud83d\udca3",
-            "status": "fully-qualified",
-            "emoji_version": "E0.6",
-            "code_point_str": "1F4A3",
-            "annotations": [
-                "bomb",
-                "comic"
-            ],
-            "group": "smileys and emotion",
-            "subgroup": "emotion",
-            "github": "bomb",
-            "sentiment": "+"
-        },
         "speech balloon": {
             "short_name": "speech balloon",
             "name": "speech balloon",
@@ -3113,7 +3171,7 @@
         },
         "ZZZ": {
             "short_name": "ZZZ",
-            "name": "zzz",
+            "name": "ZZZ",
             "emoji": "\ud83d\udca4",
             "status": "fully-qualified",
             "emoji_version": "E0.6",
@@ -3127,10 +3185,7 @@
             "group": "smileys and emotion",
             "subgroup": "emotion",
             "github": "zzz",
-            "sentiment": null,
-            "errors": [
-                "NAME-SHORT_NAME-MISMATCH"
-            ]
+            "sentiment": null
         },
         "waving hand": {
             "short_name": "waving hand",
@@ -3288,6 +3343,48 @@
                 "come",
                 "offer",
                 "palm up hand"
+            ],
+            "group": "people and body",
+            "subgroup": "hand-fingers-open",
+            "github": null,
+            "sentiment": null
+        },
+        "leftwards pushing hand": {
+            "short_name": "leftwards pushing hand",
+            "name": "leftwards pushing hand",
+            "emoji": "\ud83e\udef7",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FAF7",
+            "annotations": [
+                "high five",
+                "leftward",
+                "leftwards pushing hand",
+                "push",
+                "refuse",
+                "stop",
+                "wait"
+            ],
+            "group": "people and body",
+            "subgroup": "hand-fingers-open",
+            "github": null,
+            "sentiment": null
+        },
+        "rightwards pushing hand": {
+            "short_name": "rightwards pushing hand",
+            "name": "rightwards pushing hand",
+            "emoji": "\ud83e\udef8",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FAF8",
+            "annotations": [
+                "high five",
+                "push",
+                "refuse",
+                "rightward",
+                "rightwards pushing hand",
+                "stop",
+                "wait"
             ],
             "group": "people and body",
             "subgroup": "hand-fingers-open",
@@ -9786,6 +9883,46 @@
             "github": "horse",
             "sentiment": null
         },
+        "moose": {
+            "short_name": "moose",
+            "name": "moose",
+            "emoji": "\ud83e\udece",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FACE",
+            "annotations": [
+                "animal",
+                "antlers",
+                "elk",
+                "mammal",
+                "moose"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-mammal",
+            "github": null,
+            "sentiment": null
+        },
+        "donkey": {
+            "short_name": "donkey",
+            "name": "donkey",
+            "emoji": "\ud83e\udecf",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FACF",
+            "annotations": [
+                "animal",
+                "ass",
+                "burro",
+                "donkey",
+                "mammal",
+                "mule",
+                "stubborn"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-mammal",
+            "github": null,
+            "sentiment": null
+        },
         "horse": {
             "short_name": "horse",
             "name": "horse",
@@ -10827,6 +10964,64 @@
             "github": "parrot",
             "sentiment": null
         },
+        "wing": {
+            "short_name": "wing",
+            "name": "wing",
+            "emoji": "\ud83e\udebd",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FABD",
+            "annotations": [
+                "angelic",
+                "aviation",
+                "bird",
+                "flying",
+                "mythology",
+                "wing"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-bird",
+            "github": null,
+            "sentiment": null
+        },
+        "black bird": {
+            "short_name": "black bird",
+            "name": "black bird",
+            "emoji": "\ud83d\udc26\u200d\u2b1b",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1F426 200D 2B1B",
+            "annotations": [
+                "bird",
+                "black",
+                "crow",
+                "raven",
+                "rook"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-bird",
+            "github": null,
+            "sentiment": null
+        },
+        "goose": {
+            "short_name": "goose",
+            "name": "goose",
+            "emoji": "\ud83e\udebf",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FABF",
+            "annotations": [
+                "bird",
+                "fowl",
+                "goose",
+                "honk",
+                "silly"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-bird",
+            "github": null,
+            "sentiment": null
+        },
         "frog": {
             "short_name": "frog",
             "name": "frog",
@@ -11148,6 +11343,27 @@
                 "coral",
                 "ocean",
                 "reef"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-marine",
+            "github": null,
+            "sentiment": null
+        },
+        "jellyfish": {
+            "short_name": "jellyfish",
+            "name": "jellyfish",
+            "emoji": "\ud83e\udebc",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FABC",
+            "annotations": [
+                "burn",
+                "invertebrate",
+                "jelly",
+                "jellyfish",
+                "marine",
+                "ouch",
+                "stinger"
             ],
             "group": "animals and nature",
             "subgroup": "animal-marine",
@@ -11611,6 +11827,26 @@
             "github": "tulip",
             "sentiment": null
         },
+        "hyacinth": {
+            "short_name": "hyacinth",
+            "name": "hyacinth",
+            "emoji": "\ud83e\udebb",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FABB",
+            "annotations": [
+                "bluebonnet",
+                "flower",
+                "hyacinth",
+                "lavender",
+                "lupine",
+                "snapdragon"
+            ],
+            "group": "animals and nature",
+            "subgroup": "plant-flower",
+            "github": null,
+            "sentiment": null
+        },
         "seedling": {
             "short_name": "seedling",
             "name": "seedling",
@@ -11865,6 +12101,22 @@
             "group": "animals and nature",
             "subgroup": "plant-other",
             "github": null,
+            "sentiment": null
+        },
+        "mushroom": {
+            "short_name": "mushroom",
+            "name": "mushroom",
+            "emoji": "\ud83c\udf44",
+            "status": "fully-qualified",
+            "emoji_version": "E0.6",
+            "code_point_str": "1F344",
+            "annotations": [
+                "mushroom",
+                "toadstool"
+            ],
+            "group": "animals and nature",
+            "subgroup": "plant-other",
+            "github": "mushroom",
             "sentiment": null
         },
         "grapes": {
@@ -12393,22 +12645,6 @@
             "github": "onion",
             "sentiment": null
         },
-        "mushroom": {
-            "short_name": "mushroom",
-            "name": "mushroom",
-            "emoji": "\ud83c\udf44",
-            "status": "fully-qualified",
-            "emoji_version": "E0.6",
-            "code_point_str": "1F344",
-            "annotations": [
-                "mushroom",
-                "toadstool"
-            ],
-            "group": "food and drink",
-            "subgroup": "food-vegetable",
-            "github": "mushroom",
-            "sentiment": null
-        },
         "peanuts": {
             "short_name": "peanuts",
             "name": "peanuts",
@@ -12460,6 +12696,44 @@
             "group": "food and drink",
             "subgroup": "food-vegetable",
             "github": "chestnut",
+            "sentiment": null
+        },
+        "ginger root": {
+            "short_name": "ginger root",
+            "name": "ginger root",
+            "emoji": "\ud83e\udeda",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FADA",
+            "annotations": [
+                "beer",
+                "ginger root",
+                "root",
+                "spice"
+            ],
+            "group": "food and drink",
+            "subgroup": "food-vegetable",
+            "github": null,
+            "sentiment": null
+        },
+        "pea pod": {
+            "short_name": "pea pod",
+            "name": "pea pod",
+            "emoji": "\ud83e\udedb",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FADB",
+            "annotations": [
+                "beans",
+                "edamame",
+                "legume",
+                "pea",
+                "pod",
+                "vegetable"
+            ],
+            "group": "food and drink",
+            "subgroup": "food-vegetable",
+            "github": null,
             "sentiment": null
         },
         "bread": {
@@ -18972,6 +19246,27 @@
             "github": "kite",
             "sentiment": null
         },
+        "water pistol": {
+            "short_name": "water pistol",
+            "name": "water pistol",
+            "emoji": "\ud83d\udd2b",
+            "status": "fully-qualified",
+            "emoji_version": "E0.6",
+            "code_point_str": "1F52B",
+            "annotations": [
+                "gun",
+                "handgun",
+                "pistol",
+                "revolver",
+                "tool",
+                "water",
+                "weapon"
+            ],
+            "group": "activities",
+            "subgroup": "game",
+            "github": "gun",
+            "sentiment": null
+        },
         "pool 8 ball": {
             "short_name": "pool 8 ball",
             "name": "pool 8 ball",
@@ -19029,47 +19324,6 @@
             "subgroup": "game",
             "github": "magic_wand",
             "sentiment": "+"
-        },
-        "nazar amulet": {
-            "short_name": "nazar amulet",
-            "name": "nazar amulet",
-            "emoji": "\ud83e\uddff",
-            "status": "fully-qualified",
-            "emoji_version": "E11.0",
-            "code_point_str": "1F9FF",
-            "annotations": [
-                "bead",
-                "charm",
-                "evil-eye",
-                "nazar",
-                "nazar amulet",
-                "talisman"
-            ],
-            "group": "activities",
-            "subgroup": "game",
-            "github": "nazar_amulet",
-            "sentiment": null
-        },
-        "hamsa": {
-            "short_name": "hamsa",
-            "name": "hamsa",
-            "emoji": "\ud83e\udeac",
-            "status": "fully-qualified",
-            "emoji_version": "E14.0",
-            "code_point_str": "1FAAC",
-            "annotations": [
-                "amulet",
-                "Fatima",
-                "hamsa",
-                "hand",
-                "Mary",
-                "Miriam",
-                "protection"
-            ],
-            "group": "activities",
-            "subgroup": "game",
-            "github": null,
-            "sentiment": null
         },
         "video game": {
             "short_name": "video game",
@@ -19853,6 +20107,27 @@
             "github": "womans_clothes",
             "sentiment": null
         },
+        "folding hand fan": {
+            "short_name": "folding hand fan",
+            "name": "folding hand fan",
+            "emoji": "\ud83e\udead",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FAAD",
+            "annotations": [
+                "cooling",
+                "dance",
+                "fan",
+                "flutter",
+                "folding hand fan",
+                "hot",
+                "shy"
+            ],
+            "group": "objects",
+            "subgroup": "clothing",
+            "github": null,
+            "sentiment": null
+        },
         "purse": {
             "short_name": "purse",
             "name": "purse",
@@ -20108,6 +20383,24 @@
             "group": "objects",
             "subgroup": "clothing",
             "github": "boot",
+            "sentiment": null
+        },
+        "hair pick": {
+            "short_name": "hair pick",
+            "name": "hair pick",
+            "emoji": "\ud83e\udeae",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FAAE",
+            "annotations": [
+                "Afro",
+                "comb",
+                "hair",
+                "pick"
+            ],
+            "group": "objects",
+            "subgroup": "clothing",
+            "github": null,
             "sentiment": null
         },
         "crown": {
@@ -20769,6 +21062,46 @@
             "group": "objects",
             "subgroup": "musical-instrument",
             "github": "long_drum",
+            "sentiment": null
+        },
+        "maracas": {
+            "short_name": "maracas",
+            "name": "maracas",
+            "emoji": "\ud83e\ude87",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FA87",
+            "annotations": [
+                "instrument",
+                "maracas",
+                "music",
+                "percussion",
+                "rattle",
+                "shake"
+            ],
+            "group": "objects",
+            "subgroup": "musical-instrument",
+            "github": null,
+            "sentiment": null
+        },
+        "flute": {
+            "short_name": "flute",
+            "name": "flute",
+            "emoji": "\ud83e\ude88",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FA88",
+            "annotations": [
+                "fife",
+                "flute",
+                "music",
+                "pipe",
+                "recorder",
+                "woodwind"
+            ],
+            "group": "objects",
+            "subgroup": "musical-instrument",
+            "github": null,
             "sentiment": null
         },
         "mobile phone": {
@@ -22841,26 +23174,21 @@
             "github": "crossed_swords",
             "sentiment": null
         },
-        "water pistol": {
-            "short_name": "water pistol",
-            "name": "water pistol",
-            "emoji": "\ud83d\udd2b",
+        "bomb": {
+            "short_name": "bomb",
+            "name": "bomb",
+            "emoji": "\ud83d\udca3",
             "status": "fully-qualified",
             "emoji_version": "E0.6",
-            "code_point_str": "1F52B",
+            "code_point_str": "1F4A3",
             "annotations": [
-                "gun",
-                "handgun",
-                "pistol",
-                "revolver",
-                "tool",
-                "water",
-                "weapon"
+                "bomb",
+                "comic"
             ],
             "group": "objects",
             "subgroup": "tool",
-            "github": "gun",
-            "sentiment": null
+            "github": "bomb",
+            "sentiment": "+"
         },
         "boomerang": {
             "short_name": "boomerang",
@@ -23934,6 +24262,47 @@
             "subgroup": "other-object",
             "github": "funeral_urn",
             "sentiment": "-"
+        },
+        "nazar amulet": {
+            "short_name": "nazar amulet",
+            "name": "nazar amulet",
+            "emoji": "\ud83e\uddff",
+            "status": "fully-qualified",
+            "emoji_version": "E11.0",
+            "code_point_str": "1F9FF",
+            "annotations": [
+                "bead",
+                "charm",
+                "evil-eye",
+                "nazar",
+                "nazar amulet",
+                "talisman"
+            ],
+            "group": "objects",
+            "subgroup": "other-object",
+            "github": "nazar_amulet",
+            "sentiment": null
+        },
+        "hamsa": {
+            "short_name": "hamsa",
+            "name": "hamsa",
+            "emoji": "\ud83e\udeac",
+            "status": "fully-qualified",
+            "emoji_version": "E14.0",
+            "code_point_str": "1FAAC",
+            "annotations": [
+                "amulet",
+                "Fatima",
+                "hamsa",
+                "hand",
+                "Mary",
+                "Miriam",
+                "protection"
+            ],
+            "group": "objects",
+            "subgroup": "other-object",
+            "github": null,
+            "sentiment": null
         },
         "moai": {
             "short_name": "moai",
@@ -25048,6 +25417,23 @@
             "github": "six_pointed_star",
             "sentiment": null
         },
+        "khanda": {
+            "short_name": "khanda",
+            "name": "khanda",
+            "emoji": "\ud83e\udeaf",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1FAAF",
+            "annotations": [
+                "khanda",
+                "religion",
+                "Sikh"
+            ],
+            "group": "symbols",
+            "subgroup": "religion",
+            "github": null,
+            "sentiment": null
+        },
         "Aries": {
             "short_name": "Aries",
             "name": "Aries",
@@ -25671,6 +26057,24 @@
             "group": "symbols",
             "subgroup": "av-symbol",
             "github": "signal_strength",
+            "sentiment": null
+        },
+        "wireless": {
+            "short_name": "wireless",
+            "name": "wireless",
+            "emoji": "\ud83d\udedc",
+            "status": "fully-qualified",
+            "emoji_version": "E15.0",
+            "code_point_str": "1F6DC",
+            "annotations": [
+                "computer",
+                "internet",
+                "network",
+                "wireless"
+            ],
+            "group": "symbols",
+            "subgroup": "av-symbol",
+            "github": null,
             "sentiment": null
         },
         "vibration mode": {
