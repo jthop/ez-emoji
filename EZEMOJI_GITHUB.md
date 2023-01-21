@@ -463,6 +463,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:deer:` | :deer: | 1F98C | 
 | `:denmark:` | :denmark: | 1F1E9 1F1F0 | 
 | `:department_store:` | :department_store: | 1F3EC | 
+| `:dependabot:` | :dependabot: | MISSING | 
 | `:derelict_house:` | :derelict_house: | 1F3DA | 
 | `:desert:` | :desert: | 1F3DC | 
 | `:desert_island:` | :desert_island: | 1F3DD | 
@@ -622,6 +623,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:fish:` | :fish: | 1F41F | 
 | `:fish_cake:` | :fish_cake: | 1F365 | 
 | `:fishing_pole_and_fish:` | :fishing_pole_and_fish: | 1F3A3 | 
+| `:fishsticks:` | :fishsticks: | MISSING | 
 | `:fist:` | :fist: | 270A | 
 | `:fist_left:` | :fist_left: | 1F91B | 
 | `:fist_oncoming:` | :fist_oncoming: | 1F44A | 
