@@ -20,6 +20,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:abc:` | :abc: | 1F524 | 
 | `:abcd:` | :abcd: | 1F521 | 
 | `:accept:` | :accept: | 1F251 | 
+| `:accessibility:` | :accessibility: | MISSING | 
 | `:accordion:` | :accordion: | 1FA97 | 
 | `:adhesive_bandage:` | :adhesive_bandage: | 1FA79 | 
 | `:adult:` | :adult: | 1F9D1 | 
