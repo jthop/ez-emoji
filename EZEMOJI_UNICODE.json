@@ -1,8 +1,8 @@
 {
-    "generated": "09-09-2023",
+    "generated": "09-16-2023",
     "__version__": "0.1.13+build.87",
-    "unicode_version": "15.0",
-    "emoji_quantity": 1870,
+    "unicode_version": "15.1",
+    "emoji_quantity": 1898,
     "groups": [
         "smileys and emotion",
         "people and body",
@@ -825,6 +825,7 @@
             "annotations": [
                 "face",
                 "mouth",
+                "zip",
                 "zipper",
                 "zipper-mouth face"
             ],
@@ -1066,6 +1067,40 @@
                 "shaking",
                 "shock",
                 "vibrate"
+            ],
+            "group": "smileys and emotion",
+            "subgroup": "face-neutral-skeptical",
+            "github": null,
+            "sentiment": null
+        },
+        "head shaking horizontally": {
+            "short_name": "head shaking horizontally",
+            "name": "head shaking horizontally",
+            "emoji": "\ud83d\ude42\u200d\u2194",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F642 200D 2194",
+            "annotations": [
+                "head shaking horizontally",
+                "no",
+                "shake"
+            ],
+            "group": "smileys and emotion",
+            "subgroup": "face-neutral-skeptical",
+            "github": null,
+            "sentiment": null
+        },
+        "head shaking vertically": {
+            "short_name": "head shaking vertically",
+            "name": "head shaking vertically",
+            "emoji": "\ud83d\ude42\u200d\u2195",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F642 200D 2195",
+            "annotations": [
+                "head shaking vertically",
+                "nod",
+                "yes"
             ],
             "group": "smileys and emotion",
             "subgroup": "face-neutral-skeptical",
@@ -5428,6 +5463,7 @@
             "code_point_str": "1F9D1 200D 1F3EB",
             "annotations": [
                 "instructor",
+                "lecturer",
                 "professor",
                 "teacher"
             ],
@@ -5445,6 +5481,7 @@
             "code_point_str": "1F468 200D 1F3EB",
             "annotations": [
                 "instructor",
+                "lecturer",
                 "man",
                 "professor",
                 "teacher"
@@ -5463,6 +5500,7 @@
             "code_point_str": "1F469 200D 1F3EB",
             "annotations": [
                 "instructor",
+                "lecturer",
                 "professor",
                 "teacher",
                 "woman"
@@ -5482,6 +5520,7 @@
             "annotations": [
                 "judge",
                 "justice",
+                "law",
                 "scales"
             ],
             "group": "people and body",
@@ -5499,6 +5538,7 @@
             "annotations": [
                 "judge",
                 "justice",
+                "law",
                 "man",
                 "scales"
             ],
@@ -5517,6 +5557,7 @@
             "annotations": [
                 "judge",
                 "justice",
+                "law",
                 "scales",
                 "woman"
             ],
@@ -6134,6 +6175,7 @@
             "emoji_version": "E12.1",
             "code_point_str": "1F9D1 200D 1F692",
             "annotations": [
+                "fire",
                 "firefighter",
                 "firetruck"
             ],
@@ -6800,8 +6842,7 @@
                 "Christmas",
                 "claus",
                 "father",
-                "santa",
-                "Santa Claus"
+                "santa"
             ],
             "group": "people and body",
             "subgroup": "person-fantasy",
@@ -6820,8 +6861,7 @@
                 "Christmas",
                 "claus",
                 "mother",
-                "Mrs.",
-                "Mrs. Claus"
+                "Mrs."
             ],
             "group": "people and body",
             "subgroup": "person-fantasy",
@@ -6836,7 +6876,8 @@
             "emoji_version": "E13.0",
             "code_point_str": "1F9D1 200D 1F384",
             "annotations": [
-                "Claus, christmas",
+                "christmas",
+                "claus",
                 "mx claus"
             ],
             "group": "people and body",
@@ -7491,6 +7532,54 @@
             "github": null,
             "sentiment": null
         },
+        "person walking facing right": {
+            "short_name": "person walking facing right",
+            "name": "person walking facing right",
+            "emoji": "\ud83d\udeb6\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F6B6 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
+        "woman walking facing right": {
+            "short_name": "woman walking facing right",
+            "name": "woman walking facing right",
+            "emoji": "\ud83d\udeb6\u200d\u2640\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F6B6 200D 2640 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
+        "man walking facing right": {
+            "short_name": "man walking facing right",
+            "name": "man walking facing right",
+            "emoji": "\ud83d\udeb6\u200d\u2642\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F6B6 200D 2642 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "person standing": {
             "short_name": "person standing",
             "name": "person standing",
@@ -7589,6 +7678,54 @@
             "github": null,
             "sentiment": null
         },
+        "person kneeling facing right": {
+            "short_name": "person kneeling facing right",
+            "name": "person kneeling facing right",
+            "emoji": "\ud83e\uddce\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F9CE 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
+        "woman kneeling facing right": {
+            "short_name": "woman kneeling facing right",
+            "name": "woman kneeling facing right",
+            "emoji": "\ud83e\uddce\u200d\u2640\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F9CE 200D 2640 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
+        "man kneeling facing right": {
+            "short_name": "man kneeling facing right",
+            "name": "man kneeling facing right",
+            "emoji": "\ud83e\uddce\u200d\u2642\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F9CE 200D 2642 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "person with white cane": {
             "short_name": "person with white cane",
             "name": "person with white cane",
@@ -7605,6 +7742,22 @@
             "subgroup": "person-activity",
             "github": null,
             "sentiment": null
+        },
+        "person with white cane facing right": {
+            "short_name": "person with white cane facing right",
+            "name": "person with white cane facing right",
+            "emoji": "\ud83e\uddd1\u200d\ud83e\uddaf\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F9D1 200D 1F9AF 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "man with white cane": {
             "short_name": "man with white cane",
@@ -7624,6 +7777,22 @@
             "github": null,
             "sentiment": null
         },
+        "man with white cane facing right": {
+            "short_name": "man with white cane facing right",
+            "name": "man with white cane facing right",
+            "emoji": "\ud83d\udc68\u200d\ud83e\uddaf\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F468 200D 1F9AF 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "woman with white cane": {
             "short_name": "woman with white cane",
             "name": "woman with white cane",
@@ -7642,6 +7811,22 @@
             "github": null,
             "sentiment": null
         },
+        "woman with white cane facing right": {
+            "short_name": "woman with white cane facing right",
+            "name": "woman with white cane facing right",
+            "emoji": "\ud83d\udc69\u200d\ud83e\uddaf\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F469 200D 1F9AF 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "person in motorized wheelchair": {
             "short_name": "person in motorized wheelchair",
             "name": "person in motorized wheelchair",
@@ -7658,6 +7843,22 @@
             "subgroup": "person-activity",
             "github": null,
             "sentiment": null
+        },
+        "person in motorized wheelchair facing right": {
+            "short_name": "person in motorized wheelchair facing right",
+            "name": "person in motorized wheelchair facing right",
+            "emoji": "\ud83e\uddd1\u200d\ud83e\uddbc\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F9D1 200D 1F9BC 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "man in motorized wheelchair": {
             "short_name": "man in motorized wheelchair",
@@ -7677,6 +7878,22 @@
             "github": null,
             "sentiment": null
         },
+        "man in motorized wheelchair facing right": {
+            "short_name": "man in motorized wheelchair facing right",
+            "name": "man in motorized wheelchair facing right",
+            "emoji": "\ud83d\udc68\u200d\ud83e\uddbc\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F468 200D 1F9BC 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "woman in motorized wheelchair": {
             "short_name": "woman in motorized wheelchair",
             "name": "woman in motorized wheelchair",
@@ -7695,6 +7912,22 @@
             "github": null,
             "sentiment": null
         },
+        "woman in motorized wheelchair facing right": {
+            "short_name": "woman in motorized wheelchair facing right",
+            "name": "woman in motorized wheelchair facing right",
+            "emoji": "\ud83d\udc69\u200d\ud83e\uddbc\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F469 200D 1F9BC 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "person in manual wheelchair": {
             "short_name": "person in manual wheelchair",
             "name": "person in manual wheelchair",
@@ -7711,6 +7944,22 @@
             "subgroup": "person-activity",
             "github": null,
             "sentiment": null
+        },
+        "person in manual wheelchair facing right": {
+            "short_name": "person in manual wheelchair facing right",
+            "name": "person in manual wheelchair facing right",
+            "emoji": "\ud83e\uddd1\u200d\ud83e\uddbd\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F9D1 200D 1F9BD 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "man in manual wheelchair": {
             "short_name": "man in manual wheelchair",
@@ -7730,6 +7979,22 @@
             "github": null,
             "sentiment": null
         },
+        "man in manual wheelchair facing right": {
+            "short_name": "man in manual wheelchair facing right",
+            "name": "man in manual wheelchair facing right",
+            "emoji": "\ud83d\udc68\u200d\ud83e\uddbd\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F468 200D 1F9BD 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "woman in manual wheelchair": {
             "short_name": "woman in manual wheelchair",
             "name": "woman in manual wheelchair",
@@ -7747,6 +8012,22 @@
             "subgroup": "person-activity",
             "github": null,
             "sentiment": null
+        },
+        "woman in manual wheelchair facing right": {
+            "short_name": "woman in manual wheelchair facing right",
+            "name": "woman in manual wheelchair facing right",
+            "emoji": "\ud83d\udc69\u200d\ud83e\uddbd\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F469 200D 1F9BD 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "person running": {
             "short_name": "person running",
@@ -7800,6 +8081,54 @@
             "subgroup": "person-activity",
             "github": null,
             "sentiment": null
+        },
+        "person running facing right": {
+            "short_name": "person running facing right",
+            "name": "person running facing right",
+            "emoji": "\ud83c\udfc3\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F3C3 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
+        "woman running facing right": {
+            "short_name": "woman running facing right",
+            "name": "woman running facing right",
+            "emoji": "\ud83c\udfc3\u200d\u2640\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F3C3 200D 2640 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
+        "man running facing right": {
+            "short_name": "man running facing right",
+            "name": "man running facing right",
+            "emoji": "\ud83c\udfc3\u200d\u2642\u200d\u27a1",
+            "status": "minimally-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F3C3 200D 2642 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "woman dancing": {
             "short_name": "woman dancing",
@@ -9052,21 +9381,6 @@
                 "NO-CLDR"
             ]
         },
-        "family": {
-            "short_name": "family",
-            "name": "family",
-            "emoji": "\ud83d\udc6a",
-            "status": "fully-qualified",
-            "emoji_version": "E0.6",
-            "code_point_str": "1F46A",
-            "annotations": [
-                "family"
-            ],
-            "group": "people and body",
-            "subgroup": "family",
-            "github": "family",
-            "sentiment": null
-        },
         "family: man woman boy": {
             "short_name": "family: man woman boy",
             "name": "family: man woman boy",
@@ -9538,6 +9852,93 @@
             "subgroup": "person-symbol",
             "github": "people_hugging",
             "sentiment": null
+        },
+        "family": {
+            "short_name": "family",
+            "name": "family",
+            "emoji": "\ud83d\udc6a",
+            "status": "fully-qualified",
+            "emoji_version": "E0.6",
+            "code_point_str": "1F46A",
+            "annotations": [
+                "family"
+            ],
+            "group": "people and body",
+            "subgroup": "person-symbol",
+            "github": "family",
+            "sentiment": null
+        },
+        "family: adult, adult, child": {
+            "short_name": "family: adult, adult, child",
+            "name": "family: adult adult child",
+            "emoji": "\ud83e\uddd1\u200d\ud83e\uddd1\u200d\ud83e\uddd2",
+            "status": "fully-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F9D1 200D 1F9D1 200D 1F9D2",
+            "annotations": [
+                "family: adult, adult, child"
+            ],
+            "group": "people and body",
+            "subgroup": "person-symbol",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NAME-SHORT_NAME-MISMATCH"
+            ]
+        },
+        "family: adult, adult, child, child": {
+            "short_name": "family: adult, adult, child, child",
+            "name": "family: adult adult child child",
+            "emoji": "\ud83e\uddd1\u200d\ud83e\uddd1\u200d\ud83e\uddd2\u200d\ud83e\uddd2",
+            "status": "fully-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F9D1 200D 1F9D1 200D 1F9D2 200D 1F9D2",
+            "annotations": [
+                "family: adult, adult, child, child"
+            ],
+            "group": "people and body",
+            "subgroup": "person-symbol",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NAME-SHORT_NAME-MISMATCH"
+            ]
+        },
+        "family: adult, child": {
+            "short_name": "family: adult, child",
+            "name": "family: adult child",
+            "emoji": "\ud83e\uddd1\u200d\ud83e\uddd2",
+            "status": "fully-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F9D1 200D 1F9D2",
+            "annotations": [
+                "family: adult, child"
+            ],
+            "group": "people and body",
+            "subgroup": "person-symbol",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NAME-SHORT_NAME-MISMATCH"
+            ]
+        },
+        "family: adult, child, child": {
+            "short_name": "family: adult, child, child",
+            "name": "family: adult child child",
+            "emoji": "\ud83e\uddd1\u200d\ud83e\uddd2\u200d\ud83e\uddd2",
+            "status": "fully-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F9D1 200D 1F9D2 200D 1F9D2",
+            "annotations": [
+                "family: adult, child, child"
+            ],
+            "group": "people and body",
+            "subgroup": "person-symbol",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NAME-SHORT_NAME-MISMATCH"
+            ]
         },
         "footprints": {
             "short_name": "footprints",
@@ -11022,6 +11423,25 @@
             "github": null,
             "sentiment": null
         },
+        "phoenix": {
+            "short_name": "phoenix",
+            "name": "phoenix",
+            "emoji": "\ud83d\udc26\u200d\ud83d\udd25",
+            "status": "fully-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F426 200D 1F525",
+            "annotations": [
+                "fantasy",
+                "firebird",
+                "phoenix",
+                "rebirth",
+                "reincarnation"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-bird",
+            "github": null,
+            "sentiment": null
+        },
         "frog": {
             "short_name": "frog",
             "name": "frog",
@@ -12202,6 +12622,24 @@
             "github": "lemon",
             "sentiment": null
         },
+        "lime": {
+            "short_name": "lime",
+            "name": "lime",
+            "emoji": "\ud83c\udf4b\u200d\ud83d\udfe9",
+            "status": "fully-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F34B 200D 1F7E9",
+            "annotations": [
+                "citrus",
+                "fruit",
+                "lime",
+                "tropical"
+            ],
+            "group": "food and drink",
+            "subgroup": "food-fruit",
+            "github": null,
+            "sentiment": null
+        },
         "banana": {
             "short_name": "banana",
             "name": "banana",
@@ -12729,6 +13167,25 @@
                 "legume",
                 "pea",
                 "pod",
+                "vegetable"
+            ],
+            "group": "food and drink",
+            "subgroup": "food-vegetable",
+            "github": null,
+            "sentiment": null
+        },
+        "brown mushroom": {
+            "short_name": "brown mushroom",
+            "name": "brown mushroom",
+            "emoji": "\ud83c\udf44\u200d\ud83d\udfeb",
+            "status": "fully-qualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "1F344 200D 1F7EB",
+            "annotations": [
+                "brown mushroom",
+                "food",
+                "fungus",
+                "nature",
                 "vegetable"
             ],
             "group": "food and drink",
@@ -15510,7 +15967,8 @@
             "annotations": [
                 "amusement park",
                 "play",
-                "playground slide"
+                "playground slide",
+                "theme park"
             ],
             "group": "travel and places",
             "subgroup": "place-other",
@@ -15527,6 +15985,7 @@
             "annotations": [
                 "amusement park",
                 "ferris",
+                "theme park",
                 "wheel"
             ],
             "group": "travel and places",
@@ -15544,7 +16003,8 @@
             "annotations": [
                 "amusement park",
                 "coaster",
-                "roller"
+                "roller",
+                "theme park"
             ],
             "group": "travel and places",
             "subgroup": "place-other",
@@ -23401,6 +23861,26 @@
             "github": "link",
             "sentiment": null
         },
+        "broken chain": {
+            "short_name": "broken chain",
+            "name": "broken chain",
+            "emoji": "\u26d3\u200d\ud83d\udca5",
+            "status": "unqualified",
+            "emoji_version": "E15.1",
+            "code_point_str": "26D3 200D 1F4A5",
+            "annotations": [
+                "break",
+                "breaking",
+                "broken chain",
+                "chain",
+                "cuffs",
+                "freedom"
+            ],
+            "group": "objects",
+            "subgroup": "tool",
+            "github": null,
+            "sentiment": null
+        },
         "chains": {
             "short_name": "chains",
             "name": "chains",
@@ -26070,6 +26550,8 @@
                 "computer",
                 "internet",
                 "network",
+                "wi-fi",
+                "wifi",
                 "wireless"
             ],
             "group": "symbols",
@@ -32185,9 +32667,9 @@
                 "NO-CLDR"
             ]
         },
-        "Turkey": {
-            "short_name": "Turkey",
-            "name": "Turkey",
+        "T\u00fcrkiye": {
+            "short_name": "T\u00fcrkiye",
+            "name": "T\u00fcrkiye",
             "emoji": "\ud83c\uddf9\ud83c\uddf7",
             "status": "fully-qualified",
             "emoji_version": "E2.0",
