@@ -1,5 +1,5 @@
 {
-    "generated": "09-30-2023",
+    "generated": "10-07-2023",
     "__version__": "0.1.13+build.87",
     "unicode_version": "15.1",
     "emoji_quantity": 1898,
@@ -11981,7 +11981,6 @@
             "emoji_version": "E1.0",
             "code_point_str": "1F982",
             "annotations": [
-                "scorpio",
                 "Scorpio",
                 "scorpion",
                 "zodiac"
@@ -21877,7 +21876,6 @@
                 "Blu-ray",
                 "computer",
                 "disk",
-                "dvd",
                 "DVD",
                 "optical"
             ],
