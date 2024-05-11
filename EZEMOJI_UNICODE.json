@@ -1,5 +1,5 @@
 {
-    "generated": "05-04-2024",
+    "generated": "05-11-2024",
     "__version__": "0.1.13+build.87",
     "unicode_version": "15.1",
     "emoji_quantity": 1898,
@@ -345,7 +345,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "face-smiling",
-            "github": null,
+            "github": "melting_face",
             "sentiment": null
         },
         "winking face": {
@@ -741,7 +741,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "face-hand",
-            "github": null,
+            "github": "face_with_open_eyes_and_hand_over_mouth",
             "sentiment": null
         },
         "face with peeking eye": {
@@ -759,7 +759,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "face-hand",
-            "github": null,
+            "github": "face_with_peeking_eye",
             "sentiment": null
         },
         "shushing face": {
@@ -812,7 +812,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "face-hand",
-            "github": null,
+            "github": "saluting_face",
             "sentiment": "+"
         },
         "zipper-mouth face": {
@@ -924,7 +924,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "face-neutral-skeptical",
-            "github": null,
+            "github": "dotted_line_face",
             "sentiment": "-"
         },
         "face in clouds": {
@@ -1070,7 +1070,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "face-neutral-skeptical",
-            "github": null,
+            "github": "shaking_face",
             "sentiment": null
         },
         "head shaking horizontally": {
@@ -1565,7 +1565,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "face-concerned",
-            "github": null,
+            "github": "face_with_diagonal_mouth",
             "sentiment": "-"
         },
         "worried face": {
@@ -1725,7 +1725,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "face-concerned",
-            "github": null,
+            "github": "face_holding_back_tears",
             "sentiment": "-"
         },
         "frowning face with open mouth": {
@@ -2799,7 +2799,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "heart",
-            "github": null,
+            "github": "pink_heart",
             "sentiment": null
         },
         "orange heart": {
@@ -2882,7 +2882,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "heart",
-            "github": null,
+            "github": "light_blue_heart",
             "sentiment": null
         },
         "purple heart": {
@@ -2951,7 +2951,7 @@
             ],
             "group": "smileys and emotion",
             "subgroup": "heart",
-            "github": null,
+            "github": "grey_heart",
             "sentiment": null
         },
         "white heart": {
@@ -3326,7 +3326,7 @@
             ],
             "group": "people and body",
             "subgroup": "hand-fingers-open",
-            "github": null,
+            "github": "rightwards_hand",
             "sentiment": null
         },
         "leftwards hand": {
@@ -3344,7 +3344,7 @@
             ],
             "group": "people and body",
             "subgroup": "hand-fingers-open",
-            "github": null,
+            "github": "leftwards_hand",
             "sentiment": null
         },
         "palm down hand": {
@@ -3362,7 +3362,7 @@
             ],
             "group": "people and body",
             "subgroup": "hand-fingers-open",
-            "github": null,
+            "github": "palm_down_hand",
             "sentiment": null
         },
         "palm up hand": {
@@ -3381,7 +3381,7 @@
             ],
             "group": "people and body",
             "subgroup": "hand-fingers-open",
-            "github": null,
+            "github": "palm_up_hand",
             "sentiment": null
         },
         "leftwards pushing hand": {
@@ -3402,7 +3402,7 @@
             ],
             "group": "people and body",
             "subgroup": "hand-fingers-open",
-            "github": null,
+            "github": "leftwards_pushing_hand",
             "sentiment": null
         },
         "rightwards pushing hand": {
@@ -3423,7 +3423,7 @@
             ],
             "group": "people and body",
             "subgroup": "hand-fingers-open",
-            "github": null,
+            "github": "rightwards_pushing_hand",
             "sentiment": null
         },
         "OK hand": {
@@ -3530,7 +3530,7 @@
             ],
             "group": "people and body",
             "subgroup": "hand-fingers-partial",
-            "github": null,
+            "github": "hand_with_index_finger_and_thumb_crossed",
             "sentiment": null
         },
         "love-you gesture": {
@@ -3719,7 +3719,7 @@
             ],
             "group": "people and body",
             "subgroup": "hand-single-finger",
-            "github": null,
+            "github": "index_pointing_at_the_viewer",
             "sentiment": null
         },
         "thumbs up": {
@@ -3882,7 +3882,7 @@
             ],
             "group": "people and body",
             "subgroup": "hands",
-            "github": null,
+            "github": "heart_hands",
             "sentiment": "+"
         },
         "open hands": {
@@ -4318,7 +4318,7 @@
             ],
             "group": "people and body",
             "subgroup": "body-parts",
-            "github": null,
+            "github": "biting_lip",
             "sentiment": null
         },
         "baby": {
@@ -6456,7 +6456,7 @@
             ],
             "group": "people and body",
             "subgroup": "person-role",
-            "github": null,
+            "github": "person_with_crown",
             "sentiment": "+"
         },
         "prince": {
@@ -6717,7 +6717,7 @@
             ],
             "group": "people and body",
             "subgroup": "person-role",
-            "github": null,
+            "github": "pregnant_man",
             "sentiment": null
         },
         "pregnant person": {
@@ -6736,7 +6736,7 @@
             ],
             "group": "people and body",
             "subgroup": "person-role",
-            "github": null,
+            "github": "pregnant_person",
             "sentiment": null
         },
         "breast-feeding": {
@@ -7368,7 +7368,7 @@
             ],
             "group": "people and body",
             "subgroup": "person-fantasy",
-            "github": null,
+            "github": "troll",
             "sentiment": null
         },
         "person getting massage": {
@@ -10300,7 +10300,7 @@
             ],
             "group": "animals and nature",
             "subgroup": "animal-mammal",
-            "github": null,
+            "github": "moose",
             "sentiment": null
         },
         "donkey": {
@@ -10321,7 +10321,7 @@
             ],
             "group": "animals and nature",
             "subgroup": "animal-mammal",
-            "github": null,
+            "github": "donkey",
             "sentiment": null
         },
         "horse": {
@@ -11382,7 +11382,7 @@
             ],
             "group": "animals and nature",
             "subgroup": "animal-bird",
-            "github": null,
+            "github": "wing",
             "sentiment": null
         },
         "black bird": {
@@ -11420,7 +11420,7 @@
             ],
             "group": "animals and nature",
             "subgroup": "animal-bird",
-            "github": null,
+            "github": "goose",
             "sentiment": null
         },
         "phoenix": {
@@ -11766,7 +11766,7 @@
             ],
             "group": "animals and nature",
             "subgroup": "animal-marine",
-            "github": null,
+            "github": "coral",
             "sentiment": null
         },
         "jellyfish": {
@@ -11787,7 +11787,7 @@
             ],
             "group": "animals and nature",
             "subgroup": "animal-marine",
-            "github": null,
+            "github": "jellyfish",
             "sentiment": null
         },
         "snail": {
@@ -12130,7 +12130,7 @@
             ],
             "group": "animals and nature",
             "subgroup": "plant-flower",
-            "github": null,
+            "github": "lotus",
             "sentiment": null
         },
         "rosette": {
@@ -12263,7 +12263,7 @@
             ],
             "group": "animals and nature",
             "subgroup": "plant-flower",
-            "github": null,
+            "github": "hyacinth",
             "sentiment": null
         },
         "seedling": {
@@ -12503,7 +12503,7 @@
             ],
             "group": "animals and nature",
             "subgroup": "plant-other",
-            "github": null,
+            "github": "empty_nest",
             "sentiment": null
         },
         "nest with eggs": {
@@ -12519,7 +12519,7 @@
             ],
             "group": "animals and nature",
             "subgroup": "plant-other",
-            "github": null,
+            "github": "nest_with_eggs",
             "sentiment": null
         },
         "mushroom": {
@@ -13116,7 +13116,7 @@
             ],
             "group": "food and drink",
             "subgroup": "food-vegetable",
-            "github": null,
+            "github": "beans",
             "sentiment": null
         },
         "chestnut": {
@@ -13150,7 +13150,7 @@
             ],
             "group": "food and drink",
             "subgroup": "food-vegetable",
-            "github": null,
+            "github": "ginger_root",
             "sentiment": null
         },
         "pea pod": {
@@ -13170,7 +13170,7 @@
             ],
             "group": "food and drink",
             "subgroup": "food-vegetable",
-            "github": null,
+            "github": "pea_pod",
             "sentiment": null
         },
         "brown mushroom": {
@@ -14703,7 +14703,7 @@
             ],
             "group": "food and drink",
             "subgroup": "drink",
-            "github": null,
+            "github": "pouring_liquid",
             "sentiment": null
         },
         "cup with straw": {
@@ -14901,7 +14901,7 @@
             ],
             "group": "food and drink",
             "subgroup": "dishware",
-            "github": null,
+            "github": "jar",
             "sentiment": null
         },
         "amphora": {
@@ -15971,7 +15971,7 @@
             ],
             "group": "travel and places",
             "subgroup": "place-other",
-            "github": null,
+            "github": "playground_slide",
             "sentiment": null
         },
         "ferris wheel": {
@@ -16794,7 +16794,7 @@
             ],
             "group": "travel and places",
             "subgroup": "transport-ground",
-            "github": null,
+            "github": "wheel",
             "sentiment": null
         },
         "police car light": {
@@ -16919,7 +16919,7 @@
             ],
             "group": "travel and places",
             "subgroup": "transport-water",
-            "github": null,
+            "github": "ring_buoy",
             "sentiment": null
         },
         "sailboat": {
@@ -19923,7 +19923,7 @@
             ],
             "group": "activities",
             "subgroup": "game",
-            "github": null,
+            "github": "mirror_ball",
             "sentiment": null
         },
         "nesting dolls": {
@@ -20584,7 +20584,7 @@
             ],
             "group": "objects",
             "subgroup": "clothing",
-            "github": null,
+            "github": "folding_hand_fan",
             "sentiment": null
         },
         "purse": {
@@ -20859,7 +20859,7 @@
             ],
             "group": "objects",
             "subgroup": "clothing",
-            "github": null,
+            "github": "hair_pick",
             "sentiment": null
         },
         "crown": {
@@ -21540,7 +21540,7 @@
             ],
             "group": "objects",
             "subgroup": "musical-instrument",
-            "github": null,
+            "github": "maracas",
             "sentiment": null
         },
         "flute": {
@@ -21560,7 +21560,7 @@
             ],
             "group": "objects",
             "subgroup": "musical-instrument",
-            "github": null,
+            "github": "flute",
             "sentiment": null
         },
         "mobile phone": {
@@ -21694,7 +21694,7 @@
             ],
             "group": "objects",
             "subgroup": "computer",
-            "github": null,
+            "github": "low_battery",
             "sentiment": null
         },
         "electric plug": {
@@ -24187,7 +24187,7 @@
             ],
             "group": "objects",
             "subgroup": "medical",
-            "github": null,
+            "github": "crutch",
             "sentiment": null
         },
         "stethoscope": {
@@ -24224,7 +24224,7 @@
             ],
             "group": "objects",
             "subgroup": "medical",
-            "github": null,
+            "github": "x_ray",
             "sentiment": null
         },
         "door": {
@@ -24595,7 +24595,7 @@
             ],
             "group": "objects",
             "subgroup": "household",
-            "github": null,
+            "github": "bubbles",
             "sentiment": null
         },
         "toothbrush": {
@@ -24779,7 +24779,7 @@
             ],
             "group": "objects",
             "subgroup": "other-object",
-            "github": null,
+            "github": "hamsa",
             "sentiment": null
         },
         "moai": {
@@ -24835,7 +24835,7 @@
             ],
             "group": "objects",
             "subgroup": "other-object",
-            "github": null,
+            "github": "identification_card",
             "sentiment": null
         },
         "ATM sign": {
@@ -25909,7 +25909,7 @@
             ],
             "group": "symbols",
             "subgroup": "religion",
-            "github": null,
+            "github": "khanda",
             "sentiment": null
         },
         "Aries": {
@@ -26554,7 +26554,7 @@
             ],
             "group": "symbols",
             "subgroup": "av-symbol",
-            "github": null,
+            "github": "wireless",
             "sentiment": null
         },
         "vibration mode": {
@@ -26734,7 +26734,7 @@
             ],
             "group": "symbols",
             "subgroup": "math",
-            "github": null,
+            "github": "heavy_equals_sign",
             "sentiment": null
         },
         "infinity": {

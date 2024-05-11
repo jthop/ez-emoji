@@ -134,6 +134,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:bathtub:` | :bathtub: | 1F6C1 | 
 | `:battery:` | :battery: | 1F50B | 
 | `:beach_umbrella:` | :beach_umbrella: | 1F3D6 | 
+| `:beans:` | :beans: | 1FAD8 | 
 | `:bear:` | :bear: | 1F43B | 
 | `:bearded_person:` | :bearded_person: | 1F9D4 | 
 | `:beaver:` | :beaver: | 1F9AB | 
@@ -164,6 +165,8 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:bird:` | :bird: | 1F426 | 
 | `:birthday:` | :birthday: | 1F382 | 
 | `:bison:` | :bison: | 1F9AC | 
+| `:biting_lip:` | :biting_lip: | 1FAE6 | 
+| `:black_bird:` | :black_bird: | 1F426 2B1B | 
 | `:black_cat:` | :black_cat: | 1F408 2B1B | 
 | `:black_circle:` | :black_circle: | 26AB | 
 | `:black_flag:` | :black_flag: | 1F3F4 | 
@@ -233,6 +236,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:brown_square:` | :brown_square: | 1F7EB | 
 | `:brunei:` | :brunei: | 1F1E7 1F1F3 | 
 | `:bubble_tea:` | :bubble_tea: | 1F9CB | 
+| `:bubbles:` | :bubbles: | 1FAE7 | 
 | `:bucket:` | :bucket: | 1FAA3 | 
 | `:bug:` | :bug: | 1F41B | 
 | `:building_construction:` | :building_construction: | 1F3D7 | 
@@ -395,6 +399,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:cool:` | :cool: | 1F192 | 
 | `:cop:` | :cop: | 1F46E | 
 | `:copyright:` | :copyright: | 00A9 | 
+| `:coral:` | :coral: | 1FAB8 | 
 | `:corn:` | :corn: | 1F33D | 
 | `:costa_rica:` | :costa_rica: | 1F1E8 1F1F7 | 
 | `:cote_divoire:` | :cote_divoire: | 1F1E8 1F1EE | 
@@ -424,6 +429,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:crossed_flags:` | :crossed_flags: | 1F38C | 
 | `:crossed_swords:` | :crossed_swords: | 2694 | 
 | `:crown:` | :crown: | 1F451 | 
+| `:crutch:` | :crutch: | 1FA7C | 
 | `:cry:` | :cry: | 1F622 | 
 | `:crying_cat_face:` | :crying_cat_face: | 1F63F | 
 | `:crystal_ball:` | :crystal_ball: | 1F52E | 
@@ -491,7 +497,9 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:dolphin:` | :dolphin: | 1F42C | 
 | `:dominica:` | :dominica: | 1F1E9 1F1F2 | 
 | `:dominican_republic:` | :dominican_republic: | 1F1E9 1F1F4 | 
+| `:donkey:` | :donkey: | 1FACF | 
 | `:door:` | :door: | 1F6AA | 
+| `:dotted_line_face:` | :dotted_line_face: | 1FAE5 | 
 | `:doughnut:` | :doughnut: | 1F369 | 
 | `:dove:` | :dove: | 1F54A | 
 | `:dragon:` | :dragon: | 1F409 | 
@@ -530,6 +538,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:elf_man:` | :elf_man: | 1F9DD 2642 | 
 | `:elf_woman:` | :elf_woman: | 1F9DD 2640 | 
 | `:email:` | :email: | 1F4E7 | 
+| `:empty_nest:` | :empty_nest: | 1FAB9 | 
 | `:end:` | :end: | 1F51A | 
 | `:england:` | :england: | 1F3F4 E0067 E0062 E0065 E006E E0067 E007F | 
 | `:envelope:` | :envelope: | 2709 | 
@@ -553,8 +562,12 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:eyeglasses:` | :eyeglasses: | 1F453 | 
 | `:eyes:` | :eyes: | 1F440 | 
 | `:face_exhaling:` | :face_exhaling: | 1F62E 1F4A8 | 
+| `:face_holding_back_tears:` | :face_holding_back_tears: | 1F979 | 
 | `:face_in_clouds:` | :face_in_clouds: | 1F636 1F32B | 
+| `:face_with_diagonal_mouth:` | :face_with_diagonal_mouth: | 1FAE4 | 
 | `:face_with_head_bandage:` | :face_with_head_bandage: | 1F915 | 
+| `:face_with_open_eyes_and_hand_over_mouth:` | :face_with_open_eyes_and_hand_over_mouth: | 1FAE2 | 
+| `:face_with_peeking_eye:` | :face_with_peeking_eye: | 1FAE3 | 
 | `:face_with_spiral_eyes:` | :face_with_spiral_eyes: | 1F635 1F4AB | 
 | `:face_with_thermometer:` | :face_with_thermometer: | 1F912 | 
 | `:facepalm:` | :facepalm: | 1F926 | 
@@ -643,11 +656,13 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:floppy_disk:` | :floppy_disk: | 1F4BE | 
 | `:flower_playing_cards:` | :flower_playing_cards: | 1F3B4 | 
 | `:flushed:` | :flushed: | 1F633 | 
+| `:flute:` | :flute: | 1FA88 | 
 | `:fly:` | :fly: | 1FAB0 | 
 | `:flying_disc:` | :flying_disc: | 1F94F | 
 | `:flying_saucer:` | :flying_saucer: | 1F6F8 | 
 | `:fog:` | :fog: | 1F32B | 
 | `:foggy:` | :foggy: | 1F301 | 
+| `:folding_hand_fan:` | :folding_hand_fan: | 1FAAD | 
 | `:fondue:` | :fondue: | 1FAD5 | 
 | `:foot:` | :foot: | 1F9B6 | 
 | `:football:` | :football: | 1F3C8 | 
@@ -696,6 +711,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:gibraltar:` | :gibraltar: | 1F1EC 1F1EE | 
 | `:gift:` | :gift: | 1F381 | 
 | `:gift_heart:` | :gift_heart: | 1F49D | 
+| `:ginger_root:` | :ginger_root: | 1FADA | 
 | `:giraffe:` | :giraffe: | 1F992 | 
 | `:girl:` | :girl: | 1F467 | 
 | `:globe_with_meridians:` | :globe_with_meridians: | 1F310 | 
@@ -709,6 +725,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:golfing:` | :golfing: | 1F3CC | 
 | `:golfing_man:` | :golfing_man: | 1F3CC 2642 | 
 | `:golfing_woman:` | :golfing_woman: | 1F3CC 2640 | 
+| `:goose:` | :goose: | 1FABF | 
 | `:gorilla:` | :gorilla: | 1F98D | 
 | `:grapes:` | :grapes: | 1F347 | 
 | `:greece:` | :greece: | 1F1EC 1F1F7 | 
@@ -721,6 +738,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:greenland:` | :greenland: | 1F1EC 1F1F1 | 
 | `:grenada:` | :grenada: | 1F1EC 1F1E9 | 
 | `:grey_exclamation:` | :grey_exclamation: | 2755 | 
+| `:grey_heart:` | :grey_heart: | 1FA76 | 
 | `:grey_question:` | :grey_question: | 2754 | 
 | `:grimacing:` | :grimacing: | 1F62C | 
 | `:grin:` | :grin: | 1F601 | 
@@ -738,6 +756,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:guitar:` | :guitar: | 1F3B8 | 
 | `:gun:` | :gun: | 1F52B | 
 | `:guyana:` | :guyana: | 1F1EC 1F1FE | 
+| `:hair_pick:` | :hair_pick: | 1FAAE | 
 | `:haircut:` | :haircut: | 1F487 | 
 | `:haircut_man:` | :haircut_man: | 1F487 2642 | 
 | `:haircut_woman:` | :haircut_woman: | 1F487 2640 | 
@@ -746,9 +765,11 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:hammer:` | :hammer: | 1F528 | 
 | `:hammer_and_pick:` | :hammer_and_pick: | 2692 | 
 | `:hammer_and_wrench:` | :hammer_and_wrench: | 1F6E0 | 
+| `:hamsa:` | :hamsa: | 1FAAC | 
 | `:hamster:` | :hamster: | 1F439 | 
 | `:hand:` | :hand: | 270B | 
 | `:hand_over_mouth:` | :hand_over_mouth: | 1F92D | 
+| `:hand_with_index_finger_and_thumb_crossed:` | :hand_with_index_finger_and_thumb_crossed: | 1FAF0 | 
 | `:handbag:` | :handbag: | 1F45C | 
 | `:handball_person:` | :handball_person: | 1F93E | 
 | `:handshake:` | :handshake: | 1F91D | 
@@ -765,6 +786,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:heart_decoration:` | :heart_decoration: | 1F49F | 
 | `:heart_eyes:` | :heart_eyes: | 1F60D | 
 | `:heart_eyes_cat:` | :heart_eyes_cat: | 1F63B | 
+| `:heart_hands:` | :heart_hands: | 1FAF6 | 
 | `:heart_on_fire:` | :heart_on_fire: | 2764 1F525 | 
 | `:heartbeat:` | :heartbeat: | 1F493 | 
 | `:heartpulse:` | :heartpulse: | 1F497 | 
@@ -772,6 +794,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:heavy_check_mark:` | :heavy_check_mark: | 2714 | 
 | `:heavy_division_sign:` | :heavy_division_sign: | 2797 | 
 | `:heavy_dollar_sign:` | :heavy_dollar_sign: | 1F4B2 | 
+| `:heavy_equals_sign:` | :heavy_equals_sign: | 1F7F0 | 
 | `:heavy_exclamation_mark:` | :heavy_exclamation_mark: | 2757 | 
 | `:heavy_heart_exclamation:` | :heavy_heart_exclamation: | 2763 | 
 | `:heavy_minus_sign:` | :heavy_minus_sign: | 2796 | 
@@ -811,6 +834,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:hurtrealbad:` | :hurtrealbad: | MISSING | 
 | `:hushed:` | :hushed: | 1F62F | 
 | `:hut:` | :hut: | 1F6D6 | 
+| `:hyacinth:` | :hyacinth: | 1FABB | 
 | `:ice_cream:` | :ice_cream: | 1F368 | 
 | `:ice_cube:` | :ice_cube: | 1F9CA | 
 | `:ice_hockey:` | :ice_hockey: | 1F3D2 | 
@@ -818,10 +842,12 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:icecream:` | :icecream: | 1F366 | 
 | `:iceland:` | :iceland: | 1F1EE 1F1F8 | 
 | `:id:` | :id: | 1F194 | 
+| `:identification_card:` | :identification_card: | 1FAAA | 
 | `:ideograph_advantage:` | :ideograph_advantage: | 1F250 | 
 | `:imp:` | :imp: | 1F47F | 
 | `:inbox_tray:` | :inbox_tray: | 1F4E5 | 
 | `:incoming_envelope:` | :incoming_envelope: | 1F4E8 | 
+| `:index_pointing_at_the_viewer:` | :index_pointing_at_the_viewer: | 1FAF5 | 
 | `:india:` | :india: | 1F1EE 1F1F3 | 
 | `:indonesia:` | :indonesia: | 1F1EE 1F1E9 | 
 | `:infinity:` | :infinity: | 267E | 
@@ -843,7 +869,9 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:japanese_castle:` | :japanese_castle: | 1F3EF | 
 | `:japanese_goblin:` | :japanese_goblin: | 1F47A | 
 | `:japanese_ogre:` | :japanese_ogre: | 1F479 | 
+| `:jar:` | :jar: | 1FAD9 | 
 | `:jeans:` | :jeans: | 1F456 | 
+| `:jellyfish:` | :jellyfish: | 1FABC | 
 | `:jersey:` | :jersey: | 1F1EF 1F1EA | 
 | `:jigsaw:` | :jigsaw: | 1F9E9 | 
 | `:jordan:` | :jordan: | 1F1EF 1F1F4 | 
@@ -860,6 +888,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:key:` | :key: | 1F511 | 
 | `:keyboard:` | :keyboard: | 2328 | 
 | `:keycap_ten:` | :keycap_ten: | 1F51F | 
+| `:khanda:` | :khanda: | 1FAAF | 
 | `:kick_scooter:` | :kick_scooter: | 1F6F4 | 
 | `:kimono:` | :kimono: | 1F458 | 
 | `:kiribati:` | :kiribati: | 1F1F0 1F1EE | 
@@ -905,6 +934,8 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:left_right_arrow:` | :left_right_arrow: | 2194 | 
 | `:left_speech_bubble:` | :left_speech_bubble: | 1F5E8 | 
 | `:leftwards_arrow_with_hook:` | :leftwards_arrow_with_hook: | 21A9 | 
+| `:leftwards_hand:` | :leftwards_hand: | 1FAF2 | 
+| `:leftwards_pushing_hand:` | :leftwards_pushing_hand: | 1FAF7 | 
 | `:leg:` | :leg: | 1F9B5 | 
 | `:lemon:` | :lemon: | 1F34B | 
 | `:leo:` | :leo: | 264C | 
@@ -915,6 +946,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:libra:` | :libra: | 264E | 
 | `:libya:` | :libya: | 1F1F1 1F1FE | 
 | `:liechtenstein:` | :liechtenstein: | 1F1F1 1F1EE | 
+| `:light_blue_heart:` | :light_blue_heart: | 1FA75 | 
 | `:light_rail:` | :light_rail: | 1F688 | 
 | `:link:` | :link: | 1F517 | 
 | `:lion:` | :lion: | 1F981 | 
@@ -930,6 +962,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:long_drum:` | :long_drum: | 1FA98 | 
 | `:loop:` | :loop: | 27BF | 
 | `:lotion_bottle:` | :lotion_bottle: | 1F9F4 | 
+| `:lotus:` | :lotus: | 1FAB7 | 
 | `:lotus_position:` | :lotus_position: | 1F9D8 | 
 | `:lotus_position_man:` | :lotus_position_man: | 1F9D8 2642 | 
 | `:lotus_position_woman:` | :lotus_position_woman: | 1F9D8 2640 | 
@@ -938,6 +971,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:love_hotel:` | :love_hotel: | 1F3E9 | 
 | `:love_letter:` | :love_letter: | 1F48C | 
 | `:love_you_gesture:` | :love_you_gesture: | 1F91F | 
+| `:low_battery:` | :low_battery: | 1FAAB | 
 | `:low_brightness:` | :low_brightness: | 1F505 | 
 | `:luggage:` | :luggage: | 1F9F3 | 
 | `:lungs:` | :lungs: | 1FAC1 | 
@@ -1006,6 +1040,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:mantelpiece_clock:` | :mantelpiece_clock: | 1F570 | 
 | `:manual_wheelchair:` | :manual_wheelchair: | 1F9BD | 
 | `:maple_leaf:` | :maple_leaf: | 1F341 | 
+| `:maracas:` | :maracas: | 1FA87 | 
 | `:marshall_islands:` | :marshall_islands: | 1F1F2 1F1ED | 
 | `:martial_arts_uniform:` | :martial_arts_uniform: | 1F94B | 
 | `:martinique:` | :martinique: | 1F1F2 1F1F6 | 
@@ -1026,6 +1061,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:medical_symbol:` | :medical_symbol: | 2695 | 
 | `:mega:` | :mega: | 1F4E3 | 
 | `:melon:` | :melon: | 1F348 | 
+| `:melting_face:` | :melting_face: | 1FAE0 | 
 | `:memo:` | :memo: | 1F4DD | 
 | `:men_wrestling:` | :men_wrestling: | 1F93C 2642 | 
 | `:mending_heart:` | :mending_heart: | 2764 1FA79 | 
@@ -1048,6 +1084,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:minibus:` | :minibus: | 1F690 | 
 | `:minidisc:` | :minidisc: | 1F4BD | 
 | `:mirror:` | :mirror: | 1FA9E | 
+| `:mirror_ball:` | :mirror_ball: | 1FAA9 | 
 | `:mobile_phone_off:` | :mobile_phone_off: | 1F4F4 | 
 | `:moldova:` | :moldova: | 1F1F2 1F1E9 | 
 | `:monaco:` | :monaco: | 1F1F2 1F1E8 | 
@@ -1063,6 +1100,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:montserrat:` | :montserrat: | 1F1F2 1F1F8 | 
 | `:moon:` | :moon: | 1F314 | 
 | `:moon_cake:` | :moon_cake: | 1F96E | 
+| `:moose:` | :moose: | 1FACE | 
 | `:morocco:` | :morocco: | 1F1F2 1F1E6 | 
 | `:mortar_board:` | :mortar_board: | 1F393 | 
 | `:mosque:` | :mosque: | 1F54C | 
@@ -1107,6 +1145,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:negative_squared_cross_mark:` | :negative_squared_cross_mark: | 274E | 
 | `:nepal:` | :nepal: | 1F1F3 1F1F5 | 
 | `:nerd_face:` | :nerd_face: | 1F913 | 
+| `:nest_with_eggs:` | :nest_with_eggs: | 1FABA | 
 | `:nesting_dolls:` | :nesting_dolls: | 1FA86 | 
 | `:netherlands:` | :netherlands: | 1F1F3 1F1F1 | 
 | `:neutral_face:` | :neutral_face: | 1F610 | 
@@ -1204,7 +1243,9 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:pakistan:` | :pakistan: | 1F1F5 1F1F0 | 
 | `:palau:` | :palau: | 1F1F5 1F1FC | 
 | `:palestinian_territories:` | :palestinian_territories: | 1F1F5 1F1F8 | 
+| `:palm_down_hand:` | :palm_down_hand: | 1FAF3 | 
 | `:palm_tree:` | :palm_tree: | 1F334 | 
+| `:palm_up_hand:` | :palm_up_hand: | 1FAF4 | 
 | `:palms_up_together:` | :palms_up_together: | 1F932 | 
 | `:panama:` | :panama: | 1F1F5 1F1E6 | 
 | `:pancakes:` | :pancakes: | 1F95E | 
@@ -1224,6 +1265,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:passport_control:` | :passport_control: | 1F6C2 | 
 | `:pause_button:` | :pause_button: | 23F8 | 
 | `:paw_prints:` | :paw_prints: | 1F43E | 
+| `:pea_pod:` | :pea_pod: | 1FADB | 
 | `:peace_symbol:` | :peace_symbol: | 262E | 
 | `:peach:` | :peach: | 1F351 | 
 | `:peacock:` | :peacock: | 1F99A | 
@@ -1247,6 +1289,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:person_in_tuxedo:` | :person_in_tuxedo: | 1F935 | 
 | `:person_red_hair:` | :person_red_hair: | 1F9D1 1F9B0 | 
 | `:person_white_hair:` | :person_white_hair: | 1F9D1 1F9B3 | 
+| `:person_with_crown:` | :person_with_crown: | 1FAC5 | 
 | `:person_with_probing_cane:` | :person_with_probing_cane: | 1F9D1 1F9AF | 
 | `:person_with_turban:` | :person_with_turban: | 1F473 | 
 | `:person_with_veil:` | :person_with_veil: | 1F470 | 
@@ -1267,6 +1310,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:pinching_hand:` | :pinching_hand: | 1F90F | 
 | `:pineapple:` | :pineapple: | 1F34D | 
 | `:ping_pong:` | :ping_pong: | 1F3D3 | 
+| `:pink_heart:` | :pink_heart: | 1FA77 | 
 | `:pirate_flag:` | :pirate_flag: | 1F3F4 2620 | 
 | `:pisces:` | :pisces: | 2653 | 
 | `:pitcairn_islands:` | :pitcairn_islands: | 1F1F5 1F1F3 | 
@@ -1275,6 +1319,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:place_of_worship:` | :place_of_worship: | 1F6D0 | 
 | `:plate_with_cutlery:` | :plate_with_cutlery: | 1F37D | 
 | `:play_or_pause_button:` | :play_or_pause_button: | 23EF | 
+| `:playground_slide:` | :playground_slide: | 1F6DD | 
 | `:pleading_face:` | :pleading_face: | 1F97A | 
 | `:plunger:` | :plunger: | 1FAA0 | 
 | `:point_down:` | :point_down: | 1F447 | 
@@ -1301,6 +1346,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:pouch:` | :pouch: | 1F45D | 
 | `:poultry_leg:` | :poultry_leg: | 1F357 | 
 | `:pound:` | :pound: | 1F4B7 | 
+| `:pouring_liquid:` | :pouring_liquid: | 1FAD7 | 
 | `:pout:` | :pout: | 1F621 | 
 | `:pouting_cat:` | :pouting_cat: | 1F63E | 
 | `:pouting_face:` | :pouting_face: | 1F64E | 
@@ -1308,6 +1354,8 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:pouting_woman:` | :pouting_woman: | 1F64E 2640 | 
 | `:pray:` | :pray: | 1F64F | 
 | `:prayer_beads:` | :prayer_beads: | 1F4FF | 
+| `:pregnant_man:` | :pregnant_man: | 1FAC3 | 
+| `:pregnant_person:` | :pregnant_person: | 1FAC4 | 
 | `:pregnant_woman:` | :pregnant_woman: | 1F930 | 
 | `:pretzel:` | :pretzel: | 1F968 | 
 | `:previous_track_button:` | :previous_track_button: | 23EE | 
@@ -1381,7 +1429,10 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:rice_cracker:` | :rice_cracker: | 1F358 | 
 | `:rice_scene:` | :rice_scene: | 1F391 | 
 | `:right_anger_bubble:` | :right_anger_bubble: | 1F5EF | 
+| `:rightwards_hand:` | :rightwards_hand: | 1FAF1 | 
+| `:rightwards_pushing_hand:` | :rightwards_pushing_hand: | 1FAF8 | 
 | `:ring:` | :ring: | 1F48D | 
+| `:ring_buoy:` | :ring_buoy: | 1F6DF | 
 | `:ringed_planet:` | :ringed_planet: | 1FA90 | 
 | `:robot:` | :robot: | 1F916 | 
 | `:rock:` | :rock: | 1FAA8 | 
@@ -1415,6 +1466,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:sailboat:` | :sailboat: | 26F5 | 
 | `:sake:` | :sake: | 1F376 | 
 | `:salt:` | :salt: | 1F9C2 | 
+| `:saluting_face:` | :saluting_face: | 1FAE1 | 
 | `:samoa:` | :samoa: | 1F1FC 1F1F8 | 
 | `:san_marino:` | :san_marino: | 1F1F8 1F1F2 | 
 | `:sandal:` | :sandal: | 1F461 | 
@@ -1456,6 +1508,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:seven:` | :seven: | 0037 20E3 | 
 | `:sewing_needle:` | :sewing_needle: | 1FAA1 | 
 | `:seychelles:` | :seychelles: | 1F1F8 1F1E8 | 
+| `:shaking_face:` | :shaking_face: | 1FAE8 | 
 | `:shallow_pan_of_food:` | :shallow_pan_of_food: | 1F958 | 
 | `:shamrock:` | :shamrock: | 2618 | 
 | `:shark:` | :shark: | 1F988 | 
@@ -1698,6 +1751,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:trinidad_tobago:` | :trinidad_tobago: | 1F1F9 1F1F9 | 
 | `:tristan_da_cunha:` | :tristan_da_cunha: | 1F1F9 1F1E6 | 
 | `:triumph:` | :triumph: | 1F624 | 
+| `:troll:` | :troll: | 1F9CC | 
 | `:trolleybus:` | :trolleybus: | 1F68E | 
 | `:trollface:` | :trollface: | MISSING | 
 | `:trophy:` | :trophy: | 1F3C6 | 
@@ -1795,6 +1849,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:western_sahara:` | :western_sahara: | 1F1EA 1F1ED | 
 | `:whale:` | :whale: | 1F433 | 
 | `:whale2:` | :whale2: | 1F40B | 
+| `:wheel:` | :wheel: | 1F6DE | 
 | `:wheel_of_dharma:` | :wheel_of_dharma: | 2638 | 
 | `:wheelchair:` | :wheelchair: | 267F | 
 | `:white_check_mark:` | :white_check_mark: | 2705 | 
@@ -1814,7 +1869,9 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:wind_face:` | :wind_face: | 1F32C | 
 | `:window:` | :window: | 1FA9F | 
 | `:wine_glass:` | :wine_glass: | 1F377 | 
+| `:wing:` | :wing: | 1FABD | 
 | `:wink:` | :wink: | 1F609 | 
+| `:wireless:` | :wireless: | 1F6DC | 
 | `:wolf:` | :wolf: | 1F43A | 
 | `:woman:` | :woman: | 1F469 | 
 | `:woman_artist:` | :woman_artist: | 1F469 1F3A8 | 
@@ -1862,6 +1919,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:wrestling:` | :wrestling: | 1F93C | 
 | `:writing_hand:` | :writing_hand: | 270D | 
 | `:x:` | :x: | 274C | 
+| `:x_ray:` | :x_ray: | 1FA7B | 
 | `:yarn:` | :yarn: | 1F9F6 | 
 | `:yawning_face:` | :yawning_face: | 1F971 | 
 | `:yellow_circle:` | :yellow_circle: | 1F7E1 | 
