@@ -56,6 +56,7 @@
 😪 = smileys and emotion:face-sleepy:sleepy face
 🤤 = smileys and emotion:face-sleepy:drooling face
 😴 = smileys and emotion:face-sleepy:sleeping face
+🫩 = smileys and emotion:face-sleepy:face with bags under eyes
 😷 = smileys and emotion:face-unwell:face with medical mask
 🤒 = smileys and emotion:face-unwell:face with thermometer
 🤕 = smileys and emotion:face-unwell:face with head-bandage
@@ -552,6 +553,7 @@
 🧑‍🧒 = people and body:person-symbol:family: adult, child
 🧑‍🧒‍🧒 = people and body:person-symbol:family: adult, child, child
 👣 = people and body:person-symbol:footprints
+🫆 = people and body:person-symbol:fingerprint
 🐵 = animals and nature:animal-mammal:monkey face
 🐒 = animals and nature:animal-mammal:monkey
 🦍 = animals and nature:animal-mammal:gorilla
@@ -661,6 +663,11 @@
 🐚 = animals and nature:animal-marine:spiral shell
 🪸 = animals and nature:animal-marine:coral
 🪼 = animals and nature:animal-marine:jellyfish
+🦀 = animals and nature:animal-marine:crab
+🦞 = animals and nature:animal-marine:lobster
+🦐 = animals and nature:animal-marine:shrimp
+🦑 = animals and nature:animal-marine:squid
+🦪 = animals and nature:animal-marine:oyster
 🐌 = animals and nature:animal-bug:snail
 🦋 = animals and nature:animal-bug:butterfly
 🐛 = animals and nature:animal-bug:bug
@@ -705,6 +712,7 @@
 🪹 = animals and nature:plant-other:empty nest
 🪺 = animals and nature:plant-other:nest with eggs
 🍄 = animals and nature:plant-other:mushroom
+🪾 = animals and nature:plant-other:leafless tree
 🍇 = food and drink:food-fruit:grapes
 🍈 = food and drink:food-fruit:melon
 🍉 = food and drink:food-fruit:watermelon
@@ -743,6 +751,7 @@
 🫚 = food and drink:food-vegetable:ginger root
 🫛 = food and drink:food-vegetable:pea pod
 🍄‍🟫 = food and drink:food-vegetable:brown mushroom
+🫜 = food and drink:food-vegetable:root vegetable
 🍞 = food and drink:food-prepared:bread
 🥐 = food and drink:food-prepared:croissant
 🥖 = food and drink:food-prepared:baguette bread
@@ -794,11 +803,6 @@
 🥟 = food and drink:food-asian:dumpling
 🥠 = food and drink:food-asian:fortune cookie
 🥡 = food and drink:food-asian:takeout box
-🦀 = food and drink:food-marine:crab
-🦞 = food and drink:food-marine:lobster
-🦐 = food and drink:food-marine:shrimp
-🦑 = food and drink:food-marine:squid
-🦪 = food and drink:food-marine:oyster
 🍦 = food and drink:food-sweet:soft ice cream
 🍧 = food and drink:food-sweet:shaved ice
 🍨 = food and drink:food-sweet:ice cream
@@ -1219,6 +1223,7 @@
 🪘 = objects:musical-instrument:long drum
 🪇 = objects:musical-instrument:maracas
 🪈 = objects:musical-instrument:flute
+🪉 = objects:musical-instrument:harp
 📱 = objects:phone:mobile phone
 📲 = objects:phone:mobile phone with arrow
 ☎ = objects:phone:telephone
@@ -1357,6 +1362,7 @@
 🧰 = objects:tool:toolbox
 🧲 = objects:tool:magnet
 🪜 = objects:tool:ladder
+🪏 = objects:tool:shovel
 ⚗ = objects:science:alembic
 🧪 = objects:science:test tube
 🧫 = objects:science:petri dish
@@ -1542,6 +1548,7 @@
 © = symbols:other-symbol:copyright
 ® = symbols:other-symbol:registered
 ™ = symbols:other-symbol:trade mark
+🫟 = symbols:other-symbol:splatter
 ⃣ = symbols:keycap:keycap: #
 *⃣ = symbols:keycap:keycap: *
 0⃣ = symbols:keycap:keycap: 0
@@ -1687,6 +1694,7 @@
 🇨🇳 = flags:country-flag:China
 🇨🇴 = flags:country-flag:Colombia
 🇨🇵 = flags:country-flag:Clipperton Island
+🇨🇶 = flags:country-flag:Sark
 🇨🇷 = flags:country-flag:Costa Rica
 🇨🇺 = flags:country-flag:Cuba
 🇨🇻 = flags:country-flag:Cape Verde

@@ -1,8 +1,8 @@
 {
-    "generated": "09-07-2024",
+    "generated": "09-14-2024",
     "__version__": "0.1.13+build.87",
-    "unicode_version": "15.1",
-    "emoji_quantity": 1898,
+    "unicode_version": "16.0",
+    "emoji_quantity": 1906,
     "groups": [
         "smileys and emotion",
         "people and body",
@@ -71,7 +71,6 @@
             "food-vegetable",
             "food-prepared",
             "food-asian",
-            "food-marine",
             "food-sweet",
             "drink",
             "dishware"
@@ -1192,6 +1191,22 @@
             "subgroup": "face-sleepy",
             "github": "sleeping",
             "sentiment": "-"
+        },
+        "face with bags under eyes": {
+            "short_name": "face with bags under eyes",
+            "name": "face with bags under eyes",
+            "emoji": "\ud83e\udee9",
+            "status": "fully-qualified",
+            "emoji_version": "E16.0",
+            "code_point_str": "1FAE9",
+            "annotations": [],
+            "group": "smileys and emotion",
+            "subgroup": "face-sleepy",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "face with medical mask": {
             "short_name": "face with medical mask",
@@ -6870,7 +6885,7 @@
         },
         "mx claus": {
             "short_name": "mx claus",
-            "name": "mx claus",
+            "name": "Mx Claus",
             "emoji": "\ud83e\uddd1\u200d\ud83c\udf84",
             "status": "fully-qualified",
             "emoji_version": "E13.0",
@@ -6883,7 +6898,10 @@
             "group": "people and body",
             "subgroup": "person-fantasy",
             "github": null,
-            "sentiment": null
+            "sentiment": null,
+            "errors": [
+                "NAME-SHORT_NAME-MISMATCH"
+            ]
         },
         "superhero": {
             "short_name": "superhero",
@@ -9958,6 +9976,22 @@
             "github": "footprints",
             "sentiment": null
         },
+        "fingerprint": {
+            "short_name": "fingerprint",
+            "name": "fingerprint",
+            "emoji": "\ud83e\udec6",
+            "status": "fully-qualified",
+            "emoji_version": "E16.0",
+            "code_point_str": "1FAC6",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-symbol",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "monkey face": {
             "short_name": "monkey face",
             "name": "monkey face",
@@ -11790,6 +11824,93 @@
             "github": "jellyfish",
             "sentiment": null
         },
+        "crab": {
+            "short_name": "crab",
+            "name": "crab",
+            "emoji": "\ud83e\udd80",
+            "status": "fully-qualified",
+            "emoji_version": "E1.0",
+            "code_point_str": "1F980",
+            "annotations": [
+                "Cancer",
+                "crab",
+                "zodiac"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-marine",
+            "github": "crab",
+            "sentiment": null
+        },
+        "lobster": {
+            "short_name": "lobster",
+            "name": "lobster",
+            "emoji": "\ud83e\udd9e",
+            "status": "fully-qualified",
+            "emoji_version": "E11.0",
+            "code_point_str": "1F99E",
+            "annotations": [
+                "bisque",
+                "claws",
+                "lobster",
+                "seafood"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-marine",
+            "github": "lobster",
+            "sentiment": null
+        },
+        "shrimp": {
+            "short_name": "shrimp",
+            "name": "shrimp",
+            "emoji": "\ud83e\udd90",
+            "status": "fully-qualified",
+            "emoji_version": "E3.0",
+            "code_point_str": "1F990",
+            "annotations": [
+                "food",
+                "shellfish",
+                "shrimp",
+                "small"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-marine",
+            "github": "shrimp",
+            "sentiment": null
+        },
+        "squid": {
+            "short_name": "squid",
+            "name": "squid",
+            "emoji": "\ud83e\udd91",
+            "status": "fully-qualified",
+            "emoji_version": "E3.0",
+            "code_point_str": "1F991",
+            "annotations": [
+                "food",
+                "molusc",
+                "squid"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-marine",
+            "github": "squid",
+            "sentiment": null
+        },
+        "oyster": {
+            "short_name": "oyster",
+            "name": "oyster",
+            "emoji": "\ud83e\uddaa",
+            "status": "fully-qualified",
+            "emoji_version": "E12.0",
+            "code_point_str": "1F9AA",
+            "annotations": [
+                "diving",
+                "oyster",
+                "pearl"
+            ],
+            "group": "animals and nature",
+            "subgroup": "animal-marine",
+            "github": "oyster",
+            "sentiment": null
+        },
         "snail": {
             "short_name": "snail",
             "name": "snail",
@@ -12538,6 +12659,22 @@
             "github": "mushroom",
             "sentiment": null
         },
+        "leafless tree": {
+            "short_name": "leafless tree",
+            "name": "leafless tree",
+            "emoji": "\ud83e\udebe",
+            "status": "fully-qualified",
+            "emoji_version": "E16.0",
+            "code_point_str": "1FABE",
+            "annotations": [],
+            "group": "animals and nature",
+            "subgroup": "plant-other",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "grapes": {
             "short_name": "grapes",
             "name": "grapes",
@@ -13191,6 +13328,22 @@
             "subgroup": "food-vegetable",
             "github": null,
             "sentiment": null
+        },
+        "root vegetable": {
+            "short_name": "root vegetable",
+            "name": "root vegetable",
+            "emoji": "\ud83e\udedc",
+            "status": "fully-qualified",
+            "emoji_version": "E16.0",
+            "code_point_str": "1FADC",
+            "annotations": [],
+            "group": "food and drink",
+            "subgroup": "food-vegetable",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "bread": {
             "short_name": "bread",
@@ -14079,93 +14232,6 @@
             "group": "food and drink",
             "subgroup": "food-asian",
             "github": "takeout_box",
-            "sentiment": null
-        },
-        "crab": {
-            "short_name": "crab",
-            "name": "crab",
-            "emoji": "\ud83e\udd80",
-            "status": "fully-qualified",
-            "emoji_version": "E1.0",
-            "code_point_str": "1F980",
-            "annotations": [
-                "Cancer",
-                "crab",
-                "zodiac"
-            ],
-            "group": "food and drink",
-            "subgroup": "food-marine",
-            "github": "crab",
-            "sentiment": null
-        },
-        "lobster": {
-            "short_name": "lobster",
-            "name": "lobster",
-            "emoji": "\ud83e\udd9e",
-            "status": "fully-qualified",
-            "emoji_version": "E11.0",
-            "code_point_str": "1F99E",
-            "annotations": [
-                "bisque",
-                "claws",
-                "lobster",
-                "seafood"
-            ],
-            "group": "food and drink",
-            "subgroup": "food-marine",
-            "github": "lobster",
-            "sentiment": null
-        },
-        "shrimp": {
-            "short_name": "shrimp",
-            "name": "shrimp",
-            "emoji": "\ud83e\udd90",
-            "status": "fully-qualified",
-            "emoji_version": "E3.0",
-            "code_point_str": "1F990",
-            "annotations": [
-                "food",
-                "shellfish",
-                "shrimp",
-                "small"
-            ],
-            "group": "food and drink",
-            "subgroup": "food-marine",
-            "github": "shrimp",
-            "sentiment": null
-        },
-        "squid": {
-            "short_name": "squid",
-            "name": "squid",
-            "emoji": "\ud83e\udd91",
-            "status": "fully-qualified",
-            "emoji_version": "E3.0",
-            "code_point_str": "1F991",
-            "annotations": [
-                "food",
-                "molusc",
-                "squid"
-            ],
-            "group": "food and drink",
-            "subgroup": "food-marine",
-            "github": "squid",
-            "sentiment": null
-        },
-        "oyster": {
-            "short_name": "oyster",
-            "name": "oyster",
-            "emoji": "\ud83e\uddaa",
-            "status": "fully-qualified",
-            "emoji_version": "E12.0",
-            "code_point_str": "1F9AA",
-            "annotations": [
-                "diving",
-                "oyster",
-                "pearl"
-            ],
-            "group": "food and drink",
-            "subgroup": "food-marine",
-            "github": "oyster",
             "sentiment": null
         },
         "soft ice cream": {
@@ -21563,6 +21629,22 @@
             "github": "flute",
             "sentiment": null
         },
+        "harp": {
+            "short_name": "harp",
+            "name": "harp",
+            "emoji": "\ud83e\ude89",
+            "status": "fully-qualified",
+            "emoji_version": "E16.0",
+            "code_point_str": "1FA89",
+            "annotations": [],
+            "group": "objects",
+            "subgroup": "musical-instrument",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "mobile phone": {
             "short_name": "mobile phone",
             "name": "mobile phone",
@@ -23968,6 +24050,22 @@
             "subgroup": "tool",
             "github": "ladder",
             "sentiment": null
+        },
+        "shovel": {
+            "short_name": "shovel",
+            "name": "shovel",
+            "emoji": "\ud83e\ude8f",
+            "status": "fully-qualified",
+            "emoji_version": "E16.0",
+            "code_point_str": "1FA8F",
+            "annotations": [],
+            "group": "objects",
+            "subgroup": "tool",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "alembic": {
             "short_name": "alembic",
@@ -27295,6 +27393,22 @@
             "github": "tm",
             "sentiment": null
         },
+        "splatter": {
+            "short_name": "splatter",
+            "name": "splatter",
+            "emoji": "\ud83e\udedf",
+            "status": "fully-qualified",
+            "emoji_version": "E16.0",
+            "code_point_str": "1FADF",
+            "annotations": [],
+            "group": "symbols",
+            "subgroup": "other-symbol",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "keycap: #": {
             "short_name": "keycap: #",
             "name": "keycap: #",
@@ -29780,6 +29894,22 @@
             "group": "flags",
             "subgroup": "country-flag",
             "github": "clipperton_island",
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
+        "Sark": {
+            "short_name": "Sark",
+            "name": "Sark",
+            "emoji": "\ud83c\udde8\ud83c\uddf6",
+            "status": "fully-qualified",
+            "emoji_version": "E16.0",
+            "code_point_str": "1F1E8 1F1F6",
+            "annotations": [],
+            "group": "flags",
+            "subgroup": "country-flag",
+            "github": null,
             "sentiment": null,
             "errors": [
                 "NO-CLDR"
