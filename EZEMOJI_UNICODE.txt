@@ -372,7 +372,7 @@
 👼 = people and body:person-fantasy:baby angel
 🎅 = people and body:person-fantasy:Santa Claus
 🤶 = people and body:person-fantasy:Mrs. Claus
-🧑‍🎄 = people and body:person-fantasy:mx claus
+🧑‍🎄 = people and body:person-fantasy:Mx Claus
 🦸 = people and body:person-fantasy:superhero
 🦸‍♂ = people and body:person-fantasy:man superhero
 🦸‍♀ = people and body:person-fantasy:woman superhero
