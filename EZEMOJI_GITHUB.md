@@ -398,6 +398,7 @@ Simply add a ":" before and after the tag name which represents the emoji you de
 | `:cookie:` | :cookie: | 1F36A | 
 | `:cool:` | :cool: | 1F192 | 
 | `:cop:` | :cop: | 1F46E | 
+| `:copilot:` | :copilot: | MISSING | 
 | `:copyright:` | :copyright: | 00A9 | 
 | `:coral:` | :coral: | 1FAB8 | 
 | `:corn:` | :corn: | 1F33D | 
