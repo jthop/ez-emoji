@@ -1,8 +1,8 @@
 {
-    "generated": "09-06-2025",
+    "generated": "09-13-2025",
     "__version__": "0.1.13+build.87",
-    "unicode_version": "16.0",
-    "emoji_quantity": 1906,
+    "unicode_version": "17.0",
+    "emoji_quantity": 1914,
     "groups": [
         "smileys and emotion",
         "people and body",
@@ -2219,6 +2219,22 @@
             "github": "flushed",
             "sentiment": "-"
         },
+        "distorted face": {
+            "short_name": "distorted face",
+            "name": "distorted face",
+            "emoji": "\ud83e\udeea",
+            "status": "fully-qualified",
+            "emoji_version": "E17.0",
+            "code_point_str": "1FAEA",
+            "annotations": [],
+            "group": "smileys and emotion",
+            "subgroup": "face-concerned",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "pleading face": {
             "short_name": "pleading face",
             "name": "pleading face",
@@ -3933,6 +3949,22 @@
             "subgroup": "emotion",
             "github": "anger",
             "sentiment": "-"
+        },
+        "fight cloud": {
+            "short_name": "fight cloud",
+            "name": "fight cloud",
+            "emoji": "\ud83e\udeef",
+            "status": "fully-qualified",
+            "emoji_version": "E17.0",
+            "code_point_str": "1FAEF",
+            "annotations": [],
+            "group": "smileys and emotion",
+            "subgroup": "emotion",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "collision": {
             "short_name": "collision",
@@ -9062,6 +9094,22 @@
             "github": "troll",
             "sentiment": null
         },
+        "hairy creature": {
+            "short_name": "hairy creature",
+            "name": "hairy creature",
+            "emoji": "\ud83e\udec8",
+            "status": "fully-qualified",
+            "emoji_version": "E17.0",
+            "code_point_str": "1FAC8",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-fantasy",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "person getting massage": {
             "short_name": "person getting massage",
             "name": "person getting massage",
@@ -9924,6 +9972,22 @@
             "status": "minimally-qualified",
             "emoji_version": "E15.1",
             "code_point_str": "1F3C3 200D 2642 200D 27A1",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "person-activity",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
+        "ballet dancer": {
+            "short_name": "ballet dancer",
+            "name": "ballet dancer",
+            "emoji": "\ud83e\uddd1\u200d\ud83e\ude70",
+            "status": "fully-qualified",
+            "emoji_version": "E17.0",
+            "code_point_str": "1F9D1 200D 1FA70",
             "annotations": [],
             "group": "people and body",
             "subgroup": "person-activity",
@@ -14163,6 +14227,22 @@
             "github": "flipper",
             "sentiment": "+"
         },
+        "orca": {
+            "short_name": "orca",
+            "name": "orca",
+            "emoji": "\ud83e\udecd",
+            "status": "fully-qualified",
+            "emoji_version": "E17.0",
+            "code_point_str": "1FACD",
+            "annotations": [],
+            "group": "animals and nature",
+            "subgroup": "animal-marine",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "seal": {
             "short_name": "seal",
             "name": "seal",
@@ -18039,6 +18119,22 @@
             "subgroup": "place-geographic",
             "github": "mountain",
             "sentiment": null
+        },
+        "landslide": {
+            "short_name": "landslide",
+            "name": "landslide",
+            "emoji": "\ud83d\uded8",
+            "status": "fully-qualified",
+            "emoji_version": "E17.0",
+            "code_point_str": "1F6D8",
+            "annotations": [],
+            "group": "travel and places",
+            "subgroup": "place-geographic",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "volcano": {
             "short_name": "volcano",
@@ -24932,6 +25028,39 @@
             "github": "saxophone",
             "sentiment": null
         },
+        "trumpet": {
+            "short_name": "trumpet",
+            "name": "trumpet",
+            "emoji": "\ud83c\udfba",
+            "status": "fully-qualified",
+            "emoji_version": "E0.6",
+            "code_point_str": "1F3BA",
+            "annotations": [
+                "instrument",
+                "music",
+                "trumpet"
+            ],
+            "group": "objects",
+            "subgroup": "musical-instrument",
+            "github": "trumpet",
+            "sentiment": null
+        },
+        "trombone": {
+            "short_name": "trombone",
+            "name": "trombone",
+            "emoji": "\ud83e\ude8a",
+            "status": "fully-qualified",
+            "emoji_version": "E17.0",
+            "code_point_str": "1FA8A",
+            "annotations": [],
+            "group": "objects",
+            "subgroup": "musical-instrument",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "accordion": {
             "short_name": "accordion",
             "name": "accordion",
@@ -24988,23 +25117,6 @@
             "group": "objects",
             "subgroup": "musical-instrument",
             "github": "musical_keyboard",
-            "sentiment": null
-        },
-        "trumpet": {
-            "short_name": "trumpet",
-            "name": "trumpet",
-            "emoji": "\ud83c\udfba",
-            "status": "fully-qualified",
-            "emoji_version": "E0.6",
-            "code_point_str": "1F3BA",
-            "annotations": [
-                "instrument",
-                "music",
-                "trumpet"
-            ],
-            "group": "objects",
-            "subgroup": "musical-instrument",
-            "github": "trumpet",
             "sentiment": null
         },
         "violin": {
@@ -26127,6 +26239,29 @@
             "github": "label",
             "sentiment": null
         },
+        "coin": {
+            "short_name": "coin",
+            "name": "coin",
+            "emoji": "\ud83e\ude99",
+            "status": "fully-qualified",
+            "emoji_version": "E13.0",
+            "code_point_str": "1FA99",
+            "annotations": [
+                "coin",
+                "dollar",
+                "euro",
+                "gold",
+                "metal",
+                "money",
+                "rich",
+                "silver",
+                "treasure"
+            ],
+            "group": "objects",
+            "subgroup": "money",
+            "github": "coin",
+            "sentiment": null
+        },
         "money bag": {
             "short_name": "money bag",
             "name": "money bag",
@@ -26157,28 +26292,21 @@
             "github": "moneybag",
             "sentiment": "+"
         },
-        "coin": {
-            "short_name": "coin",
-            "name": "coin",
-            "emoji": "\ud83e\ude99",
+        "treasure chest": {
+            "short_name": "treasure chest",
+            "name": "treasure chest",
+            "emoji": "\ud83e\ude8e",
             "status": "fully-qualified",
-            "emoji_version": "E13.0",
-            "code_point_str": "1FA99",
-            "annotations": [
-                "coin",
-                "dollar",
-                "euro",
-                "gold",
-                "metal",
-                "money",
-                "rich",
-                "silver",
-                "treasure"
-            ],
+            "emoji_version": "E17.0",
+            "code_point_str": "1FA8E",
+            "annotations": [],
             "group": "objects",
             "subgroup": "money",
-            "github": "coin",
-            "sentiment": null
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "yen banknote": {
             "short_name": "yen banknote",

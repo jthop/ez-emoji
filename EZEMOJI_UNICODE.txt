@@ -84,6 +84,7 @@
 😯 = smileys and emotion:face-concerned:hushed face
 😲 = smileys and emotion:face-concerned:astonished face
 😳 = smileys and emotion:face-concerned:flushed face
+🫪 = smileys and emotion:face-concerned:distorted face
 🥺 = smileys and emotion:face-concerned:pleading face
 🥹 = smileys and emotion:face-concerned:face holding back tears
 😦 = smileys and emotion:face-concerned:frowning face with open mouth
@@ -157,6 +158,7 @@
 💋 = smileys and emotion:emotion:kiss mark
 💯 = smileys and emotion:emotion:hundred points
 💢 = smileys and emotion:emotion:anger symbol
+🫯 = smileys and emotion:emotion:fight cloud
 💥 = smileys and emotion:emotion:collision
 💫 = smileys and emotion:emotion:dizzy
 💦 = smileys and emotion:emotion:sweat droplets
@@ -401,6 +403,7 @@
 🧟‍♂ = people and body:person-fantasy:man zombie
 🧟‍♀ = people and body:person-fantasy:woman zombie
 🧌 = people and body:person-fantasy:troll
+🫈 = people and body:person-fantasy:hairy creature
 💆 = people and body:person-activity:person getting massage
 💆‍♂ = people and body:person-activity:man getting massage
 💆‍♀ = people and body:person-activity:woman getting massage
@@ -446,6 +449,7 @@
 🏃‍➡ = people and body:person-activity:person running facing right
 🏃‍♀‍➡ = people and body:person-activity:woman running facing right
 🏃‍♂‍➡ = people and body:person-activity:man running facing right
+🧑‍🩰 = people and body:person-activity:ballet dancer
 💃 = people and body:person-activity:woman dancing
 🕺 = people and body:person-activity:man dancing
 🕴 = people and body:person-activity:person in suit levitating
@@ -654,6 +658,7 @@
 🐳 = animals and nature:animal-marine:spouting whale
 🐋 = animals and nature:animal-marine:whale
 🐬 = animals and nature:animal-marine:dolphin
+🫍 = animals and nature:animal-marine:orca
 🦭 = animals and nature:animal-marine:seal
 🐟 = animals and nature:animal-marine:fish
 🐠 = animals and nature:animal-marine:tropical fish
@@ -853,6 +858,7 @@
 🧭 = travel and places:place-map:compass
 🏔 = travel and places:place-geographic:snow-capped mountain
 ⛰ = travel and places:place-geographic:mountain
+🛘 = travel and places:place-geographic:landslide
 🌋 = travel and places:place-geographic:volcano
 🗻 = travel and places:place-geographic:mount fuji
 🏕 = travel and places:place-geographic:camping
@@ -1213,10 +1219,11 @@
 🎧 = objects:music:headphone
 📻 = objects:music:radio
 🎷 = objects:musical-instrument:saxophone
+🎺 = objects:musical-instrument:trumpet
+🪊 = objects:musical-instrument:trombone
 🪗 = objects:musical-instrument:accordion
 🎸 = objects:musical-instrument:guitar
 🎹 = objects:musical-instrument:musical keyboard
-🎺 = objects:musical-instrument:trumpet
 🎻 = objects:musical-instrument:violin
 🪕 = objects:musical-instrument:banjo
 🥁 = objects:musical-instrument:drum
@@ -1277,8 +1284,9 @@
 📑 = objects:book-paper:bookmark tabs
 🔖 = objects:book-paper:bookmark
 🏷 = objects:book-paper:label
-💰 = objects:money:money bag
 🪙 = objects:money:coin
+💰 = objects:money:money bag
+🪎 = objects:money:treasure chest
 💴 = objects:money:yen banknote
 💵 = objects:money:dollar banknote
 💶 = objects:money:euro banknote
