@@ -1,5 +1,5 @@
 {
-    "generated": "12-06-2025",
+    "generated": "12-13-2025",
     "__version__": "0.1.13+build.87",
     "unicode_version": "17.0",
     "emoji_quantity": 1914,
@@ -2226,14 +2226,18 @@
             "status": "fully-qualified",
             "emoji_version": "E17.0",
             "code_point_str": "1FAEA",
-            "annotations": [],
+            "annotations": [
+                "anxiety",
+                "bloated",
+                "panic",
+                "shocked",
+                "surprised",
+                "vulnerable"
+            ],
             "group": "smileys and emotion",
             "subgroup": "face-concerned",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "pleading face": {
             "short_name": "pleading face",
@@ -3957,14 +3961,19 @@
             "status": "fully-qualified",
             "emoji_version": "E17.0",
             "code_point_str": "1FAEF",
-            "annotations": [],
+            "annotations": [
+                "argument",
+                "brawl",
+                "debate",
+                "disagreement",
+                "fight",
+                "ruckus",
+                "wrestle"
+            ],
             "group": "smileys and emotion",
             "subgroup": "emotion",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "collision": {
             "short_name": "collision",
@@ -9101,14 +9110,20 @@
             "status": "fully-qualified",
             "emoji_version": "E17.0",
             "code_point_str": "1FAC8",
-            "annotations": [],
+            "annotations": [
+                "bigfoot",
+                "cryptid",
+                "forest",
+                "giant",
+                "hairy",
+                "sasquatch",
+                "woodwose",
+                "yeti"
+            ],
             "group": "people and body",
             "subgroup": "person-fantasy",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "person getting massage": {
             "short_name": "person getting massage",
@@ -9988,14 +10003,14 @@
             "status": "fully-qualified",
             "emoji_version": "E17.0",
             "code_point_str": "1F9D1 200D 1FA70",
-            "annotations": [],
+            "annotations": [
+                "ballet",
+                "dancer"
+            ],
             "group": "people and body",
             "subgroup": "person-activity",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "woman dancing": {
             "short_name": "woman dancing",
@@ -14234,14 +14249,15 @@
             "status": "fully-qualified",
             "emoji_version": "E17.0",
             "code_point_str": "1FACD",
-            "annotations": [],
+            "annotations": [
+                "marine",
+                "ocean",
+                "whale"
+            ],
             "group": "animals and nature",
             "subgroup": "animal-marine",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "seal": {
             "short_name": "seal",
@@ -18127,14 +18143,19 @@
             "status": "fully-qualified",
             "emoji_version": "E17.0",
             "code_point_str": "1F6D8",
-            "annotations": [],
+            "annotations": [
+                "avalanche",
+                "danger",
+                "disaster",
+                "earthquake",
+                "mountain",
+                "mudslide",
+                "rocks"
+            ],
             "group": "travel and places",
             "subgroup": "place-geographic",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "volcano": {
             "short_name": "volcano",
@@ -25052,14 +25073,18 @@
             "status": "fully-qualified",
             "emoji_version": "E17.0",
             "code_point_str": "1FA8A",
-            "annotations": [],
+            "annotations": [
+                "brass",
+                "instrument",
+                "jazz",
+                "music",
+                "sad",
+                "slide"
+            ],
             "group": "objects",
             "subgroup": "musical-instrument",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "accordion": {
             "short_name": "accordion",
@@ -26299,14 +26324,21 @@
             "status": "fully-qualified",
             "emoji_version": "E17.0",
             "code_point_str": "1FA8E",
-            "annotations": [],
+            "annotations": [
+                "gem",
+                "gold",
+                "jewels",
+                "loot",
+                "money",
+                "prize",
+                "silver",
+                "valuables",
+                "wealth"
+            ],
             "group": "objects",
             "subgroup": "money",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "yen banknote": {
             "short_name": "yen banknote",
@@ -31509,14 +31541,15 @@
             "status": "unqualified",
             "emoji_version": "E0.6",
             "code_point_str": "0030 20E3",
-            "annotations": [],
+            "annotations": [
+                "0",
+                "keycap",
+                "zero"
+            ],
             "group": "symbols",
             "subgroup": "keycap",
             "github": "zero",
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "keycap: 1": {
             "short_name": "keycap: 1",
@@ -31525,14 +31558,15 @@
             "status": "unqualified",
             "emoji_version": "E0.6",
             "code_point_str": "0031 20E3",
-            "annotations": [],
+            "annotations": [
+                "1",
+                "keycap",
+                "one"
+            ],
             "group": "symbols",
             "subgroup": "keycap",
             "github": "one",
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "keycap: 2": {
             "short_name": "keycap: 2",
@@ -31541,14 +31575,15 @@
             "status": "unqualified",
             "emoji_version": "E0.6",
             "code_point_str": "0032 20E3",
-            "annotations": [],
+            "annotations": [
+                "2",
+                "keycap",
+                "two"
+            ],
             "group": "symbols",
             "subgroup": "keycap",
             "github": "two",
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "keycap: 3": {
             "short_name": "keycap: 3",
@@ -31557,14 +31592,15 @@
             "status": "unqualified",
             "emoji_version": "E0.6",
             "code_point_str": "0033 20E3",
-            "annotations": [],
+            "annotations": [
+                "3",
+                "keycap",
+                "three"
+            ],
             "group": "symbols",
             "subgroup": "keycap",
             "github": "three",
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "keycap: 4": {
             "short_name": "keycap: 4",
@@ -31573,14 +31609,15 @@
             "status": "unqualified",
             "emoji_version": "E0.6",
             "code_point_str": "0034 20E3",
-            "annotations": [],
+            "annotations": [
+                "4",
+                "four",
+                "keycap"
+            ],
             "group": "symbols",
             "subgroup": "keycap",
             "github": "four",
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "keycap: 5": {
             "short_name": "keycap: 5",
@@ -31589,14 +31626,15 @@
             "status": "unqualified",
             "emoji_version": "E0.6",
             "code_point_str": "0035 20E3",
-            "annotations": [],
+            "annotations": [
+                "5",
+                "five",
+                "keycap"
+            ],
             "group": "symbols",
             "subgroup": "keycap",
             "github": "five",
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "keycap: 6": {
             "short_name": "keycap: 6",
@@ -31605,14 +31643,15 @@
             "status": "unqualified",
             "emoji_version": "E0.6",
             "code_point_str": "0036 20E3",
-            "annotations": [],
+            "annotations": [
+                "6",
+                "keycap",
+                "six"
+            ],
             "group": "symbols",
             "subgroup": "keycap",
             "github": "six",
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "keycap: 7": {
             "short_name": "keycap: 7",
@@ -31621,14 +31660,15 @@
             "status": "unqualified",
             "emoji_version": "E0.6",
             "code_point_str": "0037 20E3",
-            "annotations": [],
+            "annotations": [
+                "7",
+                "keycap",
+                "seven"
+            ],
             "group": "symbols",
             "subgroup": "keycap",
             "github": "seven",
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "keycap: 8": {
             "short_name": "keycap: 8",
@@ -31637,14 +31677,15 @@
             "status": "unqualified",
             "emoji_version": "E0.6",
             "code_point_str": "0038 20E3",
-            "annotations": [],
+            "annotations": [
+                "8",
+                "eight",
+                "keycap"
+            ],
             "group": "symbols",
             "subgroup": "keycap",
             "github": "eight",
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "keycap: 9": {
             "short_name": "keycap: 9",
@@ -31653,14 +31694,15 @@
             "status": "unqualified",
             "emoji_version": "E0.6",
             "code_point_str": "0039 20E3",
-            "annotations": [],
+            "annotations": [
+                "9",
+                "keycap",
+                "nine"
+            ],
             "group": "symbols",
             "subgroup": "keycap",
             "github": "nine",
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "keycap: 10": {
             "short_name": "keycap: 10",
