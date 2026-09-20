@@ -1,8 +1,8 @@
 {
-    "generated": "09-13-2026",
+    "generated": "09-20-2026",
     "__version__": "0.1.13+build.87",
-    "unicode_version": "17.0",
-    "emoji_quantity": 1914,
+    "unicode_version": "18.0",
+    "emoji_quantity": 1923,
     "groups": [
         "smileys and emotion",
         "people and body",
@@ -421,6 +421,22 @@
             "subgroup": "face-smiling",
             "github": "melting_face",
             "sentiment": null
+        },
+        "cracking face": {
+            "short_name": "cracking face",
+            "name": "cracking face",
+            "emoji": "\ud83e\udeeb",
+            "status": "fully-qualified",
+            "emoji_version": "E18.0",
+            "code_point_str": "1FAEB",
+            "annotations": [],
+            "group": "smileys and emotion",
+            "subgroup": "face-smiling",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "winking face": {
             "short_name": "winking face",
@@ -4864,6 +4880,38 @@
             "subgroup": "hand-fingers-closed",
             "github": "thumbsdown",
             "sentiment": "-"
+        },
+        "leftwards thumb sign": {
+            "short_name": "leftwards thumb sign",
+            "name": "leftwards thumb sign",
+            "emoji": "\ud83e\udef9",
+            "status": "fully-qualified",
+            "emoji_version": "E18.0",
+            "code_point_str": "1FAF9",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "hand-fingers-closed",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
+        "rightwards thumb sign": {
+            "short_name": "rightwards thumb sign",
+            "name": "rightwards thumb sign",
+            "emoji": "\ud83e\udefa",
+            "status": "fully-qualified",
+            "emoji_version": "E18.0",
+            "code_point_str": "1FAFA",
+            "annotations": [],
+            "group": "people and body",
+            "subgroup": "hand-fingers-closed",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "raised fist": {
             "short_name": "raised fist",
@@ -14564,6 +14612,22 @@
             "github": "butterfly",
             "sentiment": null
         },
+        "monarch butterfly": {
+            "short_name": "monarch butterfly",
+            "name": "monarch butterfly",
+            "emoji": "\ud83e\udecc",
+            "status": "fully-qualified",
+            "emoji_version": "E18.0",
+            "code_point_str": "1FACC",
+            "annotations": [],
+            "group": "animals and nature",
+            "subgroup": "animal-bug",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "bug": {
             "short_name": "bug",
             "name": "bug",
@@ -15910,6 +15974,22 @@
             "subgroup": "food-vegetable",
             "github": "cucumber",
             "sentiment": null
+        },
+        "pickle": {
+            "short_name": "pickle",
+            "name": "pickle",
+            "emoji": "\ud83e\udedd",
+            "status": "fully-qualified",
+            "emoji_version": "E18.0",
+            "code_point_str": "1FADD",
+            "annotations": [],
+            "group": "food and drink",
+            "subgroup": "food-vegetable",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "leafy green": {
             "short_name": "leafy green",
@@ -20109,6 +20189,22 @@
             "github": "construction",
             "sentiment": null
         },
+        "lighthouse": {
+            "short_name": "lighthouse",
+            "name": "lighthouse",
+            "emoji": "\ud83d\uded9",
+            "status": "fully-qualified",
+            "emoji_version": "E18.0",
+            "code_point_str": "1F6D9",
+            "annotations": [],
+            "group": "travel and places",
+            "subgroup": "transport-water",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "anchor": {
             "short_name": "anchor",
             "name": "anchor",
@@ -22011,6 +22107,22 @@
             "subgroup": "sky and weather",
             "github": "comet",
             "sentiment": null
+        },
+        "meteor": {
+            "short_name": "meteor",
+            "name": "meteor",
+            "emoji": "\ud83e\ude8b",
+            "status": "fully-qualified",
+            "emoji_version": "E18.0",
+            "code_point_str": "1FA8B",
+            "annotations": [],
+            "group": "travel and places",
+            "subgroup": "sky and weather",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "fire": {
             "short_name": "fire",
@@ -26897,6 +27009,22 @@
             "github": "pencil",
             "sentiment": null
         },
+        "eraser": {
+            "short_name": "eraser",
+            "name": "eraser",
+            "emoji": "\ud83e\ude8c",
+            "status": "fully-qualified",
+            "emoji_version": "E18.0",
+            "code_point_str": "1FA8C",
+            "annotations": [],
+            "group": "objects",
+            "subgroup": "writing",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
+        },
         "briefcase": {
             "short_name": "briefcase",
             "name": "briefcase",
@@ -27428,6 +27556,22 @@
             "subgroup": "lock",
             "github": "old_key",
             "sentiment": null
+        },
+        "net with handle": {
+            "short_name": "net with handle",
+            "name": "net with handle",
+            "emoji": "\ud83e\ude8d",
+            "status": "fully-qualified",
+            "emoji_version": "E18.0",
+            "code_point_str": "1FA8D",
+            "annotations": [],
+            "group": "objects",
+            "subgroup": "tool",
+            "github": null,
+            "sentiment": null,
+            "errors": [
+                "NO-CLDR"
+            ]
         },
         "hammer": {
             "short_name": "hammer",
@@ -34837,9 +34981,9 @@
                 "NO-CLDR"
             ]
         },
-        "Heard & McDonald Islands": {
-            "short_name": "Heard & McDonald Islands",
-            "name": "Heard & McDonald Islands",
+        "Heard Island & McDonald Islands": {
+            "short_name": "Heard Island & McDonald Islands",
+            "name": "Heard Island & McDonald Islands",
             "emoji": "\ud83c\udded\ud83c\uddf2",
             "status": "fully-qualified",
             "emoji_version": "E2.0",
@@ -36501,9 +36645,9 @@
                 "NO-CLDR"
             ]
         },
-        "St. Helena": {
-            "short_name": "St. Helena",
-            "name": "St. Helena",
+        "St. Helena Ascension & Tristan da Cunha": {
+            "short_name": "St. Helena Ascension & Tristan da Cunha",
+            "name": "St. Helena Ascension & Tristan da Cunha",
             "emoji": "\ud83c\uddf8\ud83c\udded",
             "status": "fully-qualified",
             "emoji_version": "E2.0",
@@ -36789,9 +36933,9 @@
                 "NO-CLDR"
             ]
         },
-        "French Southern Territories": {
-            "short_name": "French Southern Territories",
-            "name": "French Southern Territories",
+        "French Southern and Antarctic Lands": {
+            "short_name": "French Southern and Antarctic Lands",
+            "name": "French Southern and Antarctic Lands",
             "emoji": "\ud83c\uddf9\ud83c\uddeb",
             "status": "fully-qualified",
             "emoji_version": "E2.0",

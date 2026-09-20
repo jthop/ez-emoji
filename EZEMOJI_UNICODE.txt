@@ -10,6 +10,7 @@
 🙂 = smileys and emotion:face-smiling:slightly smiling face
 🙃 = smileys and emotion:face-smiling:upside-down face
 🫠 = smileys and emotion:face-smiling:melting face
+🫫 = smileys and emotion:face-smiling:cracking face
 😉 = smileys and emotion:face-smiling:winking face
 😊 = smileys and emotion:face-smiling:smiling face with smiling eyes
 😇 = smileys and emotion:face-smiling:smiling face with halo
@@ -199,6 +200,8 @@
 🫵 = people and body:hand-single-finger:index pointing at the viewer
 👍 = people and body:hand-fingers-closed:thumbs up
 👎 = people and body:hand-fingers-closed:thumbs down
+🫹 = people and body:hand-fingers-closed:leftwards thumb sign
+🫺 = people and body:hand-fingers-closed:rightwards thumb sign
 ✊ = people and body:hand-fingers-closed:raised fist
 👊 = people and body:hand-fingers-closed:oncoming fist
 🤛 = people and body:hand-fingers-closed:left-facing fist
@@ -675,6 +678,7 @@
 🦪 = animals and nature:animal-marine:oyster
 🐌 = animals and nature:animal-bug:snail
 🦋 = animals and nature:animal-bug:butterfly
+🫌 = animals and nature:animal-bug:monarch butterfly
 🐛 = animals and nature:animal-bug:bug
 🐜 = animals and nature:animal-bug:ant
 🐝 = animals and nature:animal-bug:honeybee
@@ -746,6 +750,7 @@
 🌶 = food and drink:food-vegetable:hot pepper
 🫑 = food and drink:food-vegetable:bell pepper
 🥒 = food and drink:food-vegetable:cucumber
+🫝 = food and drink:food-vegetable:pickle
 🥬 = food and drink:food-vegetable:leafy green
 🥦 = food and drink:food-vegetable:broccoli
 🧄 = food and drink:food-vegetable:garlic
@@ -966,6 +971,7 @@
 🚦 = travel and places:transport-ground:vertical traffic light
 🛑 = travel and places:transport-ground:stop sign
 🚧 = travel and places:transport-ground:construction
+🛙 = travel and places:transport-water:lighthouse
 ⚓ = travel and places:transport-water:anchor
 🛟 = travel and places:transport-water:ring buoy
 ⛵ = travel and places:transport-water:sailboat
@@ -1065,6 +1071,7 @@
 ☃ = travel and places:sky and weather:snowman
 ⛄ = travel and places:sky and weather:snowman without snow
 ☄ = travel and places:sky and weather:comet
+🪋 = travel and places:sky and weather:meteor
 🔥 = travel and places:sky and weather:fire
 💧 = travel and places:sky and weather:droplet
 🌊 = travel and places:sky and weather:water wave
@@ -1315,6 +1322,7 @@
 🖌 = objects:writing:paintbrush
 🖍 = objects:writing:crayon
 📝 = objects:writing:memo
+🪌 = objects:writing:eraser
 💼 = objects:office:briefcase
 📁 = objects:office:file folder
 📂 = objects:office:open file folder
@@ -1344,6 +1352,7 @@
 🔐 = objects:lock:locked with key
 🔑 = objects:lock:key
 🗝 = objects:lock:old key
+🪍 = objects:tool:net with handle
 🔨 = objects:tool:hammer
 🪓 = objects:tool:axe
 ⛏ = objects:tool:pick
@@ -1752,7 +1761,7 @@
 🇬🇼 = flags:country-flag:Guinea-Bissau
 🇬🇾 = flags:country-flag:Guyana
 🇭🇰 = flags:country-flag:Hong Kong SAR China
-🇭🇲 = flags:country-flag:Heard & McDonald Islands
+🇭🇲 = flags:country-flag:Heard Island & McDonald Islands
 🇭🇳 = flags:country-flag:Honduras
 🇭🇷 = flags:country-flag:Croatia
 🇭🇹 = flags:country-flag:Haiti
@@ -1856,7 +1865,7 @@
 🇸🇩 = flags:country-flag:Sudan
 🇸🇪 = flags:country-flag:Sweden
 🇸🇬 = flags:country-flag:Singapore
-🇸🇭 = flags:country-flag:St. Helena
+🇸🇭 = flags:country-flag:St. Helena Ascension & Tristan da Cunha
 🇸🇮 = flags:country-flag:Slovenia
 🇸🇯 = flags:country-flag:Svalbard & Jan Mayen
 🇸🇰 = flags:country-flag:Slovakia
@@ -1874,7 +1883,7 @@
 🇹🇦 = flags:country-flag:Tristan da Cunha
 🇹🇨 = flags:country-flag:Turks & Caicos Islands
 🇹🇩 = flags:country-flag:Chad
-🇹🇫 = flags:country-flag:French Southern Territories
+🇹🇫 = flags:country-flag:French Southern and Antarctic Lands
 🇹🇬 = flags:country-flag:Togo
 🇹🇭 = flags:country-flag:Thailand
 🇹🇯 = flags:country-flag:Tajikistan
