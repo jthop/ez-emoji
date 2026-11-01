@@ -1,5 +1,5 @@
 {
-    "generated": "10-25-2026",
+    "generated": "11-01-2026",
     "__version__": "0.1.13+build.87",
     "unicode_version": "18.0",
     "emoji_quantity": 1923,
@@ -429,14 +429,19 @@
             "status": "fully-qualified",
             "emoji_version": "E18.0",
             "code_point_str": "1FAEB",
-            "annotations": [],
+            "annotations": [
+                "breaking",
+                "crumbling",
+                "masking",
+                "resilience",
+                "reveal",
+                "tension",
+                "transformation"
+            ],
             "group": "smileys and emotion",
             "subgroup": "face-smiling",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "winking face": {
             "short_name": "winking face",
@@ -3576,6 +3581,7 @@
             "emoji_version": "E1.0",
             "code_point_str": "2763",
             "annotations": [
+                "bang",
                 "exclamation",
                 "heart",
                 "heavy",
@@ -4888,14 +4894,18 @@
             "status": "fully-qualified",
             "emoji_version": "E18.0",
             "code_point_str": "1FAF9",
-            "annotations": [],
+            "annotations": [
+                "grip",
+                "left",
+                "neutral",
+                "point",
+                "that",
+                "this"
+            ],
             "group": "people and body",
             "subgroup": "hand-fingers-closed",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "rightwards thumb sign": {
             "short_name": "rightwards thumb sign",
@@ -4904,14 +4914,18 @@
             "status": "fully-qualified",
             "emoji_version": "E18.0",
             "code_point_str": "1FAFA",
-            "annotations": [],
+            "annotations": [
+                "grip",
+                "neutral",
+                "point",
+                "right",
+                "that",
+                "this"
+            ],
             "group": "people and body",
             "subgroup": "hand-fingers-closed",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "raised fist": {
             "short_name": "raised fist",
@@ -14619,14 +14633,20 @@
             "status": "fully-qualified",
             "emoji_version": "E18.0",
             "code_point_str": "1FACC",
-            "annotations": [],
+            "annotations": [
+                "caterpillar",
+                "change",
+                "fragile",
+                "hope",
+                "insect",
+                "metamorphosis",
+                "migration",
+                "transformation"
+            ],
             "group": "animals and nature",
             "subgroup": "animal-bug",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "bug": {
             "short_name": "bug",
@@ -15982,14 +16002,19 @@
             "status": "fully-qualified",
             "emoji_version": "E18.0",
             "code_point_str": "1FADD",
-            "annotations": [],
+            "annotations": [
+                "brine",
+                "condiment",
+                "cucumber",
+                "ferment",
+                "gherkin",
+                "relish",
+                "trouble"
+            ],
             "group": "food and drink",
             "subgroup": "food-vegetable",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "leafy green": {
             "short_name": "leafy green",
@@ -20196,14 +20221,21 @@
             "status": "fully-qualified",
             "emoji_version": "E18.0",
             "code_point_str": "1F6D9",
-            "annotations": [],
+            "annotations": [
+                "beacon",
+                "enlightenment",
+                "guidance",
+                "hope",
+                "light",
+                "maritime",
+                "navigation",
+                "sea",
+                "signal"
+            ],
             "group": "travel and places",
             "subgroup": "transport-water",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "anchor": {
             "short_name": "anchor",
@@ -22115,14 +22147,19 @@
             "status": "fully-qualified",
             "emoji_version": "E18.0",
             "code_point_str": "1FA8B",
-            "annotations": [],
+            "annotations": [
+                "apocalypse",
+                "falling",
+                "fireball",
+                "gravity",
+                "rock",
+                "space",
+                "star"
+            ],
             "group": "travel and places",
             "subgroup": "sky and weather",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "fire": {
             "short_name": "fire",
@@ -27016,14 +27053,22 @@
             "status": "fully-qualified",
             "emoji_version": "E18.0",
             "code_point_str": "1FA8C",
-            "annotations": [],
+            "annotations": [
+                "correction",
+                "delete",
+                "drawing",
+                "erase",
+                "error",
+                "mistake",
+                "remove",
+                "rub",
+                "undo",
+                "writing"
+            ],
             "group": "objects",
             "subgroup": "writing",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "briefcase": {
             "short_name": "briefcase",
@@ -27564,14 +27609,16 @@
             "status": "fully-qualified",
             "emoji_version": "E18.0",
             "code_point_str": "1FA8D",
-            "annotations": [],
+            "annotations": [
+                "catch",
+                "collect",
+                "mesh",
+                "trap"
+            ],
             "group": "objects",
             "subgroup": "tool",
             "github": null,
-            "sentiment": null,
-            "errors": [
-                "NO-CLDR"
-            ]
+            "sentiment": null
         },
         "hammer": {
             "short_name": "hammer",
@@ -31138,6 +31185,7 @@
             "code_point_str": "2755",
             "annotations": [
                 "!",
+                "bang",
                 "exclamation",
                 "mark",
                 "outlined",
@@ -31158,6 +31206,7 @@
             "code_point_str": "2757",
             "annotations": [
                 "!",
+                "bang",
                 "exclamation",
                 "mark",
                 "punctuation",
